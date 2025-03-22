@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 68d0a527-4644-4531-8364-947c54d97e44
 management:
-  docChecksum: ffa5338f246f6c6fd8ab8507e286deab
+  docChecksum: a3e12dc31819aa60dd678f08ea7005a9
   docVersion: 0.0.1
   speakeasyVersion: 1.523.0
   generationVersion: 2.559.0
-  releaseVersion: 0.0.5
-  configChecksum: 2222e4a9ae5e4a3fa4b2bbb7d456d160
+  releaseVersion: 0.0.6
+  configChecksum: 211b8a5d69b6d10aa9b75dae7ffa1149
   published: true
 features:
   typescript:
@@ -588,23 +588,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "domain": "low-packaging.info", "key": "<key>", "url": "https://black-and-white-secrecy.org/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1742655363298", "expiredUrl": "https://brisk-seafood.net/", "password": "XhB9652A4R_UwKP", "proxy": false, "title": "<value>", "description": "demob fencing fencing vainly kookily", "image": "https://picsum.photos/seed/zicqIZPdCh/2719/290", "video": "https://loremflickr.com/2433/1085?lock=5492184885451890", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": [], "comments": "than rightfully brightly sleet where schedule insolence when warming when determined ouch scarcely ignorance", "shortLink": "https://incomparable-monster.net/", "qrCode": "https://mild-switchboard.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1720981496994", "updatedAt": "1742642729628", "projectId": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getLinks:
     speakeasy-default-get-links:
       parameters:
@@ -619,23 +619,23 @@ examples:
         "200":
           application/json: [{"id": "<id>", "domain": "neglected-plastic.biz", "key": "<key>", "url": "https://crooked-overload.name/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1743206953164", "expiredUrl": "https://breakable-bathrobe.net", "password": "QCOyVtOrvIw1vLI", "proxy": false, "title": "<value>", "description": "beside tromp worth reluctantly wound accompanist", "image": "https://picsum.photos/seed/WT1tZJLp/3243/3827", "video": "https://picsum.videos/seed/p2Pkp47W/118/2609", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}, {"id": "<id>", "name": "<value>", "color": "green"}, {"id": "<id>", "name": "<value>", "color": "blue"}], "folderId": "<id>", "webhookIds": [], "comments": "commonly softly boo massive sorrowful aw strict behind along energetic oddball pasta thread vestment meanwhile likely up questionably forgery", "shortLink": "https://oblong-inspection.net", "qrCode": "https://spherical-gerbil.org/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1726763355555", "updatedAt": "1742651385797", "projectId": "<id>"}, {"id": "<id>", "domain": "married-presume.net", "key": "<key>", "url": "https://reflecting-coast.info", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1760449063801", "expiredUrl": "https://writhing-conversation.com", "password": "ZsCSHb4yMlkCXkK", "proxy": false, "title": "<value>", "description": "overcook till boo ack solicit", "image": "https://loremflickr.com/2989/2665?lock=5845099426147813", "video": "https://picsum.videos/seed/breY1MLSO6/954/73", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "brown"}, {"id": "<id>", "name": "<value>", "color": "red"}], "folderId": "<id>", "webhookIds": ["<value>"], "comments": "instead athwart before tattered gosh um what thump kettledrum configuration esteemed mysteriously legend absent brr", "shortLink": "https://well-documented-help.biz/", "qrCode": "https://untrue-lamp.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1734539482378", "updatedAt": "1742605194094", "projectId": "<id>"}, {"id": "<id>", "domain": "stale-handful.com", "key": "<key>", "url": "https://lean-daughter.org", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1753956593743", "expiredUrl": "https://perfumed-marketplace.com/", "password": "xsCzKbmqqqJnqbw", "proxy": false, "title": "<value>", "description": "as so yet whenever rotating hygienic mid", "image": "https://loremflickr.com/958/3484?lock=3072922795184569", "video": "https://loremflickr.com/565/2800?lock=8555441928057420", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "blue"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "yellow"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>"], "comments": "polished whether welcome deck gratefully for outfox pfft indeed phew rejigger overcoat when wonderful ugh before however fooey weakly", "shortLink": "https://muddy-nightlife.info/", "qrCode": "https://cloudy-tackle.net/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1719629119143", "updatedAt": "1742611543019", "projectId": "<id>"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getLinksCount:
     speakeasy-default-get-links-count:
       parameters:
@@ -646,23 +646,23 @@ examples:
         "200":
           application/json: 2641.66
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getLinkInfo:
     speakeasy-default-get-link-info:
       parameters:
@@ -673,23 +673,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "domain": "rural-mathematics.name", "key": "<key>", "url": "https://willing-impostor.info", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1750940152345", "expiredUrl": "https://warm-hundred.net/", "password": "5UmEgZU18kgjdwK", "proxy": false, "title": "<value>", "description": "aw showboat shakily times bravely quizzically", "image": "https://picsum.photos/seed/eIfMMF/2755/1170", "video": "https://loremflickr.com/754/1831?lock=3684390672984324", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}, {"id": "<id>", "name": "<value>", "color": "yellow"}, {"id": "<id>", "name": "<value>", "color": "red"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>"], "comments": "scholarship to blink nifty generously", "shortLink": "https://spiffy-character.name/", "qrCode": "https://immediate-lounge.biz/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1724702707446", "updatedAt": "1742591335841", "projectId": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   updateLink:
     speakeasy-default-update-link:
       parameters:
@@ -701,23 +701,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "domain": "tinted-nectarine.info", "key": "<key>", "url": "https://powerless-juggernaut.org", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1744357537027", "expiredUrl": "https://juvenile-exploration.biz", "password": "kuMjbGhnJP7Bopu", "proxy": false, "title": "<value>", "description": "bleak from that qualified cycle woot abseil perfumed", "image": "https://loremflickr.com/1166/1632?lock=5920233536834378", "video": "https://loremflickr.com/996/369?lock=4799093392417520", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "blue"}, {"id": "<id>", "name": "<value>", "color": "blue"}, {"id": "<id>", "name": "<value>", "color": "green"}], "folderId": "<id>", "webhookIds": [], "comments": "duh clamour urgently voluntarily scale gut readies concerning statement nice consequently provided when rim league almost forenenst instead arbitrate pulse", "shortLink": "https://impossible-typeface.net/", "qrCode": "https://worthy-effector.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1715935970303", "updatedAt": "1742581314413", "projectId": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   deleteLink:
     speakeasy-default-delete-link:
       parameters:
@@ -727,23 +727,23 @@ examples:
         "200":
           application/json: {"id": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   bulkCreateLinks:
     speakeasy-default-bulk-create-links:
       requestBody:
@@ -752,23 +752,23 @@ examples:
         "200":
           application/json: [{"error": "<value>", "code": "internal_server_error"}, {"id": "<id>", "domain": "soupy-fit.info", "key": "<key>", "url": "https://right-metabolite.name/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1765584944473", "expiredUrl": "https://severe-label.org/", "password": "i6NXnrZ9O3zPrEC", "proxy": false, "title": "<value>", "description": "ditch what outside monthly kielbasa psst finer aw although", "image": "https://picsum.photos/seed/rlA3LwhK/1855/1563", "video": "https://picsum.videos/seed/itt7gjdv/857/1825", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [], "folderId": "<id>", "webhookIds": ["<value>", "<value>", "<value>"], "comments": "beyond ha since pike gadzooks outside cardboard clavicle even supposing what longingly", "shortLink": "https://haunting-membership.net", "qrCode": "https://pointless-freckle.info", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1716601077961", "updatedAt": "1742625188221", "projectId": "<id>"}, {"error": "<value>", "code": "invite_pending"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   bulkUpdateLinks:
     speakeasy-default-bulk-update-links:
       requestBody:
@@ -777,23 +777,23 @@ examples:
         "200":
           application/json: [{"id": "<id>", "domain": "old-lox.org", "key": "<key>", "url": "https://angelic-cellar.org/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1752179169592", "expiredUrl": "https://yellowish-vicinity.org/", "password": "yMRdLF0naLtN5wK", "proxy": false, "title": "<value>", "description": "aboard octave since", "image": "https://loremflickr.com/2247/3258?lock=8204630610718424", "video": "https://picsum.videos/seed/L7W1CltA/399/207", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}, {"id": "<id>", "name": "<value>", "color": "blue"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>", "<value>"], "comments": "psst instead even brr react busily both along whereas absent why round around round beneficial however safely defensive", "shortLink": "https://inborn-trick.biz", "qrCode": "https://scientific-alliance.biz/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1728671123121", "updatedAt": "1742629579346", "projectId": "<id>"}, {"id": "<id>", "domain": "purple-secrecy.name", "key": "<key>", "url": "https://unwilling-godparent.biz/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1767194912314", "expiredUrl": "https://weekly-formamide.name", "password": "t3Ls5KHqWZvIT9U", "proxy": false, "title": "<value>", "description": "tribe astonishing hm who blah verify soybean", "image": "https://picsum.photos/seed/DauITRrHdo/3783/3955", "video": "https://loremflickr.com/405/3655?lock=8436311567525016", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": ["<value>"], "comments": "since cloudy dutiful heartache unto yippee custom footrest forenenst astonishing shore", "shortLink": "https://exotic-hydrolyze.name/", "qrCode": "https://giving-scale.name", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1721285770811", "updatedAt": "1742585516690", "projectId": "<id>"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   bulkDeleteLinks:
     speakeasy-default-bulk-delete-links:
       parameters:
@@ -803,23 +803,23 @@ examples:
         "200":
           application/json: {"deletedCount": 5277.63}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   upsertLink:
     speakeasy-default-upsert-link:
       requestBody:
@@ -828,23 +828,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "domain": "neat-instruction.info", "key": "<key>", "url": "https://entire-rubric.com/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1747286155976", "expiredUrl": "https://rubbery-lay.com/", "password": "cHWcftWRnnmyj_U", "proxy": false, "title": "<value>", "description": "likewise concerning annual instantly anti deployment", "image": "https://loremflickr.com/181/3306?lock=1275456187971812", "video": "https://picsum.videos/seed/CcMAI/2638/2080", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "red"}], "folderId": "<id>", "webhookIds": [], "comments": "clueless unless conclude daddy boohoo ideal lumpy masculinize charter geez as eulogise granny", "shortLink": "https://complicated-resource.net/", "qrCode": "https://impractical-cap.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1737040873315", "updatedAt": "1742618759531", "projectId": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   retrieveAnalytics:
     speakeasy-default-retrieve-analytics:
       parameters:
@@ -862,23 +862,23 @@ examples:
         "200":
           application/json: [{"city": "West Aubrey", "country": "MR", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}, {"city": "Creminfield", "country": "AZ", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}, {"city": "VonRuedenville", "country": "CF", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   listEvents:
     speakeasy-default-list-events:
       parameters:
@@ -898,48 +898,48 @@ examples:
           sortBy: "timestamp"
       responses:
         "200":
-          application/json: [{"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "remorseful-concentration.biz", "key": "<key>", "url": "https://primary-paintwork.com/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1765308310750", "expiredUrl": "https://black-poetry.name/", "password": "COyVtOrvIw1vLIJ", "title": "<value>", "description": "despite er boom however when uh-huh", "image": "https://picsum.photos/seed/T1tZJLp1EG/3827/3109", "video": "https://loremflickr.com/2420/1632?lock=7470650813503352", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}], "folderId": "<id>", "webhookIds": [], "comments": "tenement commonly softly boo massive sorrowful", "shortLink": "https://dense-custom.info/", "qrCode": "https://alive-lid.biz", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1730721122289", "updatedAt": "1742594750288", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://utilized-quit.net/", "country": "Togo", "city": "Cormiermouth", "region": "<value>", "continent": "North America", "device": "Mobile", "browser": "Chrome", "os": "Chrome OS", "referer": "gummy-cope.net", "refererUrl": "https://prickly-bourgeoisie.info/", "ip": "69bd:53cd:cebc:ac4b:d1e8:50e8:ee59:b0b3"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1741476666745"}, "sale": {"amount": 625809, "invoiceId": null, "paymentProcessor": "stripe"}, "saleAmount": 1401.42, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "unruly-allegation.name", "key": "<key>", "url": "https://fortunate-swim.info/", "continent": "Australia", "country": "Cook Islands", "city": "South Harryburgh", "device": "Mobile", "browser": "Safari", "os": "WebOS", "qr": 1523.03, "ip": "caf5:04dc:da9e:67cc:af3b:8caf:afbe:e39c"}, {"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "right-window.biz", "key": "<key>", "url": "https://physical-experience.org/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1753999664323", "expiredUrl": "https://indelible-birdbath.net", "password": "4yMlkCXkK5ppW3u", "title": "<value>", "description": "terribly gosh facilitate in", "image": "https://loremflickr.com/2596/954?lock=8527955982122580", "video": "https://loremflickr.com/3336/742?lock=2177640289466521", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "red"}, {"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>", "<value>"], "comments": "up so pro pish clear-cut an mid aw disconnection which wetly typeface usable underneath putrefy ah aha", "shortLink": "https://knowledgeable-season.info", "qrCode": "https://nimble-individual.biz/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1741215388017", "updatedAt": "1742600471481", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://perfumed-marketplace.com/", "country": "Burundi", "city": "Stockton", "region": "<value>", "continent": "Asia", "device": "Desktop", "browser": "Chrome", "os": "Symbian", "referer": "well-off-hygienic.org", "refererUrl": "https://ripe-ceramic.org", "ip": "eebc:cce9:cecf:ebeb:dfd9:15f2:a0cc:a3b1"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1725576332837"}, "sale": {"amount": 443316, "invoiceId": null, "paymentProcessor": "paddle"}, "saleAmount": 2634.98, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "next-cricket.biz", "key": "<key>", "url": "https://repentant-rust.name/", "continent": "Australia", "country": "Saint Helena", "city": "Luettgenfort", "device": "Mobile", "browser": "Safari", "os": "Chrome OS", "qr": 4390.32, "ip": "54.229.114.129"}]
+          application/json: [{"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "remorseful-concentration.biz", "key": "<key>", "url": "https://primary-paintwork.com/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1765310953202", "expiredUrl": "https://black-poetry.name/", "password": "COyVtOrvIw1vLIJ", "title": "<value>", "description": "despite er boom however when uh-huh", "image": "https://picsum.photos/seed/T1tZJLp1EG/3827/3109", "video": "https://loremflickr.com/2420/1632?lock=7470650813503352", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}], "folderId": "<id>", "webhookIds": [], "comments": "tenement commonly softly boo massive sorrowful", "shortLink": "https://dense-custom.info/", "qrCode": "https://alive-lid.biz", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1730723764747", "updatedAt": "1742597392746", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://utilized-quit.net/", "country": "Togo", "city": "Cormiermouth", "region": "<value>", "continent": "North America", "device": "Mobile", "browser": "Chrome", "os": "Chrome OS", "referer": "gummy-cope.net", "refererUrl": "https://prickly-bourgeoisie.info/", "ip": "69bd:53cd:cebc:ac4b:d1e8:50e8:ee59:b0b3"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1741479309204"}, "sale": {"amount": 625809, "invoiceId": null, "paymentProcessor": "stripe"}, "saleAmount": 1401.42, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "unruly-allegation.name", "key": "<key>", "url": "https://fortunate-swim.info/", "continent": "Australia", "country": "Cook Islands", "city": "South Harryburgh", "device": "Mobile", "browser": "Safari", "os": "WebOS", "qr": 1523.03, "ip": "caf5:04dc:da9e:67cc:af3b:8caf:afbe:e39c"}, {"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "right-window.biz", "key": "<key>", "url": "https://physical-experience.org/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1754002306782", "expiredUrl": "https://indelible-birdbath.net", "password": "4yMlkCXkK5ppW3u", "title": "<value>", "description": "terribly gosh facilitate in", "image": "https://loremflickr.com/2596/954?lock=8527955982122580", "video": "https://loremflickr.com/3336/742?lock=2177640289466521", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "red"}, {"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>", "<value>"], "comments": "up so pro pish clear-cut an mid aw disconnection which wetly typeface usable underneath putrefy ah aha", "shortLink": "https://knowledgeable-season.info", "qrCode": "https://nimble-individual.biz/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1741218030470", "updatedAt": "1742603113935", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://perfumed-marketplace.com/", "country": "Burundi", "city": "Stockton", "region": "<value>", "continent": "Asia", "device": "Desktop", "browser": "Chrome", "os": "Symbian", "referer": "well-off-hygienic.org", "refererUrl": "https://ripe-ceramic.org", "ip": "eebc:cce9:cecf:ebeb:dfd9:15f2:a0cc:a3b1"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1725578975290"}, "sale": {"amount": 443316, "invoiceId": null, "paymentProcessor": "paddle"}, "saleAmount": 2634.98, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "next-cricket.biz", "key": "<key>", "url": "https://repentant-rust.name/", "continent": "Australia", "country": "Saint Helena", "city": "Luettgenfort", "device": "Mobile", "browser": "Safari", "os": "Chrome OS", "qr": 4390.32, "ip": "54.229.114.129"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createTag:
     speakeasy-default-create-tag:
       responses:
         "201":
           application/json: {"id": "<id>", "name": "<value>", "color": "blue"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getTags:
     speakeasy-default-get-tags:
       parameters:
@@ -952,23 +952,23 @@ examples:
         "200":
           application/json: [{"id": "<id>", "name": "<value>", "color": "blue"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "yellow"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   updateTag:
     speakeasy-default-update-tag:
       parameters:
@@ -978,23 +978,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "name": "<value>", "color": "brown"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   deleteTag:
     speakeasy-default-delete-tag:
       parameters:
@@ -1004,69 +1004,69 @@ examples:
         "200":
           application/json: {"id": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createFolder:
     speakeasy-default-create-folder:
       responses:
         "201":
           application/json: {"id": "<id>", "name": "<value>", "accessLevel": null, "linkCount": 0, "createdAt": "1726461715462", "updatedAt": "1742621390466"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   listFolders:
     speakeasy-default-list-folders:
       responses:
         "200":
           application/json: [{"id": "<id>", "name": "<value>", "accessLevel": null, "linkCount": 0, "createdAt": "1728375396260", "updatedAt": "1742624837142"}, {"id": "<id>", "name": "<value>", "accessLevel": null, "linkCount": 0, "createdAt": "1716720782339", "updatedAt": "1742586078583"}, {"id": "<id>", "name": "<value>", "accessLevel": null, "linkCount": 0, "createdAt": "1715936518743", "updatedAt": "1742621140640"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   updateFolder:
     speakeasy-default-update-folder:
       parameters:
@@ -1076,23 +1076,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "name": "<value>", "accessLevel": null, "linkCount": 0, "createdAt": "1738158031282", "updatedAt": "1742617822633"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   deleteFolder:
     speakeasy-default-delete-folder:
       parameters:
@@ -1102,23 +1102,23 @@ examples:
         "200":
           application/json: {"id": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createDomain:
     speakeasy-default-create-domain:
       requestBody:
@@ -1127,23 +1127,23 @@ examples:
         "201":
           application/json: {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1726461715491", "updatedAt": "1742621390494", "registeredDomain": {"id": "<id>", "createdAt": "1724281578858", "expiresAt": "1746889970047"}}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   listDomains:
     speakeasy-default-list-domains:
       parameters:
@@ -1155,23 +1155,23 @@ examples:
         "200":
           application/json: [{"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1728375396288", "updatedAt": "1742624837170", "registeredDomain": {"id": "<id>", "createdAt": "1716720782368", "expiresAt": "1749896979228"}}, {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1715936518772", "updatedAt": "1742621140669", "registeredDomain": {"id": "<id>", "createdAt": "1731280328730", "expiresAt": "1743206953454"}}, {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1733769039014", "updatedAt": "1742573673728", "registeredDomain": {"id": "<id>", "createdAt": "1713276998371", "expiresAt": "1764348127005"}}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   updateDomain:
     speakeasy-default-update-domain:
       parameters:
@@ -1183,23 +1183,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1738158031311", "updatedAt": "1742617822662", "registeredDomain": {"id": "<id>", "createdAt": "1721984565016", "expiresAt": "1773919432469"}}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   deleteDomain:
     speakeasy-default-delete-domain:
       parameters:
@@ -1209,23 +1209,23 @@ examples:
         "200":
           application/json: {"slug": "acme.com"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   trackLead:
     speakeasy-default-track-lead:
       requestBody:
@@ -1234,23 +1234,23 @@ examples:
         "200":
           application/json: {"click": {"id": "<id>"}, "customer": {"name": "<value>", "email": "Diego86@hotmail.com", "avatar": "https://picsum.photos/seed/fWwyl/1479/748", "externalId": "<id>"}}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   trackSale:
     speakeasy-default-track-sale:
       requestBody:
@@ -1259,69 +1259,69 @@ examples:
         "200":
           application/json: {"eventName": "<value>", "customer": {"id": "<id>", "name": "<value>", "email": "Muhammad0@hotmail.com", "avatar": "https://loremflickr.com/2579/465?lock=3083028689214487", "externalId": "<id>"}, "sale": {"amount": 8968.61, "currency": "Saudi Riyal", "paymentProcessor": "<value>", "invoiceId": "<id>", "metadata": {"key": "<value>", "key1": "<value>"}}}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getCustomers:
     speakeasy-default-get-customers:
       responses:
         "200":
           application/json: [{"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1728375396325"}, {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1732508015307"}, {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1716720782404"}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createCustomer:
     speakeasy-default-create-customer:
       responses:
         "201":
           application/json: {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1726461715542"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getCustomer:
     speakeasy-default-get-customer:
       parameters:
@@ -1332,23 +1332,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1733202756961"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   updateCustomer:
     speakeasy-default-update-customer:
       parameters:
@@ -1359,23 +1359,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1738158031362"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   deleteCustomer:
     speakeasy-default-delete-customer:
       parameters:
@@ -1385,23 +1385,23 @@ examples:
         "200":
           application/json: {"id": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createPartner:
     speakeasy-default-create-partner:
       requestBody:
@@ -1410,23 +1410,23 @@ examples:
         "201":
           application/json: {"id": "<id>", "name": "<value>", "email": "Vernice.Gerlach23@hotmail.com", "image": "https://loremflickr.com/259/1292?lock=665624272923088", "country": "Bhutan", "payoutsEnabled": false, "createdAt": "1721814784761", "status": "approved", "programId": "<id>", "tenantId": "<id>", "links": [{"id": "<id>", "domain": "putrid-countess.com", "key": "<key>", "shortLink": "https://amazing-permafrost.name", "url": "https://kooky-kinase.biz", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}, {"id": "<id>", "domain": "speedy-championship.net", "key": "<key>", "shortLink": "https://sparse-rim.biz", "url": "https://intent-mortise.com/", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}], "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0, "earnings": 0}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createPartnerLink:
     speakeasy-default-create-partner-link:
       requestBody:
@@ -1435,23 +1435,23 @@ examples:
         "201":
           application/json: {"id": "<id>", "domain": "tall-making.com", "key": "<key>", "url": "https://inferior-louse.org", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1764514879338", "expiredUrl": "https://tragic-skean.biz/", "password": "kPhoCRFmmigZdFo", "proxy": false, "title": "<value>", "description": "miserably merrily stay ouch", "image": "https://picsum.photos/seed/tXRBthjAFj/215/2959", "video": "https://loremflickr.com/3827/1329?lock=4742285326014076", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "red"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>"], "comments": "numb worriedly tinted nor utterly but meh worriedly gadzooks poorly afterwards whether penalise before academics nicely ugh whistle hungrily", "shortLink": "https://likely-submitter.info/", "qrCode": "https://plain-cafe.org", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1725571147132", "updatedAt": "1742617261931", "projectId": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   upsertPartnerLink:
     speakeasy-default-upsert-partner-link:
       requestBody:
@@ -1460,23 +1460,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "domain": "internal-teriyaki.name", "key": "<key>", "url": "https://snoopy-exasperation.name/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1747169140011", "expiredUrl": "https://trim-stump.org/", "password": "aeFj89Olng6LL82", "proxy": false, "title": "<value>", "description": "next assail unblinking gulp doting selfishly resource poppy scent", "image": "https://loremflickr.com/1169/3796?lock=7016484909038829", "video": "https://loremflickr.com/476/1877?lock=724230151067151", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [], "folderId": "<id>", "webhookIds": ["<value>"], "comments": "ick yippee unit train fashion up out er confound redevelop", "shortLink": "https://tense-interchange.com/", "qrCode": "https://uncommon-accelerator.net/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1739529366685", "updatedAt": "1742617296518", "projectId": "<id>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   retrievePartnerAnalytics:
     speakeasy-default-retrieve-partner-analytics:
       parameters:
@@ -1488,23 +1488,23 @@ examples:
         "200":
           application/json: [{"link": "<value>", "id": "<id>", "domain": "hot-dandelion.org", "key": "<key>", "shortLink": "<value>", "url": "https://everlasting-cheetah.name", "createdAt": "1716182455625", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0, "earnings": 0}, {"link": "<value>", "id": "<id>", "domain": "grizzled-ecliptic.biz", "key": "<key>", "shortLink": "<value>", "url": "https://possible-interchange.info", "createdAt": "1742107223877", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0, "earnings": 0}, {"link": "<value>", "id": "<id>", "domain": "glass-wriggler.biz", "key": "<key>", "shortLink": "<value>", "url": "https://light-fit.name/", "createdAt": "1713737734385", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0, "earnings": 0}]
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getWorkspace:
     speakeasy-default-get-workspace:
       parameters:
@@ -1514,23 +1514,23 @@ examples:
         "200":
           application/json: {"id": "<id>", "name": "<value>", "slug": "<value>", "logo": null, "inviteCode": "<value>", "plan": "business extra", "stripeId": "<id>", "billingCycleStart": 5588.34, "paymentFailedAt": "<value>", "stripeConnectId": "<id>", "usage": 5442.21, "usageLimit": 5212.35, "linksUsage": 9699.61, "linksLimit": 4580.49, "salesUsage": 4508.24, "salesLimit": 2627.95, "domainsLimit": 2134.57, "tagsLimit": 9371.46, "foldersLimit": 4381.42, "usersLimit": 8013.73, "aiUsage": 788.88, "aiLimit": 2199.56, "conversionEnabled": true, "dotLinkClaimed": true, "partnersEnabled": false, "createdAt": "1736530723733", "users": [{"role": "member"}], "domains": [{"slug": "acme.com", "primary": false, "verified": false}, {"slug": "acme.com", "primary": false, "verified": false}], "store": {"key": "<value>", "key1": "<value>"}, "allowedHostnames": ["pim.ms"]}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   updateWorkspace:
     speakeasy-default-update-workspace:
       parameters:
@@ -1540,46 +1540,46 @@ examples:
         "200":
           application/json: {"id": "<id>", "name": "<value>", "slug": "<value>", "logo": null, "inviteCode": "<value>", "plan": "enterprise", "stripeId": "<id>", "billingCycleStart": 5971.29, "paymentFailedAt": "<value>", "stripeConnectId": "<id>", "usage": 3446.2, "usageLimit": 9914.64, "linksUsage": 6276.9, "linksLimit": 4888.52, "salesUsage": 9840.08, "salesLimit": 540.62, "domainsLimit": 8965.01, "tagsLimit": 4468.63, "foldersLimit": 3115.07, "usersLimit": 2494.4, "aiUsage": 1395.79, "aiLimit": 7892.75, "conversionEnabled": false, "dotLinkClaimed": true, "partnersEnabled": true, "createdAt": "1735437294171", "users": [{"role": "owner"}, {"role": "owner"}], "domains": [{"slug": "acme.com", "primary": false, "verified": false}, {"slug": "acme.com", "primary": false, "verified": false}, {"slug": "acme.com", "primary": false, "verified": false}], "store": {"key": "<value>", "key1": "<value>", "key2": "<value>"}, "allowedHostnames": ["pim.ms"]}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   createEmbedToken:
     speakeasy-default-create-embed-token:
       responses:
         "201":
           application/json: {"publicToken": "<value>", "expires": "<value>"}
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getQRCode:
     speakeasy-default-get-QR-code:
       parameters:
@@ -1596,23 +1596,23 @@ examples:
         "200":
           image/png: "<value>"
         "400":
-          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#bad-request"}}
+          application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
-          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unauthorized"}}
+          application/json: {"error": {"code": "unauthorized", "message": "The requested resource was not found."}}
         "403":
-          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#forbidden"}}
+          application/json: {"error": {"code": "forbidden", "message": "The requested resource was not found."}}
         "404":
-          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#not-found"}}
+          application/json: {"error": {"code": "not_found", "message": "The requested resource was not found."}}
         "409":
-          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#conflict"}}
+          application/json: {"error": {"code": "conflict", "message": "The requested resource was not found."}}
         "410":
-          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#invite-expired"}}
+          application/json: {"error": {"code": "invite_expired", "message": "The requested resource was not found."}}
         "422":
-          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#unprocessable-entity"}}
+          application/json: {"error": {"code": "unprocessable_entity", "message": "The requested resource was not found."}}
         "429":
-          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#rate-limit_exceeded"}}
+          application/json: {"error": {"code": "rate_limit_exceeded", "message": "The requested resource was not found."}}
         "500":
-          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found.", "doc_url": "https://dub.co/docs/api-reference/errors#internal-server_error"}}
+          application/json: {"error": {"code": "internal_server_error", "message": "The requested resource was not found."}}
   getMetatags:
     speakeasy-default-get-metatags:
       parameters:

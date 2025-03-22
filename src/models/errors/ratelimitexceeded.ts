@@ -3,7 +3,6 @@
  */
 
 import * as z from "zod";
-import { remap as remap$ } from "../../lib/primitives.js";
 import { safeParse } from "../../lib/schemas.js";
 import { ClosedEnum } from "../../types/enums.js";
 import { Result as SafeParseResult } from "../../types/fp.js";
@@ -29,10 +28,6 @@ export type RateLimitExceededError = {
    * A human readable explanation of what went wrong.
    */
   message: string;
-  /**
-   * A link to our documentation with more details about this error code
-   */
-  docUrl?: string | undefined;
 };
 
 /**
@@ -91,18 +86,12 @@ export const RateLimitExceededError$inboundSchema: z.ZodType<
 > = z.object({
   code: RateLimitExceededCode$inboundSchema,
   message: z.string(),
-  doc_url: z.string().optional(),
-}).transform((v) => {
-  return remap$(v, {
-    "doc_url": "docUrl",
-  });
 });
 
 /** @internal */
 export type RateLimitExceededError$Outbound = {
   code: string;
   message: string;
-  doc_url?: string | undefined;
 };
 
 /** @internal */
@@ -113,11 +102,6 @@ export const RateLimitExceededError$outboundSchema: z.ZodType<
 > = z.object({
   code: RateLimitExceededCode$outboundSchema,
   message: z.string(),
-  docUrl: z.string().optional(),
-}).transform((v) => {
-  return remap$(v, {
-    docUrl: "doc_url",
-  });
 });
 
 /**

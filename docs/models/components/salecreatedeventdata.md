@@ -11,7 +11,7 @@ let value: SaleCreatedEventData = {
     id: "<id>",
     externalId: "<id>",
     name: "<value>",
-    createdAt: "1725448352883",
+    createdAt: "1725450996291",
   },
   click: {
     id: "<id>",
@@ -37,7 +37,7 @@ let value: SaleCreatedEventData = {
     tenantId: "<id>",
     programId: "<id>",
     partnerId: "<id>",
-    expiresAt: "1752797335272",
+    expiresAt: "1752799978680",
     expiredUrl: "https://concerned-shark.com",
     password: "EZI_sqjgb38l_s_",
     title: "<value>",
@@ -72,8 +72,8 @@ let value: SaleCreatedEventData = {
     userId: "<id>",
     workspaceId: "<id>",
     lastClicked: "<value>",
-    createdAt: "1729387373195",
-    updatedAt: "1742601449870",
+    createdAt: "1729390016603",
+    updatedAt: "1742604093278",
     projectId: "<id>",
   },
   sale: {
