@@ -1,0 +1,18 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Dub.co API:
+        inputs:
+            - location: https://api.pimms.io
+        registry:
+            location: registry.speakeasyapi.dev/pimms/pimms-ts/dub-co-api
+targets:
+    pimms:
+        target: typescript
+        source: Dub.co API
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/pimms/pimms-ts/dub-co-api-typescript-code-samples
+            labelOverride:
+                fixedValue: Typescript (SDK)
+            blocking: false

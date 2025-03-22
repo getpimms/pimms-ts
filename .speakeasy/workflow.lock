@@ -1,0 +1,36 @@
+speakeasyVersion: 1.523.0
+sources:
+    Dub.co API:
+        sourceNamespace: dub-co-api
+        sourceRevisionDigest: sha256:7847a56be421d883c6ea321fe53f0fd60c7cf4fb1ef1efdb4274dae36291a3fa
+        sourceBlobDigest: sha256:103755204d03e9503680209787f748e9606e7daf5d5de2988989beda0f152f0b
+        tags:
+            - latest
+            - 0.0.1
+targets:
+    pimms:
+        source: Dub.co API
+        sourceNamespace: dub-co-api
+        sourceRevisionDigest: sha256:7847a56be421d883c6ea321fe53f0fd60c7cf4fb1ef1efdb4274dae36291a3fa
+        sourceBlobDigest: sha256:103755204d03e9503680209787f748e9606e7daf5d5de2988989beda0f152f0b
+        codeSamplesNamespace: dub-co-api-typescript-code-samples
+        codeSamplesRevisionDigest: sha256:0234a9b812c808a7cdda9c13f39fb08e7cd4ba1f22429dafc8719f32bbd3637e
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Dub.co API:
+            inputs:
+                - location: https://api.pimms.io
+            registry:
+                location: registry.speakeasyapi.dev/pimms/pimms-ts/dub-co-api
+    targets:
+        pimms:
+            target: typescript
+            source: Dub.co API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/pimms/pimms-ts/dub-co-api-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false

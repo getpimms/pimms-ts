@@ -1,0 +1,15 @@
+# SaleCreatedEventType
+
+## Example Usage
+
+```typescript
+import { SaleCreatedEventType } from "pimms/models/components";
+
+let value: SaleCreatedEventType = "flat";
+```
+
+## Values
+
+```typescript
+"percentage" | "flat"
+```

@@ -1,0 +1,17 @@
+# QueryParamInterval
+
+The interval to retrieve events for. Takes precedence over start and end. If undefined, defaults to 24h.
+
+## Example Usage
+
+```typescript
+import { QueryParamInterval } from "pimms/models/operations";
+
+let value: QueryParamInterval = "90d";
+```
+
+## Values
+
+```typescript
+"24h" | "7d" | "30d" | "90d" | "1y" | "mtd" | "qtd" | "ytd" | "all"
+```
