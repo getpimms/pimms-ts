@@ -9,7 +9,7 @@ import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 
 export type TrackLeadRequestBody = {
   /**
-   * The ID of the click in th Dub. You can read this value from `pimms_id` cookie.
+   * The ID of the click in PIMMS. You can read this value from `pimms_id` cookie.
    */
   clickId: string;
   /**

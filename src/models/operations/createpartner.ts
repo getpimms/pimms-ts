@@ -403,7 +403,7 @@ export type CreatePartnerRequestBody = {
    */
   name: string;
   /**
-   * Email for the partner in your system. Partners will be able to claim their profile by signing up to Dub Partners with this email.
+   * Email for the partner in your system. Partners will be able to claim their profile by signing up to PIMMS Partners with this email.
    */
   email: string;
   /**
@@ -445,7 +445,7 @@ export type Links = {
    */
   id: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `dub.sh` if the workspace has no domains).
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
    */
   domain: string;
   /**
@@ -453,7 +453,7 @@ export type Links = {
    */
   key: string;
   /**
-   * The full URL of the short link, including the https protocol (e.g. `https://dub.sh/try`).
+   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
    */
   shortLink: string;
   /**

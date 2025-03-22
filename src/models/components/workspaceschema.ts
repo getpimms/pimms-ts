@@ -157,7 +157,7 @@ export type WorkspaceSchema = {
    */
   dotLinkClaimed: boolean;
   /**
-   * Whether the workspace has Dub Partners enabled.
+   * Whether the workspace has PIMMS Partners enabled.
    */
   partnersEnabled: boolean;
   /**

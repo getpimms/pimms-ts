@@ -30,7 +30,7 @@ export type UpdateCustomerRequestBody = {
 
 export type UpdateCustomerRequest = {
   /**
-   * The unique ID of the customer. You may use either the customer's `id` on Dub (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
+   * The unique ID of the customer. You may use either the customer's `id` on PIMMS (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
    */
   id: string;
   /**
@@ -46,7 +46,7 @@ export type UpdateCustomerLink = {
    */
   id: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `dub.sh` if the workspace has no domains).
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
    */
   domain: string;
   /**
@@ -54,7 +54,7 @@ export type UpdateCustomerLink = {
    */
   key: string;
   /**
-   * The full URL of the short link, including the https protocol (e.g. `https://dub.sh/try`).
+   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
    */
   shortLink: string;
   /**
@@ -97,7 +97,7 @@ export type UpdateCustomerDiscount = {
  */
 export type UpdateCustomerResponseBody = {
   /**
-   * The unique ID of the customer. You may use either the customer's `id` on Dub (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
+   * The unique ID of the customer. You may use either the customer's `id` on PIMMS (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
    */
   id: string;
   /**

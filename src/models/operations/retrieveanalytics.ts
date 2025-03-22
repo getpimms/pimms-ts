@@ -109,7 +109,7 @@ export type RetrieveAnalyticsRequest = {
    */
   key?: string | undefined;
   /**
-   * The unique ID of the short link on Dub.
+   * The unique ID of the short link on PIMMS.
    */
   linkId?: string | undefined;
   /**

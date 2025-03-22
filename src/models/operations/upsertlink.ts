@@ -25,7 +25,7 @@ export type UpsertLinkRequestBody = {
    */
   url: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `dub.sh` if the workspace has no domains).
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
    */
   domain?: string | undefined;
   /**

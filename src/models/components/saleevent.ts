@@ -282,7 +282,7 @@ export type SaleEventLink = {
    */
   id: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `dub.sh` if the workspace has no domains).
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
    */
   domain: string;
   /**
@@ -316,15 +316,15 @@ export type SaleEventLink = {
   password: string | null;
   proxy?: boolean | undefined;
   /**
-   * The title of the short link generated via `api.dub.co/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * The title of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
    */
   title: string | null;
   /**
-   * The description of the short link generated via `api.dub.co/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * The description of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
    */
   description: string | null;
   /**
-   * The image of the short link generated via `api.dub.co/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * The image of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
    */
   image: string | null;
   /**
@@ -369,11 +369,11 @@ export type SaleEventLink = {
    */
   comments: string | null;
   /**
-   * The full URL of the short link, including the https protocol (e.g. `https://dub.sh/try`).
+   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
    */
   shortLink: string;
   /**
-   * The full URL of the QR code for the short link (e.g. `https://api.dub.co/qr?url=https://dub.sh/try`).
+   * The full URL of the QR code for the short link (e.g. `https://api.pimms.io/qr?url=https://pim.ms/try`).
    */
   qrCode: string;
   /**
@@ -451,7 +451,7 @@ export type SaleEventCustomerLink = {
    */
   id: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `dub.sh` if the workspace has no domains).
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
    */
   domain: string;
   /**
@@ -459,7 +459,7 @@ export type SaleEventCustomerLink = {
    */
   key: string;
   /**
-   * The full URL of the short link, including the https protocol (e.g. `https://dub.sh/try`).
+   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
    */
   shortLink: string;
   /**
@@ -499,7 +499,7 @@ export type SaleEventDiscount = {
 
 export type SaleEventCustomer = {
   /**
-   * The unique ID of the customer. You may use either the customer's `id` on Dub (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
+   * The unique ID of the customer. You may use either the customer's `id` on PIMMS (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
    */
   id: string;
   /**

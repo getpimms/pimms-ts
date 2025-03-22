@@ -276,7 +276,7 @@ export type LinkSchema = {
    */
   id: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `dub.sh` if the workspace has no domains).
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
    */
   domain: string;
   /**
@@ -328,15 +328,15 @@ export type LinkSchema = {
    */
   proxy?: boolean | undefined;
   /**
-   * The title of the short link generated via `api.dub.co/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * The title of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
    */
   title: string | null;
   /**
-   * The description of the short link generated via `api.dub.co/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * The description of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
    */
   description: string | null;
   /**
-   * The image of the short link generated via `api.dub.co/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * The image of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
    */
   image: string | null;
   /**
@@ -390,11 +390,11 @@ export type LinkSchema = {
    */
   comments: string | null;
   /**
-   * The full URL of the short link, including the https protocol (e.g. `https://dub.sh/try`).
+   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
    */
   shortLink: string;
   /**
-   * The full URL of the QR code for the short link (e.g. `https://api.dub.co/qr?url=https://dub.sh/try`).
+   * The full URL of the QR code for the short link (e.g. `https://api.pimms.io/qr?url=https://pim.ms/try`).
    */
   qrCode: string;
   /**
