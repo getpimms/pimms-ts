@@ -10,14 +10,14 @@ import { SaleCreatedEvent } from "pimms/models/components";
 let value: SaleCreatedEvent = {
   id: "<id>",
   event: "sale.created",
-  createdAt: "1732355911586",
+  createdAt: "1732357522535",
   data: {
     eventName: "<value>",
     customer: {
       id: "<id>",
       externalId: "<id>",
       name: "<value>",
-      createdAt: "1718398409968",
+      createdAt: "1718400020917",
     },
     click: {
       id: "<id>",
@@ -43,7 +43,7 @@ let value: SaleCreatedEvent = {
       tenantId: "<id>",
       programId: "<id>",
       partnerId: "<id>",
-      expiresAt: "1761328830902",
+      expiresAt: "1761330441851",
       expiredUrl: "https://idealistic-language.org",
       password: "S14CeblcO4WVT0w",
       title: "<value>",
@@ -77,8 +77,8 @@ let value: SaleCreatedEvent = {
       userId: "<id>",
       workspaceId: "<id>",
       lastClicked: "<value>",
-      createdAt: "1738083132454",
-      updatedAt: "1742618938465",
+      createdAt: "1738084743403",
+      updatedAt: "1742620549414",
       projectId: "<id>",
     },
     sale: {

@@ -3,7 +3,7 @@
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -27,7 +27,7 @@ run();
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

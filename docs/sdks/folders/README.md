@@ -20,7 +20,7 @@ Create a new folder for the authenticated workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -44,7 +44,7 @@ import { foldersCreate } from "pimms/funcs/foldersCreate.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -101,7 +101,7 @@ Retrieve a list of folders for the authenticated workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -125,7 +125,7 @@ import { foldersList } from "pimms/funcs/foldersList.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -182,7 +182,7 @@ Update a folder in the workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -206,7 +206,7 @@ import { foldersUpdate } from "pimms/funcs/foldersUpdate.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -264,7 +264,7 @@ Delete a folder from the workspace. All existing links will still work, but they
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -288,7 +288,7 @@ import { foldersDelete } from "pimms/funcs/foldersDelete.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

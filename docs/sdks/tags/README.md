@@ -20,7 +20,7 @@ Create a new tag for the authenticated workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -44,7 +44,7 @@ import { tagsCreate } from "pimms/funcs/tagsCreate.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -101,7 +101,7 @@ Retrieve a list of tags for the authenticated workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -125,7 +125,7 @@ import { tagsList } from "pimms/funcs/tagsList.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -182,7 +182,7 @@ Update a tag in the workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -206,7 +206,7 @@ import { tagsUpdate } from "pimms/funcs/tagsUpdate.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -264,7 +264,7 @@ Delete a tag from the workspace. All existing links will still work, but they wi
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -288,7 +288,7 @@ import { tagsDelete } from "pimms/funcs/tagsDelete.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

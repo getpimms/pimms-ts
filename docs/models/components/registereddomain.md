@@ -9,8 +9,8 @@ import { RegisteredDomain } from "pimms/models/components";
 
 let value: RegisteredDomain = {
   id: "<id>",
-  createdAt: "1739207778232",
-  expiresAt: "1768074566127",
+  createdAt: "1739209389180",
+  expiresAt: "1768076177075",
 };
 ```
 

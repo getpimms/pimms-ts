@@ -17,7 +17,7 @@ Retrieve a paginated list of events for the authenticated workspace.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -48,7 +48,7 @@ import { eventsList } from "pimms/funcs/eventsList.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

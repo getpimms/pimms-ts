@@ -18,7 +18,7 @@ Track a lead for a short link.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -45,7 +45,7 @@ import { trackLead } from "pimms/funcs/trackLead.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -105,7 +105,7 @@ Track a sale for a short link.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -132,7 +132,7 @@ import { trackSale } from "pimms/funcs/trackSale.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

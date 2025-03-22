@@ -18,7 +18,7 @@ Retrieve a workspace for the authenticated user.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -44,7 +44,7 @@ import { workspacesGet } from "pimms/funcs/workspacesGet.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -103,7 +103,7 @@ Update a workspace by ID or slug.
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -127,7 +127,7 @@ import { workspacesUpdate } from "pimms/funcs/workspacesUpdate.js";
 // Use `PimmsCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
 const pimms = new PimmsCore({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

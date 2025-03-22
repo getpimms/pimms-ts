@@ -8,8 +8,8 @@ import { FolderSchema } from "pimms/models/components";
 let value: FolderSchema = {
   id: "<id>",
   name: "<value>",
-  createdAt: "1718621336568",
-  updatedAt: "1742632064381",
+  createdAt: "1718622947516",
+  updatedAt: "1742633675329",
 };
 ```
 

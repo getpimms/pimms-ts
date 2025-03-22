@@ -10,7 +10,7 @@ import { LinkClickedEvent } from "pimms/models/components";
 let value: LinkClickedEvent = {
   id: "<id>",
   event: "link.clicked",
-  createdAt: "1737999320155",
+  createdAt: "1738000931105",
   data: {
     click: {
       id: "<id>",
@@ -36,7 +36,7 @@ let value: LinkClickedEvent = {
       tenantId: "<id>",
       programId: "<id>",
       partnerId: "<id>",
-      expiresAt: "1747225847320",
+      expiresAt: "1747227458270",
       expiredUrl: "https://unlined-dime.org",
       password: "joDt038kVZ7GK9n",
       title: "<value>",
@@ -71,8 +71,8 @@ let value: LinkClickedEvent = {
       userId: "<id>",
       workspaceId: "<id>",
       lastClicked: "<value>",
-      createdAt: "1737463681473",
-      updatedAt: "1742606452366",
+      createdAt: "1737465292423",
+      updatedAt: "1742608063316",
       projectId: "<id>",
     },
   },

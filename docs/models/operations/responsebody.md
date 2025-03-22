@@ -15,7 +15,7 @@ const value: components.LinkSchema = {
   tenantId: "<id>",
   programId: "<id>",
   partnerId: "<id>",
-  expiresAt: "1758568393510",
+  expiresAt: "1758570004457",
   expiredUrl: "https://ultimate-confusion.org",
   password: "QbuZah7Pt3VY_er",
   title: "<value>",
@@ -50,8 +50,8 @@ const value: components.LinkSchema = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1728225310688",
-  updatedAt: "1742618868841",
+  createdAt: "1728226921625",
+  updatedAt: "1742620479778",
   projectId: "<id>",
 };
 ```

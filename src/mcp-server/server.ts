@@ -64,7 +64,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Pimms",
-    version: "0.0.1",
+    version: "0.0.3",
   });
 
   const client = new PimmsCore({

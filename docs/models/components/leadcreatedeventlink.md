@@ -14,7 +14,7 @@ let value: LeadCreatedEventLink = {
   tenantId: "<id>",
   programId: "<id>",
   partnerId: "<id>",
-  expiresAt: "1758446233086",
+  expiresAt: "1758447844035",
   expiredUrl: "https://earnest-jury.com",
   password: "tHwPIZiTiXt56hn",
   title: "<value>",
@@ -47,8 +47,8 @@ let value: LeadCreatedEventLink = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1712994665242",
-  updatedAt: "1742598750406",
+  createdAt: "1712996276187",
+  updatedAt: "1742600361351",
   projectId: "<id>",
 };
 ```

@@ -17,7 +17,7 @@ Developer-friendly & type-safe Typescript SDK specifically catered to leverage *
 <!-- Start Summary [summary] -->
 ## Summary
 
-Dub.co API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+PIMMS API: PIMMS | Grow with deeplinks
 <!-- End Summary [summary] -->
 
 <!-- Start Table of Contents [toc] -->
@@ -45,34 +45,30 @@ Dub.co API: Dub is link management infrastructure for companies to create market
 <!-- Start SDK Installation [installation] -->
 ## SDK Installation
 
-> [!TIP]
-> To finish publishing your SDK to npm and others you must [run your first generation action](https://www.speakeasy.com/docs/github-setup#step-by-step-guide).
-
-
 The SDK can be installed with either [npm](https://www.npmjs.com/), [pnpm](https://pnpm.io/), [bun](https://bun.sh/) or [yarn](https://classic.yarnpkg.com/en/) package managers.
 
 ### NPM
 
 ```bash
-npm add <UNSET>
+npm add pimms
 ```
 
 ### PNPM
 
 ```bash
-pnpm add <UNSET>
+pnpm add pimms
 ```
 
 ### Bun
 
 ```bash
-bun add <UNSET>
+bun add pimms
 ```
 
 ### Yarn
 
 ```bash
-yarn add <UNSET> zod
+yarn add pimms zod
 
 # Note that Yarn does not install peer dependencies automatically. You will need
 # to install zod as shown above.
@@ -181,7 +177,7 @@ For supported JavaScript runtimes, please consult [RUNTIMES.md](RUNTIMES.md).
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -207,7 +203,7 @@ run();
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -244,7 +240,7 @@ To authenticate with the API the `token` parameter must be set when initializing
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -429,7 +425,7 @@ Here's an example of one such pagination call:
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -456,7 +452,7 @@ To change the default retry strategy for a single API call, simply provide a ret
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -502,7 +498,7 @@ const pimms = new Pimms({
     },
     retryConnectionErrors: false,
   },
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -559,7 +555,7 @@ import {
 } from "pimms/models/errors";
 
 const pimms = new Pimms({
-  token: "DUB_API_KEY",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {
@@ -665,8 +661,8 @@ The default server can be overridden globally by passing a URL to the `serverURL
 import { Pimms } from "pimms";
 
 const pimms = new Pimms({
-  serverURL: "https://api.dub.co",
-  token: "DUB_API_KEY",
+  serverURL: "https://api.pimms.io",
+  token: "PIMMS_API_KEY",
 });
 
 async function run() {

@@ -10,7 +10,7 @@ import { PartnerCreatedEvent } from "pimms/models/components";
 let value: PartnerCreatedEvent = {
   id: "<id>",
   event: "partner.created",
-  createdAt: "1737712671620",
+  createdAt: "1737714282558",
   data: {
     id: "<id>",
     name: "<value>",
@@ -18,7 +18,7 @@ let value: PartnerCreatedEvent = {
     image: "https://loremflickr.com/432/1598?lock=5950973807447753",
     country: "Indonesia",
     payoutsEnabled: false,
-    createdAt: "1731573290134",
+    createdAt: "1731574901072",
     status: "rejected",
     programId: "<id>",
     tenantId: "<id>",

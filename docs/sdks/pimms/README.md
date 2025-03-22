@@ -2,6 +2,6 @@
 
 ## Overview
 
-Dub.co API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+PIMMS API: PIMMS | Grow with deeplinks
 
 ### Available Operations
