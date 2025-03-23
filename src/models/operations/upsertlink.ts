@@ -37,18 +37,6 @@ export type UpsertLinkRequestBody = {
    */
   externalId?: string | null | undefined;
   /**
-   * The ID of the tenant that created the link inside your system. If set, it can be used to fetch all links for a tenant.
-   */
-  tenantId?: string | null | undefined;
-  /**
-   * The ID of the program the short link is associated with.
-   */
-  programId?: string | null | undefined;
-  /**
-   * The ID of the partner the short link is associated with.
-   */
-  partnerId?: string | null | undefined;
-  /**
    * The prefix of the short link slug for randomly-generated keys (e.g. if prefix is `/c/`, generated keys will be in the `/c/:key` format). Will be ignored if `key` is provided.
    */
   prefix?: string | undefined;
@@ -60,12 +48,6 @@ export type UpsertLinkRequestBody = {
    * Whether the short link is archived. Defaults to `false` if not provided.
    */
   archived?: boolean | undefined;
-  /**
-   * Deprecated: Use `dashboard` instead. Whether the short link's stats are publicly accessible. Defaults to `false` if not provided.
-   *
-   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
-   */
-  publicStats?: boolean | undefined;
   /**
    * The unique ID of the tag assigned to the short link. This field is deprecated – use `tagIds` instead.
    *
@@ -81,10 +63,6 @@ export type UpsertLinkRequestBody = {
    */
   tagNames?: string | Array<string> | undefined;
   /**
-   * The unique ID existing folder to assign the short link to.
-   */
-  folderId?: string | null | undefined;
-  /**
    * The comments for the short link.
    */
   comments?: string | null | undefined;
@@ -96,14 +74,6 @@ export type UpsertLinkRequestBody = {
    * The URL to redirect to when the short link has expired.
    */
   expiredUrl?: string | null | undefined;
-  /**
-   * The password required to access the destination URL of the short link.
-   */
-  password?: string | null | undefined;
-  /**
-   * Whether the short link uses Custom Social Media Cards feature. Defaults to `false` if not provided.
-   */
-  proxy?: boolean | undefined;
   /**
    * The custom link preview title (og:title). Will be used for Custom Social Media Cards if `proxy` is true.
    */
@@ -120,22 +90,6 @@ export type UpsertLinkRequestBody = {
    * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   video?: string | null | undefined;
-  /**
-   * Whether the short link uses link cloaking. Defaults to `false` if not provided.
-   */
-  rewrite?: boolean | undefined;
-  /**
-   * The iOS destination URL for the short link for iOS device targeting.
-   */
-  ios?: string | null | undefined;
-  /**
-   * The Android destination URL for the short link for Android device targeting.
-   */
-  android?: string | null | undefined;
-  /**
-   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
-   */
-  geo?: components.LinkGeoTargeting | null | undefined;
   /**
    * Allow search engines to index your short link. Defaults to `false` if not provided.
    */
@@ -168,6 +122,130 @@ export type UpsertLinkRequestBody = {
    * An array of webhook IDs to trigger when the link is clicked. These webhooks will receive click event data.
    */
   webhookIds?: Array<string> | null | undefined;
+};
+
+/**
+ * The upserted link
+ */
+export type UpsertLinkLink = {
+  /**
+   * The unique ID of the short link.
+   */
+  id: string;
+  /**
+   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
+   */
+  domain: string;
+  /**
+   * The short link slug. If not provided, a random 7-character slug will be generated.
+   */
+  key: string;
+  /**
+   * The destination URL of the short link.
+   */
+  url: string;
+  /**
+   * Whether to track conversions for the short link.
+   */
+  trackConversion?: boolean | undefined;
+  /**
+   * Whether the short link is archived.
+   */
+  archived?: boolean | undefined;
+  /**
+   * The date and time when the short link will expire in ISO-8601 format.
+   */
+  expiresAt: string | null;
+  /**
+   * The title of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   */
+  title: string | null;
+  /**
+   * The description of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   */
+  description: string | null;
+  /**
+   * The image of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   */
+  image: string | null;
+  /**
+   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
+   */
+  video: string | null;
+  /**
+   * The unique ID of the tag assigned to the short link. This field is deprecated – use `tags` instead.
+   *
+   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
+   */
+  tagId: string | null;
+  /**
+   * The tags assigned to the short link.
+   */
+  tags: Array<components.TagSchema> | null;
+  /**
+   * The IDs of the webhooks that the short link is associated with.
+   */
+  webhookIds: Array<string>;
+  /**
+   * The comments for the short link.
+   */
+  comments: string | null;
+  /**
+   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
+   */
+  shortLink: string;
+  /**
+   * The full URL of the QR code for the short link (e.g. `https://api.pimms.io/qr?url=https://pim.ms/try`).
+   */
+  qrCode: string;
+  /**
+   * The UTM source of the short link.
+   */
+  utmSource: string | null;
+  /**
+   * The UTM medium of the short link.
+   */
+  utmMedium: string | null;
+  /**
+   * The UTM campaign of the short link.
+   */
+  utmCampaign: string | null;
+  /**
+   * The UTM term of the short link.
+   */
+  utmTerm: string | null;
+  /**
+   * The UTM content of the short link.
+   */
+  utmContent: string | null;
+  /**
+   * The user ID of the creator of the short link.
+   */
+  userId: string | null;
+  /**
+   * The workspace ID of the short link.
+   */
+  workspaceId: string;
+  /**
+   * The number of clicks on the short link.
+   */
+  clicks?: number | undefined;
+  /**
+   * The date and time when the short link was last clicked.
+   */
+  lastClicked: string | null;
+  /**
+   * The number of leads the short links has generated.
+   */
+  leads?: number | undefined;
+  /**
+   * The date and time when the short link was created.
+   */
+  createdAt: string;
+  /**
+   * The date and time when the short link was last updated.
+   */
+  updatedAt: string;
 };
 
 /** @internal */
@@ -276,30 +354,19 @@ export const UpsertLinkRequestBody$inboundSchema: z.ZodType<
   domain: z.string().optional(),
   key: z.string().optional(),
   externalId: z.nullable(z.string()).optional(),
-  tenantId: z.nullable(z.string()).optional(),
-  programId: z.nullable(z.string()).optional(),
-  partnerId: z.nullable(z.string()).optional(),
   prefix: z.string().optional(),
   trackConversion: z.boolean().optional(),
   archived: z.boolean().optional(),
-  publicStats: z.boolean().optional(),
   tagId: z.nullable(z.string()).optional(),
   tagIds: z.union([z.string(), z.array(z.string())]).optional(),
   tagNames: z.union([z.string(), z.array(z.string())]).optional(),
-  folderId: z.nullable(z.string()).optional(),
   comments: z.nullable(z.string()).optional(),
   expiresAt: z.nullable(z.string()).optional(),
   expiredUrl: z.nullable(z.string()).optional(),
-  password: z.nullable(z.string()).optional(),
-  proxy: z.boolean().optional(),
   title: z.nullable(z.string()).optional(),
   description: z.nullable(z.string()).optional(),
   image: z.nullable(z.string()).optional(),
   video: z.nullable(z.string()).optional(),
-  rewrite: z.boolean().optional(),
-  ios: z.nullable(z.string()).optional(),
-  android: z.nullable(z.string()).optional(),
-  geo: z.nullable(components.LinkGeoTargeting$inboundSchema).optional(),
   doIndex: z.boolean().optional(),
   utm_source: z.nullable(z.string()).optional(),
   utm_medium: z.nullable(z.string()).optional(),
@@ -324,30 +391,19 @@ export type UpsertLinkRequestBody$Outbound = {
   domain?: string | undefined;
   key?: string | undefined;
   externalId?: string | null | undefined;
-  tenantId?: string | null | undefined;
-  programId?: string | null | undefined;
-  partnerId?: string | null | undefined;
   prefix?: string | undefined;
   trackConversion?: boolean | undefined;
   archived?: boolean | undefined;
-  publicStats?: boolean | undefined;
   tagId?: string | null | undefined;
   tagIds?: string | Array<string> | undefined;
   tagNames?: string | Array<string> | undefined;
-  folderId?: string | null | undefined;
   comments?: string | null | undefined;
   expiresAt?: string | null | undefined;
   expiredUrl?: string | null | undefined;
-  password?: string | null | undefined;
-  proxy?: boolean | undefined;
   title?: string | null | undefined;
   description?: string | null | undefined;
   image?: string | null | undefined;
   video?: string | null | undefined;
-  rewrite?: boolean | undefined;
-  ios?: string | null | undefined;
-  android?: string | null | undefined;
-  geo?: components.LinkGeoTargeting$Outbound | null | undefined;
   doIndex?: boolean | undefined;
   utm_source?: string | null | undefined;
   utm_medium?: string | null | undefined;
@@ -368,30 +424,19 @@ export const UpsertLinkRequestBody$outboundSchema: z.ZodType<
   domain: z.string().optional(),
   key: z.string().optional(),
   externalId: z.nullable(z.string()).optional(),
-  tenantId: z.nullable(z.string()).optional(),
-  programId: z.nullable(z.string()).optional(),
-  partnerId: z.nullable(z.string()).optional(),
   prefix: z.string().optional(),
   trackConversion: z.boolean().optional(),
   archived: z.boolean().optional(),
-  publicStats: z.boolean().optional(),
   tagId: z.nullable(z.string()).optional(),
   tagIds: z.union([z.string(), z.array(z.string())]).optional(),
   tagNames: z.union([z.string(), z.array(z.string())]).optional(),
-  folderId: z.nullable(z.string()).optional(),
   comments: z.nullable(z.string()).optional(),
   expiresAt: z.nullable(z.string()).optional(),
   expiredUrl: z.nullable(z.string()).optional(),
-  password: z.nullable(z.string()).optional(),
-  proxy: z.boolean().optional(),
   title: z.nullable(z.string()).optional(),
   description: z.nullable(z.string()).optional(),
   image: z.nullable(z.string()).optional(),
   video: z.nullable(z.string()).optional(),
-  rewrite: z.boolean().optional(),
-  ios: z.nullable(z.string()).optional(),
-  android: z.nullable(z.string()).optional(),
-  geo: z.nullable(components.LinkGeoTargeting$outboundSchema).optional(),
   doIndex: z.boolean().optional(),
   utmSource: z.nullable(z.string()).optional(),
   utmMedium: z.nullable(z.string()).optional(),
@@ -438,5 +483,155 @@ export function upsertLinkRequestBodyFromJSON(
     jsonString,
     (x) => UpsertLinkRequestBody$inboundSchema.parse(JSON.parse(x)),
     `Failed to parse 'UpsertLinkRequestBody' from JSON`,
+  );
+}
+
+/** @internal */
+export const UpsertLinkLink$inboundSchema: z.ZodType<
+  UpsertLinkLink,
+  z.ZodTypeDef,
+  unknown
+> = z.object({
+  id: z.string(),
+  domain: z.string(),
+  key: z.string(),
+  url: z.string(),
+  trackConversion: z.boolean().default(false),
+  archived: z.boolean().default(false),
+  expiresAt: z.nullable(z.string()),
+  title: z.nullable(z.string()),
+  description: z.nullable(z.string()),
+  image: z.nullable(z.string()),
+  video: z.nullable(z.string()),
+  tagId: z.nullable(z.string()),
+  tags: z.nullable(z.array(components.TagSchema$inboundSchema)),
+  webhookIds: z.array(z.string()),
+  comments: z.nullable(z.string()),
+  shortLink: z.string(),
+  qrCode: z.string(),
+  utm_source: z.nullable(z.string()),
+  utm_medium: z.nullable(z.string()),
+  utm_campaign: z.nullable(z.string()),
+  utm_term: z.nullable(z.string()),
+  utm_content: z.nullable(z.string()),
+  userId: z.nullable(z.string()),
+  workspaceId: z.string(),
+  clicks: z.number().default(0),
+  lastClicked: z.nullable(z.string()),
+  leads: z.number().default(0),
+  createdAt: z.string(),
+  updatedAt: z.string(),
+}).transform((v) => {
+  return remap$(v, {
+    "utm_source": "utmSource",
+    "utm_medium": "utmMedium",
+    "utm_campaign": "utmCampaign",
+    "utm_term": "utmTerm",
+    "utm_content": "utmContent",
+  });
+});
+
+/** @internal */
+export type UpsertLinkLink$Outbound = {
+  id: string;
+  domain: string;
+  key: string;
+  url: string;
+  trackConversion: boolean;
+  archived: boolean;
+  expiresAt: string | null;
+  title: string | null;
+  description: string | null;
+  image: string | null;
+  video: string | null;
+  tagId: string | null;
+  tags: Array<components.TagSchema$Outbound> | null;
+  webhookIds: Array<string>;
+  comments: string | null;
+  shortLink: string;
+  qrCode: string;
+  utm_source: string | null;
+  utm_medium: string | null;
+  utm_campaign: string | null;
+  utm_term: string | null;
+  utm_content: string | null;
+  userId: string | null;
+  workspaceId: string;
+  clicks: number;
+  lastClicked: string | null;
+  leads: number;
+  createdAt: string;
+  updatedAt: string;
+};
+
+/** @internal */
+export const UpsertLinkLink$outboundSchema: z.ZodType<
+  UpsertLinkLink$Outbound,
+  z.ZodTypeDef,
+  UpsertLinkLink
+> = z.object({
+  id: z.string(),
+  domain: z.string(),
+  key: z.string(),
+  url: z.string(),
+  trackConversion: z.boolean().default(false),
+  archived: z.boolean().default(false),
+  expiresAt: z.nullable(z.string()),
+  title: z.nullable(z.string()),
+  description: z.nullable(z.string()),
+  image: z.nullable(z.string()),
+  video: z.nullable(z.string()),
+  tagId: z.nullable(z.string()),
+  tags: z.nullable(z.array(components.TagSchema$outboundSchema)),
+  webhookIds: z.array(z.string()),
+  comments: z.nullable(z.string()),
+  shortLink: z.string(),
+  qrCode: z.string(),
+  utmSource: z.nullable(z.string()),
+  utmMedium: z.nullable(z.string()),
+  utmCampaign: z.nullable(z.string()),
+  utmTerm: z.nullable(z.string()),
+  utmContent: z.nullable(z.string()),
+  userId: z.nullable(z.string()),
+  workspaceId: z.string(),
+  clicks: z.number().default(0),
+  lastClicked: z.nullable(z.string()),
+  leads: z.number().default(0),
+  createdAt: z.string(),
+  updatedAt: z.string(),
+}).transform((v) => {
+  return remap$(v, {
+    utmSource: "utm_source",
+    utmMedium: "utm_medium",
+    utmCampaign: "utm_campaign",
+    utmTerm: "utm_term",
+    utmContent: "utm_content",
+  });
+});
+
+/**
+ * @internal
+ * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
+ */
+export namespace UpsertLinkLink$ {
+  /** @deprecated use `UpsertLinkLink$inboundSchema` instead. */
+  export const inboundSchema = UpsertLinkLink$inboundSchema;
+  /** @deprecated use `UpsertLinkLink$outboundSchema` instead. */
+  export const outboundSchema = UpsertLinkLink$outboundSchema;
+  /** @deprecated use `UpsertLinkLink$Outbound` instead. */
+  export type Outbound = UpsertLinkLink$Outbound;
+}
+
+export function upsertLinkLinkToJSON(upsertLinkLink: UpsertLinkLink): string {
+  return JSON.stringify(UpsertLinkLink$outboundSchema.parse(upsertLinkLink));
+}
+
+export function upsertLinkLinkFromJSON(
+  jsonString: string,
+): SafeParseResult<UpsertLinkLink, SDKValidationError> {
+  return safeParse(
+    jsonString,
+    (x) => UpsertLinkLink$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'UpsertLinkLink' from JSON`,
   );
 }

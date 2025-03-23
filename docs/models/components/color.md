@@ -7,7 +7,7 @@ The color of the tag.
 ```typescript
 import { Color } from "pimms/models/components";
 
-let value: Color = "yellow";
+let value: Color = "brown";
 ```
 
 ## Values

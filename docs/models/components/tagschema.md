@@ -8,7 +8,7 @@ import { TagSchema } from "pimms/models/components";
 let value: TagSchema = {
   id: "<id>",
   name: "<value>",
-  color: "red",
+  color: "brown",
 };
 ```
 

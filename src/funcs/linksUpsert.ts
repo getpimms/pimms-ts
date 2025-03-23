@@ -10,7 +10,6 @@ import { safeParse } from "../lib/schemas.js";
 import { RequestOptions } from "../lib/sdks.js";
 import { extractSecurity, resolveGlobalSecurity } from "../lib/security.js";
 import { pathToFunc } from "../lib/url.js";
-import * as components from "../models/components/index.js";
 import { APIError } from "../models/errors/apierror.js";
 import {
   ConnectionError,
@@ -37,7 +36,7 @@ export function linksUpsert(
   options?: RequestOptions,
 ): APIPromise<
   Result<
-    components.LinkSchema,
+    operations.UpsertLinkLink,
     | errors.BadRequest
     | errors.Unauthorized
     | errors.Forbidden
@@ -70,7 +69,7 @@ async function $do(
 ): Promise<
   [
     Result<
-      components.LinkSchema,
+      operations.UpsertLinkLink,
       | errors.BadRequest
       | errors.Unauthorized
       | errors.Forbidden
@@ -172,7 +171,7 @@ async function $do(
   };
 
   const [result] = await M.match<
-    components.LinkSchema,
+    operations.UpsertLinkLink,
     | errors.BadRequest
     | errors.Unauthorized
     | errors.Forbidden
@@ -190,7 +189,7 @@ async function $do(
     | RequestTimeoutError
     | ConnectionError
   >(
-    M.json(200, components.LinkSchema$inboundSchema),
+    M.json(200, operations.UpsertLinkLink$inboundSchema),
     M.jsonErr(400, errors.BadRequest$inboundSchema),
     M.jsonErr(401, errors.Unauthorized$inboundSchema),
     M.jsonErr(403, errors.Forbidden$inboundSchema),

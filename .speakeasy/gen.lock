@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 68d0a527-4644-4531-8364-947c54d97e44
 management:
-  docChecksum: d6d06b21f8988f35c304107ee44ac775
+  docChecksum: 22d169225c60b0aefe834fa84946a8d5
   docVersion: 0.0.1
   speakeasyVersion: 1.523.0
   generationVersion: 2.559.0
-  releaseVersion: 0.0.8
-  configChecksum: f81d536169489c4ec6a3eceeeeaa0a2c
+  releaseVersion: 0.1.0
+  configChecksum: 254846b9ecdd02512fb6cd398d060de4
   published: true
 features:
   typescript:
@@ -20,7 +20,6 @@ features:
     envVarSecurityUsage: 0.1.2
     errors: 2.84.0
     examples: 2.81.5
-    flattening: 2.82.1
     globalSecurity: 2.82.13
     globalSecurityCallbacks: 0.1.0
     globalSecurityFlattening: 0.1.0
@@ -29,7 +28,6 @@ features:
     mcpServer: 0.9.0
     nameOverrides: 2.81.2
     nullables: 0.1.1
-    pagination: 2.83.0
     responseFormat: 0.2.3
     retries: 2.83.0
     sdkHooks: 0.2.0
@@ -45,7 +43,6 @@ generatedFiles:
   - USAGE.md
   - docs/lib/utils/retryconfig.md
   - docs/models/components/click.md
-  - docs/models/components/code.md
   - docs/models/components/color.md
   - docs/models/components/customer.md
   - docs/models/components/data.md
@@ -65,12 +62,8 @@ generatedFiles:
   - docs/models/components/linkclickedeventdata.md
   - docs/models/components/linkclickedeventevent.md
   - docs/models/components/linkclickedeventgeo.md
-  - docs/models/components/linkerrorschema.md
-  - docs/models/components/linkgeotargeting.md
   - docs/models/components/links.md
-  - docs/models/components/linkschema.md
   - docs/models/components/linkwebhookevent.md
-  - docs/models/components/linkwebhookeventgeo.md
   - docs/models/components/one.md
   - docs/models/components/partner.md
   - docs/models/components/partnercreatedevent.md
@@ -123,58 +116,20 @@ generatedFiles:
   - docs/models/errors/unprocessableentity.md
   - docs/models/errors/unprocessableentitycode.md
   - docs/models/errors/unprocessableentityerror.md
-  - docs/models/operations/bulkcreatelinkstagids.md
-  - docs/models/operations/bulkcreatelinkstagnames.md
-  - docs/models/operations/bulkdeletelinksrequest.md
-  - docs/models/operations/bulkdeletelinksresponsebody.md
-  - docs/models/operations/bulkupdatelinksrequestbody.md
-  - docs/models/operations/bulkupdatelinkstagids.md
-  - docs/models/operations/bulkupdatelinkstagnames.md
   - docs/models/operations/click.md
-  - docs/models/operations/createembedtokenrequestbody.md
-  - docs/models/operations/createembedtokenresponsebody.md
+  - docs/models/operations/createlinklink.md
   - docs/models/operations/createlinkrequestbody.md
   - docs/models/operations/customer.md
-  - docs/models/operations/data.md
-  - docs/models/operations/deletelinkrequest.md
-  - docs/models/operations/deletelinkresponsebody.md
-  - docs/models/operations/four.md
-  - docs/models/operations/getlinkinforequest.md
-  - docs/models/operations/getlinkscountqueryparamtagids.md
-  - docs/models/operations/getlinkscountqueryparamtagnames.md
-  - docs/models/operations/getlinkscountrequest.md
-  - docs/models/operations/getlinksrequest.md
-  - docs/models/operations/getlinksresponse.md
   - docs/models/operations/getqrcoderequest.md
-  - docs/models/operations/groupby.md
   - docs/models/operations/level.md
-  - docs/models/operations/one.md
-  - docs/models/operations/paymentprocessor.md
-  - docs/models/operations/queryparamtagids.md
-  - docs/models/operations/queryparamtagnames.md
-  - docs/models/operations/requestbody.md
-  - docs/models/operations/responsebody.md
-  - docs/models/operations/sale.md
-  - docs/models/operations/sort.md
-  - docs/models/operations/sortby.md
-  - docs/models/operations/sortorder.md
   - docs/models/operations/tagids.md
   - docs/models/operations/tagnames.md
-  - docs/models/operations/three.md
   - docs/models/operations/trackleadrequestbody.md
   - docs/models/operations/trackleadresponsebody.md
-  - docs/models/operations/tracksalecustomer.md
-  - docs/models/operations/tracksalerequestbody.md
-  - docs/models/operations/tracksaleresponsebody.md
-  - docs/models/operations/two.md
-  - docs/models/operations/updatelinkrequest.md
-  - docs/models/operations/updatelinkrequestbody.md
-  - docs/models/operations/updatelinktagids.md
-  - docs/models/operations/updatelinktagnames.md
+  - docs/models/operations/upsertlinklink.md
   - docs/models/operations/upsertlinkrequestbody.md
   - docs/models/operations/upsertlinktagids.md
   - docs/models/operations/upsertlinktagnames.md
-  - docs/sdks/embedtokens/README.md
   - docs/sdks/links/README.md
   - docs/sdks/pimms/README.md
   - docs/sdks/qrcodes/README.md
@@ -183,20 +138,10 @@ generatedFiles:
   - jsr.json
   - package.json
   - src/core.ts
-  - src/funcs/embedTokensCreate.ts
-  - src/funcs/linksCount.ts
   - src/funcs/linksCreate.ts
-  - src/funcs/linksCreateMany.ts
-  - src/funcs/linksDelete.ts
-  - src/funcs/linksDeleteMany.ts
-  - src/funcs/linksGet.ts
-  - src/funcs/linksList.ts
-  - src/funcs/linksUpdate.ts
-  - src/funcs/linksUpdateMany.ts
   - src/funcs/linksUpsert.ts
   - src/funcs/qrCodesGet.ts
   - src/funcs/trackLead.ts
-  - src/funcs/trackSale.ts
   - src/hooks/hooks.ts
   - src/hooks/index.ts
   - src/hooks/types.ts
@@ -230,26 +175,13 @@ generatedFiles:
   - src/mcp-server/server.ts
   - src/mcp-server/shared.ts
   - src/mcp-server/tools.ts
-  - src/mcp-server/tools/embedTokensCreate.ts
-  - src/mcp-server/tools/linksCount.ts
   - src/mcp-server/tools/linksCreate.ts
-  - src/mcp-server/tools/linksCreateMany.ts
-  - src/mcp-server/tools/linksDelete.ts
-  - src/mcp-server/tools/linksDeleteMany.ts
-  - src/mcp-server/tools/linksGet.ts
-  - src/mcp-server/tools/linksList.ts
-  - src/mcp-server/tools/linksUpdate.ts
-  - src/mcp-server/tools/linksUpdateMany.ts
   - src/mcp-server/tools/linksUpsert.ts
   - src/mcp-server/tools/qrCodesGet.ts
   - src/mcp-server/tools/trackLead.ts
-  - src/mcp-server/tools/trackSale.ts
   - src/models/components/index.ts
   - src/models/components/leadcreatedevent.ts
   - src/models/components/linkclickedevent.ts
-  - src/models/components/linkerrorschema.ts
-  - src/models/components/linkgeotargeting.ts
-  - src/models/components/linkschema.ts
   - src/models/components/linkwebhookevent.ts
   - src/models/components/partnercreatedevent.ts
   - src/models/components/salecreatedevent.ts
@@ -269,22 +201,11 @@ generatedFiles:
   - src/models/errors/sdkvalidationerror.ts
   - src/models/errors/unauthorized.ts
   - src/models/errors/unprocessableentity.ts
-  - src/models/operations/bulkcreatelinks.ts
-  - src/models/operations/bulkdeletelinks.ts
-  - src/models/operations/bulkupdatelinks.ts
-  - src/models/operations/createembedtoken.ts
   - src/models/operations/createlink.ts
-  - src/models/operations/deletelink.ts
-  - src/models/operations/getlinkinfo.ts
-  - src/models/operations/getlinks.ts
-  - src/models/operations/getlinkscount.ts
   - src/models/operations/getqrcode.ts
   - src/models/operations/index.ts
   - src/models/operations/tracklead.ts
-  - src/models/operations/tracksale.ts
-  - src/models/operations/updatelink.ts
   - src/models/operations/upsertlink.ts
-  - src/sdk/embedtokens.ts
   - src/sdk/index.ts
   - src/sdk/links.ts
   - src/sdk/qrcodes.ts
@@ -307,7 +228,7 @@ examples:
         application/json: {"url": "https://google.com", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
       responses:
         "200":
-          application/json: {"id": "<id>", "domain": "low-packaging.info", "key": "<key>", "url": "https://black-and-white-secrecy.org/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1742655363298", "expiredUrl": "https://brisk-seafood.net/", "password": "XhB9652A4R_UwKP", "proxy": false, "title": "<value>", "description": "demob fencing fencing vainly kookily", "image": "https://picsum.photos/seed/zicqIZPdCh/2719/290", "video": "https://loremflickr.com/2433/1085?lock=5492184885451890", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": [], "comments": "than rightfully brightly sleet where schedule insolence when warming when determined ouch scarcely ignorance", "shortLink": "https://incomparable-monster.net/", "qrCode": "https://mild-switchboard.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1720981496994", "updatedAt": "1742642729628", "projectId": "<id>"}
+          application/json: {"id": "<id>", "domain": "low-packaging.info", "key": "<key>", "url": "https://black-and-white-secrecy.org/", "trackConversion": false, "archived": false, "expiresAt": "1742655363298", "title": "<value>", "description": "demob fencing fencing vainly kookily", "image": "https://picsum.photos/seed/zicqIZPdCh/2719/290", "video": "https://loremflickr.com/2433/1085?lock=5492184885451890", "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "webhookIds": [], "comments": "than rightfully brightly sleet where schedule insolence when warming when determined ouch scarcely ignorance", "shortLink": "https://incomparable-monster.net/", "qrCode": "https://mild-switchboard.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1720981496994", "updatedAt": "1742642729628"}
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -547,7 +468,7 @@ examples:
         application/json: {"url": "https://google.com", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
       responses:
         "200":
-          application/json: {"id": "<id>", "domain": "neat-instruction.info", "key": "<key>", "url": "https://entire-rubric.com/", "trackConversion": false, "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "archived": false, "expiresAt": "1747286155976", "expiredUrl": "https://rubbery-lay.com/", "password": "cHWcftWRnnmyj_U", "proxy": false, "title": "<value>", "description": "likewise concerning annual instantly anti deployment", "image": "https://loremflickr.com/181/3306?lock=1275456187971812", "video": "https://picsum.videos/seed/CcMAI/2638/2080", "rewrite": false, "doIndex": false, "ios": "<value>", "android": "<id>", "geo": {}, "publicStats": false, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "red"}], "folderId": "<id>", "webhookIds": [], "comments": "clueless unless conclude daddy boohoo ideal lumpy masculinize charter geez as eulogise granny", "shortLink": "https://complicated-resource.net/", "qrCode": "https://impractical-cap.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1737040873315", "updatedAt": "1742618759531", "projectId": "<id>"}
+          application/json: {"id": "<id>", "domain": "neat-instruction.info", "key": "<key>", "url": "https://entire-rubric.com/", "trackConversion": false, "archived": false, "expiresAt": "1747286155976", "title": "<value>", "description": "likewise concerning annual instantly anti deployment", "image": "https://loremflickr.com/181/3306?lock=1275456187971812", "video": "https://picsum.videos/seed/CcMAI/2638/2080", "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "red"}], "webhookIds": [], "comments": "clueless unless conclude daddy boohoo ideal lumpy masculinize charter geez as eulogise granny", "shortLink": "https://complicated-resource.net/", "qrCode": "https://impractical-cap.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1737040873315", "updatedAt": "1742618759531"}
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -950,7 +871,7 @@ examples:
   trackLead:
     speakeasy-default-track-lead:
       requestBody:
-        application/json: {"clickId": "<id>", "eventName": "Sign up", "externalId": "", "customerId": null, "customerName": null, "customerEmail": null, "customerAvatar": null}
+        application/json: {"clickId": "<id>", "eventName": "Sign up", "customerId": null, "customerName": null, "customerEmail": null, "customerAvatar": null}
       responses:
         "200":
           application/json: {"click": {"id": "<id>"}, "customer": {"name": "<value>", "email": "Diego86@hotmail.com", "avatar": "https://picsum.photos/seed/fWwyl/1479/748", "externalId": "<id>"}}

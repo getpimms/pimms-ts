@@ -25,7 +25,6 @@ PIMMS API: PIMMS | Grow with deeplinks
   * [Authentication](#authentication)
   * [Available Resources and Operations](#available-resources-and-operations)
   * [Standalone functions](#standalone-functions)
-  * [Pagination](#pagination)
   * [Retries](#retries)
   * [Error Handling](#error-handling)
   * [Server Selection](#server-selection)
@@ -262,21 +261,9 @@ run();
 <details open>
 <summary>Available methods</summary>
 
-### [embedTokens](docs/sdks/embedtokens/README.md)
-
-* [create](docs/sdks/embedtokens/README.md#create) - Create a new embed token
-
 ### [links](docs/sdks/links/README.md)
 
 * [create](docs/sdks/links/README.md#create) - Create a new link
-* [list](docs/sdks/links/README.md#list) - Retrieve a list of links
-* [count](docs/sdks/links/README.md#count) - Retrieve links count
-* [get](docs/sdks/links/README.md#get) - Retrieve a link
-* [update](docs/sdks/links/README.md#update) - Update a link
-* [delete](docs/sdks/links/README.md#delete) - Delete a link
-* [createMany](docs/sdks/links/README.md#createmany) - Bulk create links
-* [updateMany](docs/sdks/links/README.md#updatemany) - Bulk update links
-* [deleteMany](docs/sdks/links/README.md#deletemany) - Bulk delete links
 * [upsert](docs/sdks/links/README.md#upsert) - Upsert a link
 
 
@@ -287,7 +274,6 @@ run();
 ### [track](docs/sdks/track/README.md)
 
 * [lead](docs/sdks/track/README.md#lead) - Track a lead
-* [sale](docs/sdks/track/README.md#sale) - Track a sale
 
 </details>
 <!-- End Available Resources and Operations [operations] -->
@@ -307,56 +293,13 @@ To read more about standalone functions, check [FUNCTIONS.md](./FUNCTIONS.md).
 
 <summary>Available standalone functions</summary>
 
-- [`embedTokensCreate`](docs/sdks/embedtokens/README.md#create) - Create a new embed token
-- [`linksCount`](docs/sdks/links/README.md#count) - Retrieve links count
 - [`linksCreate`](docs/sdks/links/README.md#create) - Create a new link
-- [`linksCreateMany`](docs/sdks/links/README.md#createmany) - Bulk create links
-- [`linksDelete`](docs/sdks/links/README.md#delete) - Delete a link
-- [`linksDeleteMany`](docs/sdks/links/README.md#deletemany) - Bulk delete links
-- [`linksGet`](docs/sdks/links/README.md#get) - Retrieve a link
-- [`linksList`](docs/sdks/links/README.md#list) - Retrieve a list of links
-- [`linksUpdate`](docs/sdks/links/README.md#update) - Update a link
-- [`linksUpdateMany`](docs/sdks/links/README.md#updatemany) - Bulk update links
 - [`linksUpsert`](docs/sdks/links/README.md#upsert) - Upsert a link
 - [`qrCodesGet`](docs/sdks/qrcodes/README.md#get) - Retrieve a QR code
 - [`trackLead`](docs/sdks/track/README.md#lead) - Track a lead
-- [`trackSale`](docs/sdks/track/README.md#sale) - Track a sale
 
 </details>
 <!-- End Standalone functions [standalone-funcs] -->
-
-<!-- Start Pagination [pagination] -->
-## Pagination
-
-Some of the endpoints in this SDK support pagination. To use pagination, you
-make your SDK calls as usual, but the returned response object will also be an
-async iterable that can be consumed using the [`for await...of`][for-await-of]
-syntax.
-
-[for-await-of]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of
-
-Here's an example of one such pagination call:
-
-```typescript
-import { Pimms } from "pimms";
-
-const pimms = new Pimms({
-  token: "PIMMS_API_KEY",
-});
-
-async function run() {
-  const result = await pimms.links.list({});
-
-  for await (const page of result) {
-    // Handle the page
-    console.log(page);
-  }
-}
-
-run();
-
-```
-<!-- End Pagination [pagination] -->
 
 <!-- Start Retries [retries] -->
 ## Retries

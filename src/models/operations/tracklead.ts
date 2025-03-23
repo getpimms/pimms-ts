@@ -18,10 +18,6 @@ export type TrackLeadRequestBody = {
   eventName: string;
   /**
    * This is the unique identifier for the customer in the client's app. This is used to track the customer's journey.
-   */
-  externalId?: string | undefined;
-  /**
-   * This is the unique identifier for the customer in the client's app. This is used to track the customer's journey.
    *
    * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
    */
@@ -71,7 +67,6 @@ export const TrackLeadRequestBody$inboundSchema: z.ZodType<
 > = z.object({
   clickId: z.string(),
   eventName: z.string(),
-  externalId: z.string().default(""),
   customerId: z.nullable(z.string()).default(null),
   customerName: z.nullable(z.string()).default(null),
   customerEmail: z.nullable(z.string()).default(null),
@@ -83,7 +78,6 @@ export const TrackLeadRequestBody$inboundSchema: z.ZodType<
 export type TrackLeadRequestBody$Outbound = {
   clickId: string;
   eventName: string;
-  externalId: string;
   customerId: string | null;
   customerName: string | null;
   customerEmail: string | null;
@@ -99,7 +93,6 @@ export const TrackLeadRequestBody$outboundSchema: z.ZodType<
 > = z.object({
   clickId: z.string(),
   eventName: z.string(),
-  externalId: z.string().default(""),
   customerId: z.nullable(z.string()).default(null),
   customerName: z.nullable(z.string()).default(null),
   customerEmail: z.nullable(z.string()).default(null),

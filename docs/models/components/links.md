@@ -7,10 +7,10 @@ import { Links } from "pimms/models/components";
 
 let value: Links = {
   id: "<id>",
-  domain: "fixed-valentine.name",
+  domain: "crushing-moment.net",
   key: "<key>",
-  shortLink: "https://brown-unit.net",
-  url: "https://cloudy-complication.info",
+  shortLink: "https://frequent-gripper.biz",
+  url: "https://superficial-sand.com",
 };
 ```
 

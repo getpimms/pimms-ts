@@ -13,20 +13,10 @@ import {
 } from "./resources.js";
 import { MCPScope, mcpScopes } from "./scopes.js";
 import { createRegisterTool } from "./tools.js";
-import { tool$embedTokensCreate } from "./tools/embedTokensCreate.js";
-import { tool$linksCount } from "./tools/linksCount.js";
 import { tool$linksCreate } from "./tools/linksCreate.js";
-import { tool$linksCreateMany } from "./tools/linksCreateMany.js";
-import { tool$linksDelete } from "./tools/linksDelete.js";
-import { tool$linksDeleteMany } from "./tools/linksDeleteMany.js";
-import { tool$linksGet } from "./tools/linksGet.js";
-import { tool$linksList } from "./tools/linksList.js";
-import { tool$linksUpdate } from "./tools/linksUpdate.js";
-import { tool$linksUpdateMany } from "./tools/linksUpdateMany.js";
 import { tool$linksUpsert } from "./tools/linksUpsert.js";
 import { tool$qrCodesGet } from "./tools/qrCodesGet.js";
 import { tool$trackLead } from "./tools/trackLead.js";
-import { tool$trackSale } from "./tools/trackSale.js";
 
 export function createMCPServer(deps: {
   logger: ConsoleLogger;
@@ -38,7 +28,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Pimms",
-    version: "0.0.8",
+    version: "0.1.0",
   });
 
   const client = new PimmsCore({
@@ -69,18 +59,8 @@ export function createMCPServer(deps: {
   void register; // suppress unused warnings
 
   tool(tool$linksCreate);
-  tool(tool$linksList);
-  tool(tool$linksCount);
-  tool(tool$linksGet);
-  tool(tool$linksUpdate);
-  tool(tool$linksDelete);
-  tool(tool$linksCreateMany);
-  tool(tool$linksUpdateMany);
-  tool(tool$linksDeleteMany);
   tool(tool$linksUpsert);
   tool(tool$trackLead);
-  tool(tool$trackSale);
-  tool(tool$embedTokensCreate);
   tool(tool$qrCodesGet);
 
   return server;

@@ -8,7 +8,7 @@ import { Partner } from "pimms/models/components";
 let value: Partner = {
   id: "<id>",
   name: "<value>",
-  email: "Keenan38@hotmail.com",
+  email: "Florine.Gulgowski@hotmail.com",
 };
 ```
 

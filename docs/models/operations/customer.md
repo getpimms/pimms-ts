@@ -7,8 +7,8 @@ import { Customer } from "pimms/models/operations";
 
 let value: Customer = {
   name: "<value>",
-  email: "Ruben89@gmail.com",
-  avatar: "https://picsum.photos/seed/Nimcsp5f/461/2660",
+  email: "Kira_Upton@hotmail.com",
+  avatar: "https://loremflickr.com/1594/251?lock=2330018934499642",
   externalId: "<id>",
 };
 ```

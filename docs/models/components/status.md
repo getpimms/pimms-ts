@@ -5,7 +5,7 @@
 ```typescript
 import { Status } from "pimms/models/components";
 
-let value: Status = "rejected";
+let value: Status = "pending";
 ```
 
 ## Values

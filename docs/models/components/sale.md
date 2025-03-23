@@ -6,8 +6,8 @@
 import { Sale } from "pimms/models/components";
 
 let value: Sale = {
-  amount: 1997.04,
-  currency: "Rupiah",
+  amount: 8121.86,
+  currency: "Syrian Pound",
   paymentProcessor: "<value>",
   invoiceId: "<id>",
 };
