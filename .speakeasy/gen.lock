@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 68d0a527-4644-4531-8364-947c54d97e44
 management:
-  docChecksum: 22d169225c60b0aefe834fa84946a8d5
+  docChecksum: 96db4ecdb444a98d103bf4148d72b767
   docVersion: 0.0.1
   speakeasyVersion: 1.523.0
   generationVersion: 2.559.0
-  releaseVersion: 0.1.0
-  configChecksum: 254846b9ecdd02512fb6cd398d060de4
+  releaseVersion: 0.2.0
+  configChecksum: 2182389f971be3545a28dd0e42fd8c60
   published: true
 features:
   typescript:
@@ -24,7 +24,6 @@ features:
     globalSecurityCallbacks: 0.1.0
     globalSecurityFlattening: 0.1.0
     globalServerURLs: 2.82.4
-    includes: 2.81.1
     mcpServer: 0.9.0
     nameOverrides: 2.81.2
     nullables: 0.1.1
@@ -42,53 +41,7 @@ generatedFiles:
   - RUNTIMES.md
   - USAGE.md
   - docs/lib/utils/retryconfig.md
-  - docs/models/components/click.md
-  - docs/models/components/color.md
-  - docs/models/components/customer.md
-  - docs/models/components/data.md
-  - docs/models/components/discount.md
-  - docs/models/components/event.md
-  - docs/models/components/geo.md
-  - docs/models/components/interval.md
-  - docs/models/components/leadcreatedevent.md
-  - docs/models/components/leadcreatedeventclick.md
-  - docs/models/components/leadcreatedeventdata.md
-  - docs/models/components/leadcreatedeventdatalink.md
-  - docs/models/components/leadcreatedeventevent.md
-  - docs/models/components/leadcreatedeventgeo.md
-  - docs/models/components/leadcreatedeventlink.md
-  - docs/models/components/link.md
-  - docs/models/components/linkclickedevent.md
-  - docs/models/components/linkclickedeventdata.md
-  - docs/models/components/linkclickedeventevent.md
-  - docs/models/components/linkclickedeventgeo.md
-  - docs/models/components/links.md
-  - docs/models/components/linkwebhookevent.md
-  - docs/models/components/one.md
-  - docs/models/components/partner.md
-  - docs/models/components/partnercreatedevent.md
-  - docs/models/components/partnercreatedeventdata.md
-  - docs/models/components/partnercreatedeventevent.md
-  - docs/models/components/sale.md
-  - docs/models/components/salecreatedevent.md
-  - docs/models/components/salecreatedeventclick.md
-  - docs/models/components/salecreatedeventcustomer.md
-  - docs/models/components/salecreatedeventdata.md
-  - docs/models/components/salecreatedeventdatalink.md
-  - docs/models/components/salecreatedeventdiscount.md
-  - docs/models/components/salecreatedeventevent.md
-  - docs/models/components/salecreatedeventgeo.md
-  - docs/models/components/salecreatedeventinterval.md
-  - docs/models/components/salecreatedeventlink.md
-  - docs/models/components/salecreatedeventpartner.md
-  - docs/models/components/salecreatedeventtype.md
   - docs/models/components/security.md
-  - docs/models/components/status.md
-  - docs/models/components/tagschema.md
-  - docs/models/components/three.md
-  - docs/models/components/two.md
-  - docs/models/components/type.md
-  - docs/models/components/webhookevent.md
   - docs/models/errors/badrequest.md
   - docs/models/errors/code.md
   - docs/models/errors/conflict.md
@@ -117,17 +70,21 @@ generatedFiles:
   - docs/models/errors/unprocessableentitycode.md
   - docs/models/errors/unprocessableentityerror.md
   - docs/models/operations/click.md
+  - docs/models/operations/color.md
   - docs/models/operations/createlinklink.md
   - docs/models/operations/createlinkrequestbody.md
   - docs/models/operations/customer.md
   - docs/models/operations/getqrcoderequest.md
   - docs/models/operations/level.md
+  - docs/models/operations/tag.md
   - docs/models/operations/tagids.md
   - docs/models/operations/tagnames.md
   - docs/models/operations/trackleadrequestbody.md
   - docs/models/operations/trackleadresponsebody.md
+  - docs/models/operations/upsertlinkcolor.md
   - docs/models/operations/upsertlinklink.md
   - docs/models/operations/upsertlinkrequestbody.md
+  - docs/models/operations/upsertlinktag.md
   - docs/models/operations/upsertlinktagids.md
   - docs/models/operations/upsertlinktagnames.md
   - docs/sdks/links/README.md
@@ -180,14 +137,7 @@ generatedFiles:
   - src/mcp-server/tools/qrCodesGet.ts
   - src/mcp-server/tools/trackLead.ts
   - src/models/components/index.ts
-  - src/models/components/leadcreatedevent.ts
-  - src/models/components/linkclickedevent.ts
-  - src/models/components/linkwebhookevent.ts
-  - src/models/components/partnercreatedevent.ts
-  - src/models/components/salecreatedevent.ts
   - src/models/components/security.ts
-  - src/models/components/tagschema.ts
-  - src/models/components/webhookevent.ts
   - src/models/errors/apierror.ts
   - src/models/errors/badrequest.ts
   - src/models/errors/conflict.ts
@@ -228,7 +178,7 @@ examples:
         application/json: {"url": "https://google.com", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
       responses:
         "200":
-          application/json: {"id": "<id>", "domain": "low-packaging.info", "key": "<key>", "url": "https://black-and-white-secrecy.org/", "trackConversion": false, "archived": false, "expiresAt": "1742655363298", "title": "<value>", "description": "demob fencing fencing vainly kookily", "image": "https://picsum.photos/seed/zicqIZPdCh/2719/290", "video": "https://loremflickr.com/2433/1085?lock=5492184885451890", "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "webhookIds": [], "comments": "than rightfully brightly sleet where schedule insolence when warming when determined ouch scarcely ignorance", "shortLink": "https://incomparable-monster.net/", "qrCode": "https://mild-switchboard.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1720981496994", "updatedAt": "1742642729628"}
+          application/json: {"id": "<id>", "domain": "low-packaging.info", "key": "<key>", "url": "https://black-and-white-secrecy.org/", "trackConversion": false, "archived": false, "expiresAt": "1742655363298", "title": "<value>", "description": "demob fencing fencing vainly kookily", "image": "https://picsum.photos/seed/zicqIZPdCh/2719/290", "video": "https://loremflickr.com/2433/1085?lock=5492184885451890", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "webhookIds": [], "comments": "than rightfully brightly sleet where schedule insolence when warming when determined ouch scarcely ignorance", "shortLink": "https://incomparable-monster.net/", "qrCode": "https://mild-switchboard.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1720981496994", "updatedAt": "1742642729628"}
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -468,7 +418,7 @@ examples:
         application/json: {"url": "https://google.com", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
       responses:
         "200":
-          application/json: {"id": "<id>", "domain": "neat-instruction.info", "key": "<key>", "url": "https://entire-rubric.com/", "trackConversion": false, "archived": false, "expiresAt": "1747286155976", "title": "<value>", "description": "likewise concerning annual instantly anti deployment", "image": "https://loremflickr.com/181/3306?lock=1275456187971812", "video": "https://picsum.videos/seed/CcMAI/2638/2080", "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "red"}], "webhookIds": [], "comments": "clueless unless conclude daddy boohoo ideal lumpy masculinize charter geez as eulogise granny", "shortLink": "https://complicated-resource.net/", "qrCode": "https://impractical-cap.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1737040873315", "updatedAt": "1742618759531"}
+          application/json: {"id": "<id>", "domain": "neat-instruction.info", "key": "<key>", "url": "https://entire-rubric.com/", "trackConversion": false, "archived": false, "expiresAt": "1747286155976", "title": "<value>", "description": "likewise concerning annual instantly anti deployment", "image": "https://loremflickr.com/181/3306?lock=1275456187971812", "video": "https://picsum.videos/seed/CcMAI/2638/2080", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "red"}], "webhookIds": [], "comments": "clueless unless conclude daddy boohoo ideal lumpy masculinize charter geez as eulogise granny", "shortLink": "https://complicated-resource.net/", "qrCode": "https://impractical-cap.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1737040873315", "updatedAt": "1742618759531"}
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -871,7 +821,7 @@ examples:
   trackLead:
     speakeasy-default-track-lead:
       requestBody:
-        application/json: {"clickId": "<id>", "eventName": "Sign up", "customerId": null, "customerName": null, "customerEmail": null, "customerAvatar": null}
+        application/json: {"clickId": "<id>", "eventName": "Sign up", "externalId": "", "customerName": null, "customerEmail": null, "customerAvatar": null}
       responses:
         "200":
           application/json: {"click": {"id": "<id>"}, "customer": {"name": "<value>", "email": "Diego86@hotmail.com", "avatar": "https://picsum.photos/seed/fWwyl/1479/748", "externalId": "<id>"}}

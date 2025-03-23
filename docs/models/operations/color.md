@@ -5,9 +5,9 @@ The color of the tag.
 ## Example Usage
 
 ```typescript
-import { Color } from "pimms/models/components";
+import { Color } from "pimms/models/operations";
 
-let value: Color = "brown";
+let value: Color = "blue";
 ```
 
 ## Values

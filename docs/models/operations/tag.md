@@ -1,14 +1,14 @@
-# TagSchema
+# Tag
 
 ## Example Usage
 
 ```typescript
-import { TagSchema } from "pimms/models/components";
+import { Tag } from "pimms/models/operations";
 
-let value: TagSchema = {
+let value: Tag = {
   id: "<id>",
   name: "<value>",
-  color: "brown",
+  color: "pink",
 };
 ```
 
@@ -18,4 +18,4 @@ let value: TagSchema = {
 | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
 | `id`                                                 | *string*                                             | :heavy_check_mark:                                   | The unique ID of the tag.                            |
 | `name`                                               | *string*                                             | :heavy_check_mark:                                   | The name of the tag.                                 |
-| `color`                                              | [components.Color](../../models/components/color.md) | :heavy_check_mark:                                   | The color of the tag.                                |
+| `color`                                              | [operations.Color](../../models/operations/color.md) | :heavy_check_mark:                                   | The color of the tag.                                |

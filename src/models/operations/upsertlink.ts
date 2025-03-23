@@ -5,8 +5,8 @@
 import * as z from "zod";
 import { remap as remap$ } from "../../lib/primitives.js";
 import { safeParse } from "../../lib/schemas.js";
+import { ClosedEnum } from "../../types/enums.js";
 import { Result as SafeParseResult } from "../../types/fp.js";
-import * as components from "../components/index.js";
 import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 
 /**
@@ -125,6 +125,38 @@ export type UpsertLinkRequestBody = {
 };
 
 /**
+ * The color of the tag.
+ */
+export const UpsertLinkColor = {
+  Red: "red",
+  Yellow: "yellow",
+  Green: "green",
+  Blue: "blue",
+  Purple: "purple",
+  Pink: "pink",
+  Brown: "brown",
+} as const;
+/**
+ * The color of the tag.
+ */
+export type UpsertLinkColor = ClosedEnum<typeof UpsertLinkColor>;
+
+export type UpsertLinkTag = {
+  /**
+   * The unique ID of the tag.
+   */
+  id: string;
+  /**
+   * The name of the tag.
+   */
+  name: string;
+  /**
+   * The color of the tag.
+   */
+  color: UpsertLinkColor;
+};
+
+/**
  * The upserted link
  */
 export type UpsertLinkLink = {
@@ -173,15 +205,9 @@ export type UpsertLinkLink = {
    */
   video: string | null;
   /**
-   * The unique ID of the tag assigned to the short link. This field is deprecated – use `tags` instead.
-   *
-   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
-   */
-  tagId: string | null;
-  /**
    * The tags assigned to the short link.
    */
-  tags: Array<components.TagSchema> | null;
+  tags: Array<UpsertLinkTag> | null;
   /**
    * The IDs of the webhooks that the short link is associated with.
    */
@@ -487,6 +513,83 @@ export function upsertLinkRequestBodyFromJSON(
 }
 
 /** @internal */
+export const UpsertLinkColor$inboundSchema: z.ZodNativeEnum<
+  typeof UpsertLinkColor
+> = z.nativeEnum(UpsertLinkColor);
+
+/** @internal */
+export const UpsertLinkColor$outboundSchema: z.ZodNativeEnum<
+  typeof UpsertLinkColor
+> = UpsertLinkColor$inboundSchema;
+
+/**
+ * @internal
+ * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
+ */
+export namespace UpsertLinkColor$ {
+  /** @deprecated use `UpsertLinkColor$inboundSchema` instead. */
+  export const inboundSchema = UpsertLinkColor$inboundSchema;
+  /** @deprecated use `UpsertLinkColor$outboundSchema` instead. */
+  export const outboundSchema = UpsertLinkColor$outboundSchema;
+}
+
+/** @internal */
+export const UpsertLinkTag$inboundSchema: z.ZodType<
+  UpsertLinkTag,
+  z.ZodTypeDef,
+  unknown
+> = z.object({
+  id: z.string(),
+  name: z.string(),
+  color: UpsertLinkColor$inboundSchema,
+});
+
+/** @internal */
+export type UpsertLinkTag$Outbound = {
+  id: string;
+  name: string;
+  color: string;
+};
+
+/** @internal */
+export const UpsertLinkTag$outboundSchema: z.ZodType<
+  UpsertLinkTag$Outbound,
+  z.ZodTypeDef,
+  UpsertLinkTag
+> = z.object({
+  id: z.string(),
+  name: z.string(),
+  color: UpsertLinkColor$outboundSchema,
+});
+
+/**
+ * @internal
+ * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
+ */
+export namespace UpsertLinkTag$ {
+  /** @deprecated use `UpsertLinkTag$inboundSchema` instead. */
+  export const inboundSchema = UpsertLinkTag$inboundSchema;
+  /** @deprecated use `UpsertLinkTag$outboundSchema` instead. */
+  export const outboundSchema = UpsertLinkTag$outboundSchema;
+  /** @deprecated use `UpsertLinkTag$Outbound` instead. */
+  export type Outbound = UpsertLinkTag$Outbound;
+}
+
+export function upsertLinkTagToJSON(upsertLinkTag: UpsertLinkTag): string {
+  return JSON.stringify(UpsertLinkTag$outboundSchema.parse(upsertLinkTag));
+}
+
+export function upsertLinkTagFromJSON(
+  jsonString: string,
+): SafeParseResult<UpsertLinkTag, SDKValidationError> {
+  return safeParse(
+    jsonString,
+    (x) => UpsertLinkTag$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'UpsertLinkTag' from JSON`,
+  );
+}
+
+/** @internal */
 export const UpsertLinkLink$inboundSchema: z.ZodType<
   UpsertLinkLink,
   z.ZodTypeDef,
@@ -503,8 +606,7 @@ export const UpsertLinkLink$inboundSchema: z.ZodType<
   description: z.nullable(z.string()),
   image: z.nullable(z.string()),
   video: z.nullable(z.string()),
-  tagId: z.nullable(z.string()),
-  tags: z.nullable(z.array(components.TagSchema$inboundSchema)),
+  tags: z.nullable(z.array(z.lazy(() => UpsertLinkTag$inboundSchema))),
   webhookIds: z.array(z.string()),
   comments: z.nullable(z.string()),
   shortLink: z.string(),
@@ -544,8 +646,7 @@ export type UpsertLinkLink$Outbound = {
   description: string | null;
   image: string | null;
   video: string | null;
-  tagId: string | null;
-  tags: Array<components.TagSchema$Outbound> | null;
+  tags: Array<UpsertLinkTag$Outbound> | null;
   webhookIds: Array<string>;
   comments: string | null;
   shortLink: string;
@@ -581,8 +682,7 @@ export const UpsertLinkLink$outboundSchema: z.ZodType<
   description: z.nullable(z.string()),
   image: z.nullable(z.string()),
   video: z.nullable(z.string()),
-  tagId: z.nullable(z.string()),
-  tags: z.nullable(z.array(components.TagSchema$outboundSchema)),
+  tags: z.nullable(z.array(z.lazy(() => UpsertLinkTag$outboundSchema))),
   webhookIds: z.array(z.string()),
   comments: z.nullable(z.string()),
   shortLink: z.string(),

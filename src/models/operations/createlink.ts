@@ -5,8 +5,8 @@
 import * as z from "zod";
 import { remap as remap$ } from "../../lib/primitives.js";
 import { safeParse } from "../../lib/schemas.js";
+import { ClosedEnum } from "../../types/enums.js";
 import { Result as SafeParseResult } from "../../types/fp.js";
-import * as components from "../components/index.js";
 import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 
 /**
@@ -125,6 +125,38 @@ export type CreateLinkRequestBody = {
 };
 
 /**
+ * The color of the tag.
+ */
+export const Color = {
+  Red: "red",
+  Yellow: "yellow",
+  Green: "green",
+  Blue: "blue",
+  Purple: "purple",
+  Pink: "pink",
+  Brown: "brown",
+} as const;
+/**
+ * The color of the tag.
+ */
+export type Color = ClosedEnum<typeof Color>;
+
+export type Tag = {
+  /**
+   * The unique ID of the tag.
+   */
+  id: string;
+  /**
+   * The name of the tag.
+   */
+  name: string;
+  /**
+   * The color of the tag.
+   */
+  color: Color;
+};
+
+/**
  * The created link
  */
 export type CreateLinkLink = {
@@ -173,15 +205,9 @@ export type CreateLinkLink = {
    */
   video: string | null;
   /**
-   * The unique ID of the tag assigned to the short link. This field is deprecated – use `tags` instead.
-   *
-   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
-   */
-  tagId: string | null;
-  /**
    * The tags assigned to the short link.
    */
-  tags: Array<components.TagSchema> | null;
+  tags: Array<Tag> | null;
   /**
    * The IDs of the webhooks that the short link is associated with.
    */
@@ -476,6 +502,76 @@ export function createLinkRequestBodyFromJSON(
 }
 
 /** @internal */
+export const Color$inboundSchema: z.ZodNativeEnum<typeof Color> = z.nativeEnum(
+  Color,
+);
+
+/** @internal */
+export const Color$outboundSchema: z.ZodNativeEnum<typeof Color> =
+  Color$inboundSchema;
+
+/**
+ * @internal
+ * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
+ */
+export namespace Color$ {
+  /** @deprecated use `Color$inboundSchema` instead. */
+  export const inboundSchema = Color$inboundSchema;
+  /** @deprecated use `Color$outboundSchema` instead. */
+  export const outboundSchema = Color$outboundSchema;
+}
+
+/** @internal */
+export const Tag$inboundSchema: z.ZodType<Tag, z.ZodTypeDef, unknown> = z
+  .object({
+    id: z.string(),
+    name: z.string(),
+    color: Color$inboundSchema,
+  });
+
+/** @internal */
+export type Tag$Outbound = {
+  id: string;
+  name: string;
+  color: string;
+};
+
+/** @internal */
+export const Tag$outboundSchema: z.ZodType<Tag$Outbound, z.ZodTypeDef, Tag> = z
+  .object({
+    id: z.string(),
+    name: z.string(),
+    color: Color$outboundSchema,
+  });
+
+/**
+ * @internal
+ * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
+ */
+export namespace Tag$ {
+  /** @deprecated use `Tag$inboundSchema` instead. */
+  export const inboundSchema = Tag$inboundSchema;
+  /** @deprecated use `Tag$outboundSchema` instead. */
+  export const outboundSchema = Tag$outboundSchema;
+  /** @deprecated use `Tag$Outbound` instead. */
+  export type Outbound = Tag$Outbound;
+}
+
+export function tagToJSON(tag: Tag): string {
+  return JSON.stringify(Tag$outboundSchema.parse(tag));
+}
+
+export function tagFromJSON(
+  jsonString: string,
+): SafeParseResult<Tag, SDKValidationError> {
+  return safeParse(
+    jsonString,
+    (x) => Tag$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'Tag' from JSON`,
+  );
+}
+
+/** @internal */
 export const CreateLinkLink$inboundSchema: z.ZodType<
   CreateLinkLink,
   z.ZodTypeDef,
@@ -492,8 +588,7 @@ export const CreateLinkLink$inboundSchema: z.ZodType<
   description: z.nullable(z.string()),
   image: z.nullable(z.string()),
   video: z.nullable(z.string()),
-  tagId: z.nullable(z.string()),
-  tags: z.nullable(z.array(components.TagSchema$inboundSchema)),
+  tags: z.nullable(z.array(z.lazy(() => Tag$inboundSchema))),
   webhookIds: z.array(z.string()),
   comments: z.nullable(z.string()),
   shortLink: z.string(),
@@ -533,8 +628,7 @@ export type CreateLinkLink$Outbound = {
   description: string | null;
   image: string | null;
   video: string | null;
-  tagId: string | null;
-  tags: Array<components.TagSchema$Outbound> | null;
+  tags: Array<Tag$Outbound> | null;
   webhookIds: Array<string>;
   comments: string | null;
   shortLink: string;
@@ -570,8 +664,7 @@ export const CreateLinkLink$outboundSchema: z.ZodType<
   description: z.nullable(z.string()),
   image: z.nullable(z.string()),
   video: z.nullable(z.string()),
-  tagId: z.nullable(z.string()),
-  tags: z.nullable(z.array(components.TagSchema$outboundSchema)),
+  tags: z.nullable(z.array(z.lazy(() => Tag$outboundSchema))),
   webhookIds: z.array(z.string()),
   comments: z.nullable(z.string()),
   shortLink: z.string(),
