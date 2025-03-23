@@ -1,6 +1,6 @@
 # UpsertLinkTagNames
 
-The unique name of the tags assigned to the short link (case insensitive).
+New or existing tag names to assign for improved readability and organization.
 
 
 ## Supported Types

@@ -176,7 +176,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.links.create({
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",
@@ -202,7 +202,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.links.upsert({
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",
@@ -239,7 +239,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.links.create({
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",
@@ -316,7 +316,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.links.create({
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",
@@ -362,7 +362,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.links.create({
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",
@@ -421,7 +421,7 @@ async function run() {
   let result;
   try {
     result = await pimms.links.create({
-      url: "https://google.com",
+      url: "https://pimms.io",
       externalId: "123456",
       tagIds: [
         "clux0rgak00011...",
@@ -526,7 +526,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.links.create({
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",

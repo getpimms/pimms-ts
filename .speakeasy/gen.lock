@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 68d0a527-4644-4531-8364-947c54d97e44
 management:
-  docChecksum: 96db4ecdb444a98d103bf4148d72b767
+  docChecksum: 628895b6f7832dbadd429e554dd25c2f
   docVersion: 0.0.1
   speakeasyVersion: 1.523.0
   generationVersion: 2.559.0
-  releaseVersion: 0.2.0
-  configChecksum: 2182389f971be3545a28dd0e42fd8c60
+  releaseVersion: 0.3.0
+  configChecksum: 6b341431524f8279f66386de19c42b4c
   published: true
 features:
   typescript:
@@ -14,7 +14,6 @@ features:
     constsAndDefaults: 0.1.11
     core: 3.21.4
     defaultEnabledRetries: 0.1.0
-    deprecations: 2.81.1
     devContainers: 2.90.0
     enumUnions: 0.1.0
     envVarSecurityUsage: 0.1.2
@@ -175,7 +174,7 @@ examples:
   createLink:
     speakeasy-default-create-link:
       requestBody:
-        application/json: {"url": "https://google.com", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
+        application/json: {"url": "https://pimms.io", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
       responses:
         "200":
           application/json: {"id": "<id>", "domain": "low-packaging.info", "key": "<key>", "url": "https://black-and-white-secrecy.org/", "trackConversion": false, "archived": false, "expiresAt": "1742655363298", "title": "<value>", "description": "demob fencing fencing vainly kookily", "image": "https://picsum.photos/seed/zicqIZPdCh/2719/290", "video": "https://loremflickr.com/2433/1085?lock=5492184885451890", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "webhookIds": [], "comments": "than rightfully brightly sleet where schedule insolence when warming when determined ouch scarcely ignorance", "shortLink": "https://incomparable-monster.net/", "qrCode": "https://mild-switchboard.info/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1720981496994", "updatedAt": "1742642729628"}
@@ -415,7 +414,7 @@ examples:
   upsertLink:
     speakeasy-default-upsert-link:
       requestBody:
-        application/json: {"url": "https://google.com", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
+        application/json: {"url": "https://pimms.io", "externalId": "123456", "tagIds": ["clux0rgak00011..."]}
       responses:
         "200":
           application/json: {"id": "<id>", "domain": "neat-instruction.info", "key": "<key>", "url": "https://entire-rubric.com/", "trackConversion": false, "archived": false, "expiresAt": "1747286155976", "title": "<value>", "description": "likewise concerning annual instantly anti deployment", "image": "https://loremflickr.com/181/3306?lock=1275456187971812", "video": "https://picsum.videos/seed/CcMAI/2638/2080", "tags": [{"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "purple"}, {"id": "<id>", "name": "<value>", "color": "red"}], "webhookIds": [], "comments": "clueless unless conclude daddy boohoo ideal lumpy masculinize charter geez as eulogise granny", "shortLink": "https://complicated-resource.net/", "qrCode": "https://impractical-cap.net", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "createdAt": "1737040873315", "updatedAt": "1742618759531"}

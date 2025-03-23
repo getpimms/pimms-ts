@@ -1,6 +1,6 @@
 # TagIds
 
-The unique IDs of the tags assigned to the short link.
+List of existing tag IDs to categorize and filter links by campaigns, audiences, or purposes.
 
 
 ## Supported Types

@@ -15,9 +15,9 @@ let value: Customer = {
 
 ## Fields
 
-| Field              | Type               | Required           | Description        |
-| ------------------ | ------------------ | ------------------ | ------------------ |
-| `name`             | *string*           | :heavy_check_mark: | N/A                |
-| `email`            | *string*           | :heavy_check_mark: | N/A                |
-| `avatar`           | *string*           | :heavy_check_mark: | N/A                |
-| `externalId`       | *string*           | :heavy_check_mark: | N/A                |
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `name`                                                                                  | *string*                                                                                | :heavy_check_mark:                                                                      | Customer name provided during the lead event.                                           |
+| `email`                                                                                 | *string*                                                                                | :heavy_check_mark:                                                                      | Customer email provided during the lead event.                                          |
+| `avatar`                                                                                | *string*                                                                                | :heavy_check_mark:                                                                      | Customer avatar URL provided during the lead event.                                     |
+| `externalId`                                                                            | *string*                                                                                | :heavy_check_mark:                                                                      | External ID from your internal database linking this lead to your own customer records. |

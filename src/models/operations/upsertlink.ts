@@ -10,116 +10,110 @@ import { Result as SafeParseResult } from "../../types/fp.js";
 import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 
 /**
- * The unique IDs of the tags assigned to the short link.
+ * List of existing tag IDs to categorize and filter links by campaigns, audiences, or purposes.
  */
 export type UpsertLinkTagIds = string | Array<string>;
 
 /**
- * The unique name of the tags assigned to the short link (case insensitive).
+ * New or existing tag names to assign for improved readability and organization.
  */
 export type UpsertLinkTagNames = string | Array<string>;
 
 export type UpsertLinkRequestBody = {
   /**
-   * The destination URL of the short link.
+   * Destination URL the deep link redirects to. Supports standard webpages and in-app routing for mobile apps.
    */
   url: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
+   * Custom domain for your branded deep link. Defaults to the workspace’s primary domain or 'pim.ms'.
    */
   domain?: string | undefined;
   /**
-   * The short link slug. If not provided, a random 7-character slug will be generated.
+   * Custom slug for the short URL. If omitted, an automatic 7-character key is generated.
    */
   key?: string | undefined;
   /**
-   * The ID of the link in your database. If set, it can be used to identify the link in future API requests (must be prefixed with 'ext_' when passed as a query parameter). This key is unique across your workspace.
+   * External identifier for syncing link data with your internal CRM or analytics tools. Passed in query parameters prefixed by 'ext_'.
    */
   externalId?: string | null | undefined;
   /**
-   * The prefix of the short link slug for randomly-generated keys (e.g. if prefix is `/c/`, generated keys will be in the `/c/:key` format). Will be ignored if `key` is provided.
+   * Custom URL path prefix for grouping auto-generated slugs (e.g., '/promo/' resulting in '/promo/abc123'). Ignored if 'key' is specified.
    */
   prefix?: string | undefined;
   /**
-   * Whether to track conversions for the short link. Defaults to `false` if not provided.
+   * Enable detailed conversion tracking to attribute actions like signups or purchases directly to this link.
    */
   trackConversion?: boolean | undefined;
   /**
-   * Whether the short link is archived. Defaults to `false` if not provided.
+   * Archive the link to hide it from primary analytics while keeping it active for redirects.
    */
   archived?: boolean | undefined;
   /**
-   * The unique ID of the tag assigned to the short link. This field is deprecated – use `tagIds` instead.
-   *
-   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
-   */
-  tagId?: string | null | undefined;
-  /**
-   * The unique IDs of the tags assigned to the short link.
+   * List of existing tag IDs to categorize and filter links by campaigns, audiences, or purposes.
    */
   tagIds?: string | Array<string> | undefined;
   /**
-   * The unique name of the tags assigned to the short link (case insensitive).
+   * New or existing tag names to assign for improved readability and organization.
    */
   tagNames?: string | Array<string> | undefined;
   /**
-   * The comments for the short link.
+   * Internal notes for team members about link context, purpose, or specific campaign details.
    */
   comments?: string | null | undefined;
   /**
-   * The date and time when the short link will expire at.
+   * ISO 8601 timestamp when the link should stop redirecting users.
    */
   expiresAt?: string | null | undefined;
   /**
-   * The URL to redirect to when the short link has expired.
+   * Fallback destination URL after link expiration, preventing broken user experiences.
    */
   expiredUrl?: string | null | undefined;
   /**
-   * The custom link preview title (og:title). Will be used for Custom Social Media Cards if `proxy` is true.
+   * Custom Open Graph (OG) title to optimize social media sharing and improve link previews.
    */
   title?: string | null | undefined;
   /**
-   * The custom link preview description (og:description). Will be used for Custom Social Media Cards if `proxy` is true.
+   * Custom Open Graph description for better engagement when shared on social platforms.
    */
   description?: string | null | undefined;
   /**
-   * The custom link preview image (og:image). Will be used for Custom Social Media Cards if `proxy` is true.
+   * URL for a custom OG image to enhance visual appeal and click-through rates on social media.
    */
   image?: string | null | undefined;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
+   * Custom video URL for rich media previews via Open Graph when sharing links.
    */
   video?: string | null | undefined;
   /**
-   * Allow search engines to index your short link. Defaults to `false` if not provided.
+   * Allow search engine indexing of the deep link. Defaults to false for privacy.
    */
   doIndex?: boolean | undefined;
   /**
-   * The UTM source of the short link. If set, this will populate or override the UTM source in the destination URL.
+   * UTM source parameter for tracking the origin of traffic (e.g., 'linkedin', 'facebook', 'newsletter').
    */
   utmSource?: string | null | undefined;
   /**
-   * The UTM medium of the short link. If set, this will populate or override the UTM medium in the destination URL.
+   * UTM medium parameter identifying traffic medium such as 'post', 'email', 'social', or 'cpc'.
    */
   utmMedium?: string | null | undefined;
   /**
-   * The UTM campaign of the short link. If set, this will populate or override the UTM campaign in the destination URL.
+   * UTM campaign parameter for tracking specific marketing initiatives or promotions.
    */
   utmCampaign?: string | null | undefined;
   /**
-   * The UTM term of the short link. If set, this will populate or override the UTM term in the destination URL.
+   * UTM term parameter for keyword analysis, often used in paid search campaigns.
    */
   utmTerm?: string | null | undefined;
   /**
-   * The UTM content of the short link. If set, this will populate or override the UTM content in the destination URL.
+   * UTM content parameter distinguishing different content variations or link placements within a campaign.
    */
   utmContent?: string | null | undefined;
   /**
-   * The referral tag of the short link. If set, this will populate or override the `ref` query parameter in the destination URL.
+   * Custom referral parameter appended as '?ref=' for downstream attribution and analysis.
    */
   ref?: string | null | undefined;
   /**
-   * An array of webhook IDs to trigger when the link is clicked. These webhooks will receive click event data.
+   * Webhook IDs to trigger real-time notifications upon link clicks, ideal for integrating with analytics or marketing automation tools.
    */
   webhookIds?: Array<string> | null | undefined;
 };
@@ -161,115 +155,115 @@ export type UpsertLinkTag = {
  */
 export type UpsertLinkLink = {
   /**
-   * The unique ID of the short link.
+   * Unique internal identifier for the deep link.
    */
   id: string;
   /**
-   * The domain of the short link. If not provided, the primary domain for the workspace will be used (or `pim.ms` if the workspace has no domains).
+   * Domain used for the deep link, e.g., 'yourbrand.com' or 'pim.ms'.
    */
   domain: string;
   /**
-   * The short link slug. If not provided, a random 7-character slug will be generated.
+   * Short URL slug appended after the domain, uniquely identifying the link.
    */
   key: string;
   /**
-   * The destination URL of the short link.
+   * Complete original destination URL or mobile app route to which the link redirects users.
    */
   url: string;
   /**
-   * Whether to track conversions for the short link.
+   * Indicates whether this link actively tracks conversion events like leads or sales.
    */
   trackConversion?: boolean | undefined;
   /**
-   * Whether the short link is archived.
+   * Determines if the link is archived, thus excluded from standard analytics views.
    */
   archived?: boolean | undefined;
   /**
-   * The date and time when the short link will expire in ISO-8601 format.
+   * Expiration timestamp in ISO 8601 format; after this, the link redirects to an expired URL or returns a 404.
    */
   expiresAt: string | null;
   /**
-   * The title of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * OG title for optimized social media link previews, fetched or set manually.
    */
   title: string | null;
   /**
-   * The description of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * OG description for enhanced social previews, either automatically fetched or manually customized.
    */
   description: string | null;
   /**
-   * The image of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.
+   * URL to the OG image displayed in social previews, improving shareability.
    */
   image: string | null;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
+   * Optional video URL used in rich media previews via Open Graph.
    */
   video: string | null;
   /**
-   * The tags assigned to the short link.
+   * Associated tags for organizing links by campaigns, audiences, or other criteria.
    */
   tags: Array<UpsertLinkTag> | null;
   /**
-   * The IDs of the webhooks that the short link is associated with.
+   * Webhooks triggered on each click event for real-time tracking and integration purposes.
    */
   webhookIds: Array<string>;
   /**
-   * The comments for the short link.
+   * Internal team notes describing the context, strategy, or use of the link.
    */
   comments: string | null;
   /**
-   * The full URL of the short link, including the https protocol (e.g. `https://pim.ms/try`).
+   * Fully constructed deep link URL including domain and protocol.
    */
   shortLink: string;
   /**
-   * The full URL of the QR code for the short link (e.g. `https://api.pimms.io/qr?url=https://pim.ms/try`).
+   * Direct link to the dynamically generated QR code for offline or print campaigns.
    */
   qrCode: string;
   /**
-   * The UTM source of the short link.
+   * Assigned UTM source parameter for tracking marketing origins.
    */
   utmSource: string | null;
   /**
-   * The UTM medium of the short link.
+   * Assigned UTM medium for categorizing the traffic source.
    */
   utmMedium: string | null;
   /**
-   * The UTM campaign of the short link.
+   * Assigned UTM campaign for detailed campaign-level tracking.
    */
   utmCampaign: string | null;
   /**
-   * The UTM term of the short link.
+   * Assigned UTM term parameter used for keyword or search tracking.
    */
   utmTerm: string | null;
   /**
-   * The UTM content of the short link.
+   * Assigned UTM content for distinguishing content variations within the same campaign.
    */
   utmContent: string | null;
   /**
-   * The user ID of the creator of the short link.
+   * Identifier of the user who created the link.
    */
   userId: string | null;
   /**
-   * The workspace ID of the short link.
+   * Identifier of the workspace that the link belongs to.
    */
   workspaceId: string;
   /**
-   * The number of clicks on the short link.
+   * Total click count tracking user engagements.
    */
   clicks?: number | undefined;
   /**
-   * The date and time when the short link was last clicked.
+   * Timestamp of the most recent click event.
    */
   lastClicked: string | null;
   /**
-   * The number of leads the short links has generated.
+   * Total conversions attributed directly to this link.
    */
   leads?: number | undefined;
   /**
-   * The date and time when the short link was created.
+   * Timestamp when the link was first created.
    */
   createdAt: string;
   /**
-   * The date and time when the short link was last updated.
+   * Timestamp when the link was last modified.
    */
   updatedAt: string;
 };
@@ -383,7 +377,6 @@ export const UpsertLinkRequestBody$inboundSchema: z.ZodType<
   prefix: z.string().optional(),
   trackConversion: z.boolean().optional(),
   archived: z.boolean().optional(),
-  tagId: z.nullable(z.string()).optional(),
   tagIds: z.union([z.string(), z.array(z.string())]).optional(),
   tagNames: z.union([z.string(), z.array(z.string())]).optional(),
   comments: z.nullable(z.string()).optional(),
@@ -420,7 +413,6 @@ export type UpsertLinkRequestBody$Outbound = {
   prefix?: string | undefined;
   trackConversion?: boolean | undefined;
   archived?: boolean | undefined;
-  tagId?: string | null | undefined;
   tagIds?: string | Array<string> | undefined;
   tagNames?: string | Array<string> | undefined;
   comments?: string | null | undefined;
@@ -453,7 +445,6 @@ export const UpsertLinkRequestBody$outboundSchema: z.ZodType<
   prefix: z.string().optional(),
   trackConversion: z.boolean().optional(),
   archived: z.boolean().optional(),
-  tagId: z.nullable(z.string()).optional(),
   tagIds: z.union([z.string(), z.array(z.string())]).optional(),
   tagNames: z.union([z.string(), z.array(z.string())]).optional(),
   comments: z.nullable(z.string()).optional(),

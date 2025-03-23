@@ -9,43 +9,58 @@ import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 
 export type TrackLeadRequestBody = {
   /**
-   * The ID of the click in PIMMS. You can read this value from `pimms_id` cookie.
+   * Unique identifier for the click event in PIMMS, typically retrieved from the 'pimms_id' browser cookie for accurate attribution.
    */
   clickId: string;
   /**
-   * The name of the event to track.
+   * Name of the specific lead or conversion event you want to track (e.g., 'Sign up', 'Free Trial Registration').
    */
   eventName: string;
   /**
-   * This is the unique identifier for the customer in the client's app. This is used to track the customer's journey.
+   * A unique identifier from your internal system (such as user ID) to link customer journeys across platforms.
    */
   externalId?: string | undefined;
   /**
-   * Name of the customer in the client's app.
+   * Optional customer name, useful for personalized reporting and CRM integrations.
    */
   customerName?: string | null | undefined;
   /**
-   * Email of the customer in the client's app.
+   * Customer email address to enhance CRM synchronization and facilitate personalized marketing efforts.
    */
   customerEmail?: string | null | undefined;
   /**
-   * Avatar of the customer in the client's app.
+   * URL to the customer's avatar image, used for richer user profiles in integrated CRM or analytics platforms.
    */
   customerAvatar?: string | null | undefined;
   /**
-   * Additional metadata to be stored with the lead event
+   * Additional structured data or context about the lead event, aiding advanced segmentation and reporting.
    */
   metadata?: { [k: string]: any } | null | undefined;
 };
 
 export type Click = {
+  /**
+   * The unique identifier of the recorded click event associated with this lead.
+   */
   id: string;
 };
 
 export type Customer = {
+  /**
+   * Customer name provided during the lead event.
+   */
   name: string | null;
+  /**
+   * Customer email provided during the lead event.
+   */
   email: string | null;
+  /**
+   * Customer avatar URL provided during the lead event.
+   */
   avatar: string | null;
+  /**
+   * External ID from your internal database linking this lead to your own customer records.
+   */
   externalId: string | null;
 };
 

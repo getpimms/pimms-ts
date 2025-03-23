@@ -31,7 +31,7 @@ const pimms = new PimmsCore({
 
 async function run() {
   const res = await linksCreate(pimms, {
-    url: "https://google.com",
+    url: "https://pimms.io",
     externalId: "123456",
     tagIds: [
       "clux0rgak00011...",
