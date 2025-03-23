@@ -8,17 +8,17 @@ import { SaleCreatedEventClick } from "pimms/models/components";
 let value: SaleCreatedEventClick = {
   id: "<id>",
   timestamp: "<value>",
-  url: "https://pleasing-baritone.name",
-  country: "Togo",
-  city: "Buckridgechester",
+  url: "https://prickly-minority.name",
+  country: "Switzerland",
+  city: "Port Mackenzie",
   region: "<value>",
-  continent: "Europe",
-  device: "Mobile",
-  browser: "Safari",
-  os: "Android",
-  referer: "happy-go-lucky-courtroom.info",
-  refererUrl: "https://bowed-detective.com/",
-  ip: "47bc:be9d:c87d:c5b5:52fb:79b0:76bd:0ccc",
+  continent: "Asia",
+  device: "Desktop",
+  browser: "Chrome",
+  os: "Blackberry",
+  referer: "ornate-drug.info",
+  refererUrl: "https://colossal-hospitalization.info",
+  ip: "b8a1:09d6:3e38:a558:be03:fdcb:00fc:a3ae",
 };
 ```
 

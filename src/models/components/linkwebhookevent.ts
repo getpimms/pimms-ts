@@ -30,10 +30,10 @@ export const One = {
 } as const;
 export type One = ClosedEnum<typeof One>;
 
-export type LinkWebhookEventEvent = One | Two | Three;
+export type Event = One | Two | Three;
 
 /**
- * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+ * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
  */
 export type LinkWebhookEventGeo = {
   af?: string | undefined;
@@ -340,7 +340,7 @@ export type Data = {
    */
   image: string | null;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   video: string | null;
   rewrite?: boolean | undefined;
@@ -354,7 +354,7 @@ export type Data = {
    */
   android: string | null;
   /**
-   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
    */
   geo: LinkWebhookEventGeo | null;
   publicStats?: boolean | undefined;
@@ -507,50 +507,43 @@ export namespace One$ {
 }
 
 /** @internal */
-export const LinkWebhookEventEvent$inboundSchema: z.ZodType<
-  LinkWebhookEventEvent,
-  z.ZodTypeDef,
-  unknown
-> = z.union([One$inboundSchema, Two$inboundSchema, Three$inboundSchema]);
+export const Event$inboundSchema: z.ZodType<Event, z.ZodTypeDef, unknown> = z
+  .union([One$inboundSchema, Two$inboundSchema, Three$inboundSchema]);
 
 /** @internal */
-export type LinkWebhookEventEvent$Outbound = string | string | string;
+export type Event$Outbound = string | string | string;
 
 /** @internal */
-export const LinkWebhookEventEvent$outboundSchema: z.ZodType<
-  LinkWebhookEventEvent$Outbound,
+export const Event$outboundSchema: z.ZodType<
+  Event$Outbound,
   z.ZodTypeDef,
-  LinkWebhookEventEvent
+  Event
 > = z.union([One$outboundSchema, Two$outboundSchema, Three$outboundSchema]);
 
 /**
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace LinkWebhookEventEvent$ {
-  /** @deprecated use `LinkWebhookEventEvent$inboundSchema` instead. */
-  export const inboundSchema = LinkWebhookEventEvent$inboundSchema;
-  /** @deprecated use `LinkWebhookEventEvent$outboundSchema` instead. */
-  export const outboundSchema = LinkWebhookEventEvent$outboundSchema;
-  /** @deprecated use `LinkWebhookEventEvent$Outbound` instead. */
-  export type Outbound = LinkWebhookEventEvent$Outbound;
+export namespace Event$ {
+  /** @deprecated use `Event$inboundSchema` instead. */
+  export const inboundSchema = Event$inboundSchema;
+  /** @deprecated use `Event$outboundSchema` instead. */
+  export const outboundSchema = Event$outboundSchema;
+  /** @deprecated use `Event$Outbound` instead. */
+  export type Outbound = Event$Outbound;
 }
 
-export function linkWebhookEventEventToJSON(
-  linkWebhookEventEvent: LinkWebhookEventEvent,
-): string {
-  return JSON.stringify(
-    LinkWebhookEventEvent$outboundSchema.parse(linkWebhookEventEvent),
-  );
+export function eventToJSON(event: Event): string {
+  return JSON.stringify(Event$outboundSchema.parse(event));
 }
 
-export function linkWebhookEventEventFromJSON(
+export function eventFromJSON(
   jsonString: string,
-): SafeParseResult<LinkWebhookEventEvent, SDKValidationError> {
+): SafeParseResult<Event, SDKValidationError> {
   return safeParse(
     jsonString,
-    (x) => LinkWebhookEventEvent$inboundSchema.parse(JSON.parse(x)),
-    `Failed to parse 'LinkWebhookEventEvent' from JSON`,
+    (x) => Event$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'Event' from JSON`,
   );
 }
 

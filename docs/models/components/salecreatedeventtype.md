@@ -5,7 +5,7 @@
 ```typescript
 import { SaleCreatedEventType } from "pimms/models/components";
 
-let value: SaleCreatedEventType = "flat";
+let value: SaleCreatedEventType = "percentage";
 ```
 
 ## Values

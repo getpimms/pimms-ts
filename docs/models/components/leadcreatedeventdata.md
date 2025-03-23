@@ -11,39 +11,39 @@ let value: LeadCreatedEventData = {
     id: "<id>",
     externalId: "<id>",
     name: "<value>",
-    createdAt: "1713070814264",
+    createdAt: "1735987606893",
   },
   click: {
     id: "<id>",
     timestamp: "<value>",
-    url: "https://excellent-cook.info/",
-    country: "Botswana",
-    city: "South Richmond",
+    url: "https://medium-scorn.info/",
+    country: "Venezuela",
+    city: "Shanahanshire",
     region: "<value>",
-    continent: "South America",
-    device: "Desktop",
-    browser: "Chrome",
-    os: "Windows Phone",
-    referer: "considerate-following.com",
-    refererUrl: "https://classic-meander.name/",
-    ip: "44ed:dc4d:d5be:eec5:f96a:d764:1db5:10a4",
+    continent: "Asia",
+    device: "Mobile",
+    browser: "Safari",
+    os: "Blackberry",
+    referer: "well-groomed-electronics.biz",
+    refererUrl: "https://steep-creator.name",
+    ip: "79ca:a097:db13:eacf:a2fd:cce2:135d:d5aa",
   },
   link: {
     id: "<id>",
-    domain: "fearless-advancement.com",
+    domain: "kosher-settler.info",
     key: "<key>",
-    url: "https://excitable-validity.com",
+    url: "https://dazzling-longboat.net",
     externalId: "<id>",
     tenantId: "<id>",
     programId: "<id>",
     partnerId: "<id>",
-    expiresAt: "1750645403694",
-    expiredUrl: "https://intelligent-doubter.net",
-    password: "uplOVaNGvlypZcI",
+    expiresAt: "1748370225361",
+    expiredUrl: "https://pink-contrail.net/",
+    password: "zMJ_p40v2LJyvKY",
     title: "<value>",
-    description: "address excluding likewise",
-    image: "https://picsum.photos/seed/0B7BPeuLa/416/863",
-    video: "https://picsum.videos/seed/QxuyIo58Y/611/3620",
+    description: "furthermore phew hm softly mmm um zowie",
+    image: "https://picsum.photos/seed/6oy7Oue/3947/1310",
+    video: "https://loremflickr.com/2371/3173?lock=6318337026359484",
     ios: "<value>",
     android: "<id>",
     geo: {},
@@ -52,7 +52,7 @@ let value: LeadCreatedEventData = {
       {
         id: "<id>",
         name: "<value>",
-        color: "red",
+        color: "green",
       },
     ],
     folderId: "<id>",
@@ -60,9 +60,9 @@ let value: LeadCreatedEventData = {
       "<value>",
     ],
     comments:
-      "who reassuringly throughout rightfully once department gee reboot aha catch receptor ack king different but boo",
-    shortLink: "https://wicked-fold.name",
-    qrCode: "https://stiff-cinema.org",
+      "victoriously ha lest sate blah beyond blah bitter ah versus alongside ouch whenever since ah especially gladly although syringe but",
+    shortLink: "https://hairy-self-confidence.info",
+    qrCode: "https://bulky-e-mail.info/",
     utmSource: "<value>",
     utmMedium: "<value>",
     utmCampaign: "<value>",
@@ -71,8 +71,8 @@ let value: LeadCreatedEventData = {
     userId: "<id>",
     workspaceId: "<id>",
     lastClicked: "<value>",
-    createdAt: "1733879226103",
-    updatedAt: "1742575166654",
+    createdAt: "1737010711020",
+    updatedAt: "1742718451195",
     projectId: "<id>",
   },
 };
@@ -80,9 +80,9 @@ let value: LeadCreatedEventData = {
 
 ## Fields
 
-| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| `eventName`                                                                                | *string*                                                                                   | :heavy_check_mark:                                                                         | N/A                                                                                        |
-| `customer`                                                                                 | [components.LeadCreatedEventCustomer](../../models/components/leadcreatedeventcustomer.md) | :heavy_check_mark:                                                                         | N/A                                                                                        |
-| `click`                                                                                    | [components.LeadCreatedEventClick](../../models/components/leadcreatedeventclick.md)       | :heavy_check_mark:                                                                         | N/A                                                                                        |
-| `link`                                                                                     | [components.LeadCreatedEventLink](../../models/components/leadcreatedeventlink.md)         | :heavy_check_mark:                                                                         | N/A                                                                                        |
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `eventName`                                                                          | *string*                                                                             | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `customer`                                                                           | [components.Customer](../../models/components/customer.md)                           | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `click`                                                                              | [components.LeadCreatedEventClick](../../models/components/leadcreatedeventclick.md) | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `link`                                                                               | [components.LeadCreatedEventLink](../../models/components/leadcreatedeventlink.md)   | :heavy_check_mark:                                                                   | N/A                                                                                  |

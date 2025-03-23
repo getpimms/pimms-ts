@@ -6,15 +6,18 @@
 import { Sale } from "pimms/models/components";
 
 let value: Sale = {
-  amount: 588662,
-  paymentProcessor: "stripe",
+  amount: 1997.04,
+  currency: "Rupiah",
+  paymentProcessor: "<value>",
+  invoiceId: "<id>",
 };
 ```
 
 ## Fields
 
-| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| `amount`                                                                   | *number*                                                                   | :heavy_check_mark:                                                         | The amount of the sale. Should be passed in cents.                         |
-| `invoiceId`                                                                | *string*                                                                   | :heavy_minus_sign:                                                         | The invoice ID of the sale.                                                |
-| `paymentProcessor`                                                         | [components.PaymentProcessor](../../models/components/paymentprocessor.md) | :heavy_check_mark:                                                         | The payment processor via which the sale was made.                         |
+| Field              | Type               | Required           | Description        |
+| ------------------ | ------------------ | ------------------ | ------------------ |
+| `amount`           | *number*           | :heavy_check_mark: | N/A                |
+| `currency`         | *string*           | :heavy_check_mark: | N/A                |
+| `paymentProcessor` | *string*           | :heavy_check_mark: | N/A                |
+| `invoiceId`        | *string*           | :heavy_check_mark: | N/A                |

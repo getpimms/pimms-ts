@@ -7,20 +7,20 @@ import { SaleCreatedEventLink } from "pimms/models/components";
 
 let value: SaleCreatedEventLink = {
   id: "<id>",
-  domain: "well-to-do-cellar.biz",
+  domain: "vivacious-ad.net",
   key: "<key>",
-  url: "https://likely-mobility.net/",
+  url: "https://worthwhile-heartbeat.org/",
   externalId: "<id>",
   tenantId: "<id>",
   programId: "<id>",
   partnerId: "<id>",
-  expiresAt: "1744331195011",
-  expiredUrl: "https://vain-individual.net/",
-  password: "fKjvJEyNGzpKBXG",
+  expiresAt: "1754363018400",
+  expiredUrl: "https://giving-ravioli.biz/",
+  password: "sY2zKOrjOfgCEFx",
   title: "<value>",
-  description: "though aw hmph er jellyfish",
-  image: "https://picsum.photos/seed/9lv8cUS/2371/223",
-  video: "https://picsum.videos/seed/0Hbkh9/490/1116",
+  description: "syringe bus fax apud while meh um",
+  image: "https://loremflickr.com/3330/1466?lock=8707097276242258",
+  video: "https://loremflickr.com/1558/1174?lock=4412837382869618",
   ios: "<value>",
   android: "<id>",
   geo: {},
@@ -29,16 +29,17 @@ let value: SaleCreatedEventLink = {
     {
       id: "<id>",
       name: "<value>",
-      color: "red",
+      color: "brown",
     },
   ],
   folderId: "<id>",
   webhookIds: [
     "<value>",
   ],
-  comments: "miserably noisily thorn peter behind huzzah now",
-  shortLink: "https://somber-masterpiece.net",
-  qrCode: "https://frightened-fledgling.com",
+  comments:
+    "allegation supplier well-lit offensively sturdy unfortunately whenever mammoth if meaningfully timely forecast dense beneath astride verbally smug up adult beyond",
+  shortLink: "https://humble-creator.net/",
+  qrCode: "https://puny-conversation.com",
   utmSource: "<value>",
   utmMedium: "<value>",
   utmCampaign: "<value>",
@@ -47,8 +48,8 @@ let value: SaleCreatedEventLink = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1728601749632",
-  updatedAt: "1742656088957",
+  createdAt: "1729533288178",
+  updatedAt: "1742719328901",
   projectId: "<id>",
 };
 ```
@@ -74,12 +75,12 @@ let value: SaleCreatedEventLink = {
 | `title`                                                                                                                                                                                                                      | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The title of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.                                                                                            |
 | `description`                                                                                                                                                                                                                | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The description of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.                                                                                      |
 | `image`                                                                                                                                                                                                                      | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The image of the short link generated via `api.pimms.io/metatags`. Will be used for Custom Social Media Cards if `proxy` is true.                                                                                            |
-| `video`                                                                                                                                                                                                                      | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og                                                                                         |
+| `video`                                                                                                                                                                                                                      | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.                                                                                                                     |
 | `rewrite`                                                                                                                                                                                                                    | *boolean*                                                                                                                                                                                                                    | :heavy_minus_sign:                                                                                                                                                                                                           | N/A                                                                                                                                                                                                                          |
 | `doIndex`                                                                                                                                                                                                                    | *boolean*                                                                                                                                                                                                                    | :heavy_minus_sign:                                                                                                                                                                                                           | N/A                                                                                                                                                                                                                          |
 | `ios`                                                                                                                                                                                                                        | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The iOS destination URL for the short link for iOS device targeting.                                                                                                                                                         |
 | `android`                                                                                                                                                                                                                    | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | The Android destination URL for the short link for Android device targeting.                                                                                                                                                 |
-| `geo`                                                                                                                                                                                                                        | [components.SaleCreatedEventGeo](../../models/components/salecreatedeventgeo.md)                                                                                                                                             | :heavy_check_mark:                                                                                                                                                                                                           | Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo                                                                                                |
+| `geo`                                                                                                                                                                                                                        | [components.SaleCreatedEventGeo](../../models/components/salecreatedeventgeo.md)                                                                                                                                             | :heavy_check_mark:                                                                                                                                                                                                           | Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.                                                                                                                             |
 | `publicStats`                                                                                                                                                                                                                | *boolean*                                                                                                                                                                                                                    | :heavy_minus_sign:                                                                                                                                                                                                           | N/A                                                                                                                                                                                                                          |
 | ~~`tagId`~~                                                                                                                                                                                                                  | *string*                                                                                                                                                                                                                     | :heavy_check_mark:                                                                                                                                                                                                           | : warning: ** DEPRECATED **: This will be removed in a future release, please migrate away from it as soon as possible.<br/><br/>The unique ID of the tag assigned to the short link. This field is deprecated – use `tags` instead. |
 | `tags`                                                                                                                                                                                                                       | [components.TagSchema](../../models/components/tagschema.md)[]                                                                                                                                                               | :heavy_check_mark:                                                                                                                                                                                                           | The tags assigned to the short link.                                                                                                                                                                                         |

@@ -8,17 +8,17 @@ import { LeadCreatedEventClick } from "pimms/models/components";
 let value: LeadCreatedEventClick = {
   id: "<id>",
   timestamp: "<value>",
-  url: "https://same-mainstream.net/",
-  country: "Estonia",
-  city: "Claudineview",
+  url: "https://overcooked-airport.org/",
+  country: "Tajikistan",
+  city: "Auerbury",
   region: "<value>",
-  continent: "Europe",
+  continent: "South America",
   device: "Mobile",
-  browser: "Firefox",
+  browser: "Chrome",
   os: "Chrome OS",
-  referer: "infatuated-bug.info",
-  refererUrl: "https://our-ravioli.org/",
-  ip: "101.46.224.210",
+  referer: "wide-louse.com",
+  refererUrl: "https://firm-bracelet.info",
+  ip: "0cbb:9cad:8df0:b8ea:ff4e:c5ad:f536:5aae",
 };
 ```
 

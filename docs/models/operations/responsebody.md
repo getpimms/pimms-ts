@@ -8,21 +8,20 @@
 ```typescript
 const value: components.LinkSchema = {
   id: "<id>",
-  domain: "those-icebreaker.info",
+  domain: "prestigious-fort.info",
   key: "<key>",
-  url: "https://stable-pine.info/",
+  url: "https://long-term-gazebo.com/",
   externalId: "<id>",
   tenantId: "<id>",
   programId: "<id>",
   partnerId: "<id>",
-  expiresAt: "1758574308222",
-  expiredUrl: "https://ultimate-confusion.org",
-  password: "QbuZah7Pt3VY_er",
+  expiresAt: "1749035515672",
+  expiredUrl: "https://likable-statue.com/",
+  password: "_HsCbFTjShYEqMt",
   title: "<value>",
-  description:
-    "lest with properly striking inspection whoa rotating blacken thump recount",
-  image: "https://picsum.photos/seed/iimzNT/1524/2179",
-  video: "https://picsum.videos/seed/NWKaXRi7/245/2600",
+  description: "meanwhile oxidize except understanding ascribe upwardly qua",
+  image: "https://picsum.photos/seed/2Cm0t5C/3627/1183",
+  video: "https://picsum.videos/seed/Izf07jczxo/2106/2001",
   ios: "<value>",
   android: "<id>",
   geo: {},
@@ -39,9 +38,9 @@ const value: components.LinkSchema = {
     "<value>",
   ],
   comments:
-    "by internalise exactly nor heating weary whereas meh considering ack vastly hexagon for aboard hmph surprisingly before blindly gee limply",
-  shortLink: "https://wrong-carnival.info",
-  qrCode: "https://parallel-swath.com",
+    "after abaft commonly before clonk very out whose rudely oh aside toward outnumber steel woot ouch",
+  shortLink: "https://idolized-hunt.name",
+  qrCode: "https://direct-stay.net/",
   utmSource: "<value>",
   utmMedium: "<value>",
   utmCampaign: "<value>",
@@ -50,8 +49,8 @@ const value: components.LinkSchema = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1728231225391",
-  updatedAt: "1742624783544",
+  createdAt: "1713662806707",
+  updatedAt: "1742734209067",
   projectId: "<id>",
 };
 ```
@@ -61,7 +60,7 @@ const value: components.LinkSchema = {
 ```typescript
 const value: components.LinkErrorSchema = {
   error: "<value>",
-  code: "exceeded_limit",
+  code: "bad_request",
 };
 ```
 

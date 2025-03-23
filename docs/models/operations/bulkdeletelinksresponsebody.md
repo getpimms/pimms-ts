@@ -8,7 +8,7 @@ The deleted links count.
 import { BulkDeleteLinksResponseBody } from "pimms/models/operations";
 
 let value: BulkDeleteLinksResponseBody = {
-  deletedCount: 8456.23,
+  deletedCount: 5342.04,
 };
 ```
 

@@ -3,19 +3,10 @@
  */
 
 import { ClientSDK } from "../lib/sdks.js";
-import { Analytics } from "./analytics.js";
-import { Customers } from "./customers.js";
-import { Domains } from "./domains.js";
 import { EmbedTokens } from "./embedtokens.js";
-import { Events } from "./events.js";
-import { Folders } from "./folders.js";
 import { Links } from "./links.js";
-import { Metatags } from "./metatags.js";
-import { Partners } from "./partners.js";
 import { QRCodes } from "./qrcodes.js";
-import { Tags } from "./tags.js";
 import { Track } from "./track.js";
-import { Workspaces } from "./workspaces.js";
 
 export class Pimms extends ClientSDK {
   private _links?: Links;
@@ -23,49 +14,9 @@ export class Pimms extends ClientSDK {
     return (this._links ??= new Links(this._options));
   }
 
-  private _analytics?: Analytics;
-  get analytics(): Analytics {
-    return (this._analytics ??= new Analytics(this._options));
-  }
-
-  private _events?: Events;
-  get events(): Events {
-    return (this._events ??= new Events(this._options));
-  }
-
-  private _tags?: Tags;
-  get tags(): Tags {
-    return (this._tags ??= new Tags(this._options));
-  }
-
-  private _folders?: Folders;
-  get folders(): Folders {
-    return (this._folders ??= new Folders(this._options));
-  }
-
-  private _domains?: Domains;
-  get domains(): Domains {
-    return (this._domains ??= new Domains(this._options));
-  }
-
   private _track?: Track;
   get track(): Track {
     return (this._track ??= new Track(this._options));
-  }
-
-  private _customers?: Customers;
-  get customers(): Customers {
-    return (this._customers ??= new Customers(this._options));
-  }
-
-  private _partners?: Partners;
-  get partners(): Partners {
-    return (this._partners ??= new Partners(this._options));
-  }
-
-  private _workspaces?: Workspaces;
-  get workspaces(): Workspaces {
-    return (this._workspaces ??= new Workspaces(this._options));
   }
 
   private _embedTokens?: EmbedTokens;
@@ -76,10 +27,5 @@ export class Pimms extends ClientSDK {
   private _qrCodes?: QRCodes;
   get qrCodes(): QRCodes {
     return (this._qrCodes ??= new QRCodes(this._options));
-  }
-
-  private _metatags?: Metatags;
-  get metatags(): Metatags {
-    return (this._metatags ??= new Metatags(this._options));
   }
 }

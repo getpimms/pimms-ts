@@ -9,11 +9,6 @@ Developer-friendly & type-safe Typescript SDK specifically catered to leverage *
     </a>
 </div>
 
-
-<br /><br />
-> [!IMPORTANT]
-> This SDK is not yet ready for production use. To complete setup please follow the steps outlined in your [workspace](https://app.speakeasy.com/org/pimms/pimms-ts). Delete this section before > publishing to a package manager.
-
 <!-- Start Summary [summary] -->
 ## Summary
 
@@ -267,39 +262,9 @@ run();
 <details open>
 <summary>Available methods</summary>
 
-### [analytics](docs/sdks/analytics/README.md)
-
-* [retrieve](docs/sdks/analytics/README.md#retrieve) - Retrieve analytics for a link, a domain, or the authenticated workspace.
-
-### [customers](docs/sdks/customers/README.md)
-
-* [list](docs/sdks/customers/README.md#list) - Retrieve a list of customers
-* [~~create~~](docs/sdks/customers/README.md#create) - Create a customer :warning: **Deprecated**
-* [get](docs/sdks/customers/README.md#get) - Retrieve a customer
-* [update](docs/sdks/customers/README.md#update) - Update a customer
-* [delete](docs/sdks/customers/README.md#delete) - Delete a customer
-
-### [domains](docs/sdks/domains/README.md)
-
-* [create](docs/sdks/domains/README.md#create) - Create a domain
-* [list](docs/sdks/domains/README.md#list) - Retrieve a list of domains
-* [update](docs/sdks/domains/README.md#update) - Update a domain
-* [delete](docs/sdks/domains/README.md#delete) - Delete a domain
-
 ### [embedTokens](docs/sdks/embedtokens/README.md)
 
 * [create](docs/sdks/embedtokens/README.md#create) - Create a new embed token
-
-### [events](docs/sdks/events/README.md)
-
-* [list](docs/sdks/events/README.md#list) - Retrieve a list of events
-
-### [folders](docs/sdks/folders/README.md)
-
-* [create](docs/sdks/folders/README.md#create) - Create a new folder
-* [list](docs/sdks/folders/README.md#list) - Retrieve a list of folders
-* [update](docs/sdks/folders/README.md#update) - Update a folder
-* [delete](docs/sdks/folders/README.md#delete) - Delete a folder
 
 ### [links](docs/sdks/links/README.md)
 
@@ -314,38 +279,15 @@ run();
 * [deleteMany](docs/sdks/links/README.md#deletemany) - Bulk delete links
 * [upsert](docs/sdks/links/README.md#upsert) - Upsert a link
 
-### [metatags](docs/sdks/metatags/README.md)
-
-* [get](docs/sdks/metatags/README.md#get) - Retrieve the metatags for a URL
-
-### [partners](docs/sdks/partners/README.md)
-
-* [create](docs/sdks/partners/README.md#create) - Create a new partner
-* [createLink](docs/sdks/partners/README.md#createlink) - Create a link for a partner
-* [upsertLink](docs/sdks/partners/README.md#upsertlink) - Upsert a link for a partner
-* [analytics](docs/sdks/partners/README.md#analytics) - Retrieve analytics for a partner
-
 
 ### [qrCodes](docs/sdks/qrcodes/README.md)
 
 * [get](docs/sdks/qrcodes/README.md#get) - Retrieve a QR code
 
-### [tags](docs/sdks/tags/README.md)
-
-* [create](docs/sdks/tags/README.md#create) - Create a new tag
-* [list](docs/sdks/tags/README.md#list) - Retrieve a list of tags
-* [update](docs/sdks/tags/README.md#update) - Update a tag
-* [delete](docs/sdks/tags/README.md#delete) - Delete a tag
-
 ### [track](docs/sdks/track/README.md)
 
 * [lead](docs/sdks/track/README.md#lead) - Track a lead
 * [sale](docs/sdks/track/README.md#sale) - Track a sale
-
-### [workspaces](docs/sdks/workspaces/README.md)
-
-* [get](docs/sdks/workspaces/README.md#get) - Retrieve a workspace
-* [update](docs/sdks/workspaces/README.md#update) - Update a workspace
 
 </details>
 <!-- End Available Resources and Operations [operations] -->
@@ -365,21 +307,7 @@ To read more about standalone functions, check [FUNCTIONS.md](./FUNCTIONS.md).
 
 <summary>Available standalone functions</summary>
 
-- [`analyticsRetrieve`](docs/sdks/analytics/README.md#retrieve) - Retrieve analytics for a link, a domain, or the authenticated workspace.
-- [`customersDelete`](docs/sdks/customers/README.md#delete) - Delete a customer
-- [`customersGet`](docs/sdks/customers/README.md#get) - Retrieve a customer
-- [`customersList`](docs/sdks/customers/README.md#list) - Retrieve a list of customers
-- [`customersUpdate`](docs/sdks/customers/README.md#update) - Update a customer
-- [`domainsCreate`](docs/sdks/domains/README.md#create) - Create a domain
-- [`domainsDelete`](docs/sdks/domains/README.md#delete) - Delete a domain
-- [`domainsList`](docs/sdks/domains/README.md#list) - Retrieve a list of domains
-- [`domainsUpdate`](docs/sdks/domains/README.md#update) - Update a domain
 - [`embedTokensCreate`](docs/sdks/embedtokens/README.md#create) - Create a new embed token
-- [`eventsList`](docs/sdks/events/README.md#list) - Retrieve a list of events
-- [`foldersCreate`](docs/sdks/folders/README.md#create) - Create a new folder
-- [`foldersDelete`](docs/sdks/folders/README.md#delete) - Delete a folder
-- [`foldersList`](docs/sdks/folders/README.md#list) - Retrieve a list of folders
-- [`foldersUpdate`](docs/sdks/folders/README.md#update) - Update a folder
 - [`linksCount`](docs/sdks/links/README.md#count) - Retrieve links count
 - [`linksCreate`](docs/sdks/links/README.md#create) - Create a new link
 - [`linksCreateMany`](docs/sdks/links/README.md#createmany) - Bulk create links
@@ -390,21 +318,9 @@ To read more about standalone functions, check [FUNCTIONS.md](./FUNCTIONS.md).
 - [`linksUpdate`](docs/sdks/links/README.md#update) - Update a link
 - [`linksUpdateMany`](docs/sdks/links/README.md#updatemany) - Bulk update links
 - [`linksUpsert`](docs/sdks/links/README.md#upsert) - Upsert a link
-- [`metatagsGet`](docs/sdks/metatags/README.md#get) - Retrieve the metatags for a URL
-- [`partnersAnalytics`](docs/sdks/partners/README.md#analytics) - Retrieve analytics for a partner
-- [`partnersCreate`](docs/sdks/partners/README.md#create) - Create a new partner
-- [`partnersCreateLink`](docs/sdks/partners/README.md#createlink) - Create a link for a partner
-- [`partnersUpsertLink`](docs/sdks/partners/README.md#upsertlink) - Upsert a link for a partner
 - [`qrCodesGet`](docs/sdks/qrcodes/README.md#get) - Retrieve a QR code
-- [`tagsCreate`](docs/sdks/tags/README.md#create) - Create a new tag
-- [`tagsDelete`](docs/sdks/tags/README.md#delete) - Delete a tag
-- [`tagsList`](docs/sdks/tags/README.md#list) - Retrieve a list of tags
-- [`tagsUpdate`](docs/sdks/tags/README.md#update) - Update a tag
 - [`trackLead`](docs/sdks/track/README.md#lead) - Track a lead
 - [`trackSale`](docs/sdks/track/README.md#sale) - Track a sale
-- [`workspacesGet`](docs/sdks/workspaces/README.md#get) - Retrieve a workspace
-- [`workspacesUpdate`](docs/sdks/workspaces/README.md#update) - Update a workspace
-- ~~[`customersCreate`](docs/sdks/customers/README.md#create)~~ - Create a customer :warning: **Deprecated**
 
 </details>
 <!-- End Standalone functions [standalone-funcs] -->

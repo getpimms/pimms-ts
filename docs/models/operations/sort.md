@@ -9,7 +9,7 @@ DEPRECATED. Use `sortBy` instead.
 ```typescript
 import { Sort } from "pimms/models/operations";
 
-let value: Sort = "createdAt";
+let value: Sort = "lastClicked";
 ```
 
 ## Values

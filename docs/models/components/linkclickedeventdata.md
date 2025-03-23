@@ -9,34 +9,34 @@ let value: LinkClickedEventData = {
   click: {
     id: "<id>",
     timestamp: "<value>",
-    url: "https://adolescent-descendant.info/",
-    country: "Ireland",
-    city: "Oceanside",
+    url: "https://sparse-collectivization.name",
+    country: "India",
+    city: "East Vincenzoborough",
     region: "<value>",
-    continent: "Australia",
-    device: "Mobile",
+    continent: "South America",
+    device: "Desktop",
     browser: "Firefox",
-    os: "Android",
-    referer: "rotten-kielbasa.org",
-    refererUrl: "https://hidden-meatloaf.biz",
-    ip: "fc82:f866:aff6:7b03:e029:a566:d4cf:a7ae",
+    os: "MacOS",
+    referer: "accomplished-marksman.com",
+    refererUrl: "https://rundown-compromise.org",
+    ip: "6fa7:87dd:3d0e:9bfa:ebba:b5d6:c339:9520",
   },
   link: {
     id: "<id>",
-    domain: "hopeful-procurement.com",
+    domain: "all-dredger.info",
     key: "<key>",
-    url: "https://bustling-gastropod.name",
+    url: "https://liquid-term.com",
     externalId: "<id>",
     tenantId: "<id>",
     programId: "<id>",
     partnerId: "<id>",
-    expiresAt: "1750970734785",
-    expiredUrl: "https://nifty-publication.info",
-    password: "TnndTMrZz9k9Tnk",
+    expiresAt: "1748463068463",
+    expiredUrl: "https://orderly-sticker.info/",
+    password: "oEWkmjTFZGe7zbj",
     title: "<value>",
-    description: "woot aboard unto ick hurtful forceful",
-    image: "https://picsum.photos/seed/dj0KdB1/749/1203",
-    video: "https://loremflickr.com/3338/750?lock=2712858603046134",
+    description: "pfft pigpen aha",
+    image: "https://loremflickr.com/2074/2661?lock=244975953521618",
+    video: "https://loremflickr.com/1270/2382?lock=6237977518948984",
     ios: "<value>",
     android: "<id>",
     geo: {},
@@ -45,7 +45,7 @@ let value: LinkClickedEventData = {
       {
         id: "<id>",
         name: "<value>",
-        color: "brown",
+        color: "pink",
       },
     ],
     folderId: "<id>",
@@ -53,9 +53,9 @@ let value: LinkClickedEventData = {
       "<value>",
     ],
     comments:
-      "monumental disk why famously arbitrate lend sometimes roughly mmm",
-    shortLink: "https://clean-meander.info",
-    qrCode: "https://insidious-brush.com/",
+      "entice ah excepting inexperienced mothball oh helpful shakily nor per beside sweet",
+    shortLink: "https://inexperienced-heroine.org",
+    qrCode: "https://boring-majority.info",
     utmSource: "<value>",
     utmMedium: "<value>",
     utmCampaign: "<value>",
@@ -64,8 +64,8 @@ let value: LinkClickedEventData = {
     userId: "<id>",
     workspaceId: "<id>",
     lastClicked: "<value>",
-    createdAt: "1713860145954",
-    updatedAt: "1742588776752",
+    createdAt: "1742369503138",
+    updatedAt: "1742680534102",
     projectId: "<id>",
   },
 };
@@ -73,7 +73,7 @@ let value: LinkClickedEventData = {
 
 ## Fields
 
-| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| `click`                                                                              | [components.LinkClickedEventClick](../../models/components/linkclickedeventclick.md) | :heavy_check_mark:                                                                   | N/A                                                                                  |
-| `link`                                                                               | [components.LinkClickedEventLink](../../models/components/linkclickedeventlink.md)   | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| Field                                                | Type                                                 | Required                                             | Description                                          |
+| ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
+| `click`                                              | [components.Click](../../models/components/click.md) | :heavy_check_mark:                                   | N/A                                                  |
+| `link`                                               | [components.Link](../../models/components/link.md)   | :heavy_check_mark:                                   | N/A                                                  |

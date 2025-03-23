@@ -10,7 +10,7 @@ import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 export type GetLinkInfoRequest = {
   domain?: string | undefined;
   /**
-   * The key of the link to retrieve. E.g. for `d.to/github`, the key is `github`.
+   * The key of the link to retrieve.
    */
   key?: string | undefined;
   /**

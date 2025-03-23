@@ -43,38 +43,36 @@ export type LeadCreatedEventDataLink = {
   programId: string | null;
 };
 
-export type LeadCreatedEventPartner = {
+export type Partner = {
   id: string;
   name: string;
   email: string;
   image?: string | null | undefined;
 };
 
-export const LeadCreatedEventType = {
+export const Type = {
   Percentage: "percentage",
   Flat: "flat",
 } as const;
-export type LeadCreatedEventType = ClosedEnum<typeof LeadCreatedEventType>;
+export type Type = ClosedEnum<typeof Type>;
 
-export const LeadCreatedEventInterval = {
+export const Interval = {
   Month: "month",
   Year: "year",
 } as const;
-export type LeadCreatedEventInterval = ClosedEnum<
-  typeof LeadCreatedEventInterval
->;
+export type Interval = ClosedEnum<typeof Interval>;
 
-export type LeadCreatedEventDiscount = {
+export type Discount = {
   id: string;
   couponId: string | null;
   couponTestId: string | null;
   amount: number;
-  type: LeadCreatedEventType;
+  type: Type;
   duration: number | null;
-  interval: LeadCreatedEventInterval | null;
+  interval: Interval | null;
 };
 
-export type LeadCreatedEventCustomer = {
+export type Customer = {
   /**
    * The unique ID of the customer. You may use either the customer's `id` on PIMMS (obtained via `/customers` endpoint) or their `externalId` (unique ID within your system, prefixed with `ext_`, e.g. `ext_123`).
    */
@@ -104,8 +102,8 @@ export type LeadCreatedEventCustomer = {
    */
   createdAt: string;
   link?: LeadCreatedEventDataLink | null | undefined;
-  partner?: LeadCreatedEventPartner | null | undefined;
-  discount?: LeadCreatedEventDiscount | null | undefined;
+  partner?: Partner | null | undefined;
+  discount?: Discount | null | undefined;
 };
 
 export type LeadCreatedEventClick = {
@@ -126,7 +124,7 @@ export type LeadCreatedEventClick = {
 };
 
 /**
- * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+ * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
  */
 export type LeadCreatedEventGeo = {
   af?: string | undefined;
@@ -433,7 +431,7 @@ export type LeadCreatedEventLink = {
    */
   image: string | null;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   video: string | null;
   rewrite?: boolean | undefined;
@@ -447,7 +445,7 @@ export type LeadCreatedEventLink = {
    */
   android: string | null;
   /**
-   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
    */
   geo: LeadCreatedEventGeo | null;
   publicStats?: boolean | undefined;
@@ -535,7 +533,7 @@ export type LeadCreatedEventLink = {
 
 export type LeadCreatedEventData = {
   eventName: string;
-  customer: LeadCreatedEventCustomer;
+  customer: Customer;
   click: LeadCreatedEventClick;
   link: LeadCreatedEventLink;
 };
@@ -638,19 +636,16 @@ export function leadCreatedEventDataLinkFromJSON(
 }
 
 /** @internal */
-export const LeadCreatedEventPartner$inboundSchema: z.ZodType<
-  LeadCreatedEventPartner,
-  z.ZodTypeDef,
-  unknown
-> = z.object({
-  id: z.string(),
-  name: z.string(),
-  email: z.string(),
-  image: z.nullable(z.string()).optional(),
-});
+export const Partner$inboundSchema: z.ZodType<Partner, z.ZodTypeDef, unknown> =
+  z.object({
+    id: z.string(),
+    name: z.string(),
+    email: z.string(),
+    image: z.nullable(z.string()).optional(),
+  });
 
 /** @internal */
-export type LeadCreatedEventPartner$Outbound = {
+export type Partner$Outbound = {
   id: string;
   name: string;
   email: string;
@@ -658,10 +653,10 @@ export type LeadCreatedEventPartner$Outbound = {
 };
 
 /** @internal */
-export const LeadCreatedEventPartner$outboundSchema: z.ZodType<
-  LeadCreatedEventPartner$Outbound,
+export const Partner$outboundSchema: z.ZodType<
+  Partner$Outbound,
   z.ZodTypeDef,
-  LeadCreatedEventPartner
+  Partner
 > = z.object({
   id: z.string(),
   name: z.string(),
@@ -673,78 +668,71 @@ export const LeadCreatedEventPartner$outboundSchema: z.ZodType<
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace LeadCreatedEventPartner$ {
-  /** @deprecated use `LeadCreatedEventPartner$inboundSchema` instead. */
-  export const inboundSchema = LeadCreatedEventPartner$inboundSchema;
-  /** @deprecated use `LeadCreatedEventPartner$outboundSchema` instead. */
-  export const outboundSchema = LeadCreatedEventPartner$outboundSchema;
-  /** @deprecated use `LeadCreatedEventPartner$Outbound` instead. */
-  export type Outbound = LeadCreatedEventPartner$Outbound;
+export namespace Partner$ {
+  /** @deprecated use `Partner$inboundSchema` instead. */
+  export const inboundSchema = Partner$inboundSchema;
+  /** @deprecated use `Partner$outboundSchema` instead. */
+  export const outboundSchema = Partner$outboundSchema;
+  /** @deprecated use `Partner$Outbound` instead. */
+  export type Outbound = Partner$Outbound;
 }
 
-export function leadCreatedEventPartnerToJSON(
-  leadCreatedEventPartner: LeadCreatedEventPartner,
-): string {
-  return JSON.stringify(
-    LeadCreatedEventPartner$outboundSchema.parse(leadCreatedEventPartner),
-  );
+export function partnerToJSON(partner: Partner): string {
+  return JSON.stringify(Partner$outboundSchema.parse(partner));
 }
 
-export function leadCreatedEventPartnerFromJSON(
+export function partnerFromJSON(
   jsonString: string,
-): SafeParseResult<LeadCreatedEventPartner, SDKValidationError> {
+): SafeParseResult<Partner, SDKValidationError> {
   return safeParse(
     jsonString,
-    (x) => LeadCreatedEventPartner$inboundSchema.parse(JSON.parse(x)),
-    `Failed to parse 'LeadCreatedEventPartner' from JSON`,
+    (x) => Partner$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'Partner' from JSON`,
   );
 }
 
 /** @internal */
-export const LeadCreatedEventType$inboundSchema: z.ZodNativeEnum<
-  typeof LeadCreatedEventType
-> = z.nativeEnum(LeadCreatedEventType);
+export const Type$inboundSchema: z.ZodNativeEnum<typeof Type> = z.nativeEnum(
+  Type,
+);
 
 /** @internal */
-export const LeadCreatedEventType$outboundSchema: z.ZodNativeEnum<
-  typeof LeadCreatedEventType
-> = LeadCreatedEventType$inboundSchema;
+export const Type$outboundSchema: z.ZodNativeEnum<typeof Type> =
+  Type$inboundSchema;
 
 /**
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace LeadCreatedEventType$ {
-  /** @deprecated use `LeadCreatedEventType$inboundSchema` instead. */
-  export const inboundSchema = LeadCreatedEventType$inboundSchema;
-  /** @deprecated use `LeadCreatedEventType$outboundSchema` instead. */
-  export const outboundSchema = LeadCreatedEventType$outboundSchema;
+export namespace Type$ {
+  /** @deprecated use `Type$inboundSchema` instead. */
+  export const inboundSchema = Type$inboundSchema;
+  /** @deprecated use `Type$outboundSchema` instead. */
+  export const outboundSchema = Type$outboundSchema;
 }
 
 /** @internal */
-export const LeadCreatedEventInterval$inboundSchema: z.ZodNativeEnum<
-  typeof LeadCreatedEventInterval
-> = z.nativeEnum(LeadCreatedEventInterval);
+export const Interval$inboundSchema: z.ZodNativeEnum<typeof Interval> = z
+  .nativeEnum(Interval);
 
 /** @internal */
-export const LeadCreatedEventInterval$outboundSchema: z.ZodNativeEnum<
-  typeof LeadCreatedEventInterval
-> = LeadCreatedEventInterval$inboundSchema;
+export const Interval$outboundSchema: z.ZodNativeEnum<typeof Interval> =
+  Interval$inboundSchema;
 
 /**
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace LeadCreatedEventInterval$ {
-  /** @deprecated use `LeadCreatedEventInterval$inboundSchema` instead. */
-  export const inboundSchema = LeadCreatedEventInterval$inboundSchema;
-  /** @deprecated use `LeadCreatedEventInterval$outboundSchema` instead. */
-  export const outboundSchema = LeadCreatedEventInterval$outboundSchema;
+export namespace Interval$ {
+  /** @deprecated use `Interval$inboundSchema` instead. */
+  export const inboundSchema = Interval$inboundSchema;
+  /** @deprecated use `Interval$outboundSchema` instead. */
+  export const outboundSchema = Interval$outboundSchema;
 }
 
 /** @internal */
-export const LeadCreatedEventDiscount$inboundSchema: z.ZodType<
-  LeadCreatedEventDiscount,
+export const Discount$inboundSchema: z.ZodType<
+  Discount,
   z.ZodTypeDef,
   unknown
 > = z.object({
@@ -752,13 +740,13 @@ export const LeadCreatedEventDiscount$inboundSchema: z.ZodType<
   couponId: z.nullable(z.string()),
   couponTestId: z.nullable(z.string()),
   amount: z.number(),
-  type: LeadCreatedEventType$inboundSchema,
+  type: Type$inboundSchema,
   duration: z.nullable(z.number()),
-  interval: z.nullable(LeadCreatedEventInterval$inboundSchema),
+  interval: z.nullable(Interval$inboundSchema),
 });
 
 /** @internal */
-export type LeadCreatedEventDiscount$Outbound = {
+export type Discount$Outbound = {
   id: string;
   couponId: string | null;
   couponTestId: string | null;
@@ -769,54 +757,50 @@ export type LeadCreatedEventDiscount$Outbound = {
 };
 
 /** @internal */
-export const LeadCreatedEventDiscount$outboundSchema: z.ZodType<
-  LeadCreatedEventDiscount$Outbound,
+export const Discount$outboundSchema: z.ZodType<
+  Discount$Outbound,
   z.ZodTypeDef,
-  LeadCreatedEventDiscount
+  Discount
 > = z.object({
   id: z.string(),
   couponId: z.nullable(z.string()),
   couponTestId: z.nullable(z.string()),
   amount: z.number(),
-  type: LeadCreatedEventType$outboundSchema,
+  type: Type$outboundSchema,
   duration: z.nullable(z.number()),
-  interval: z.nullable(LeadCreatedEventInterval$outboundSchema),
+  interval: z.nullable(Interval$outboundSchema),
 });
 
 /**
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace LeadCreatedEventDiscount$ {
-  /** @deprecated use `LeadCreatedEventDiscount$inboundSchema` instead. */
-  export const inboundSchema = LeadCreatedEventDiscount$inboundSchema;
-  /** @deprecated use `LeadCreatedEventDiscount$outboundSchema` instead. */
-  export const outboundSchema = LeadCreatedEventDiscount$outboundSchema;
-  /** @deprecated use `LeadCreatedEventDiscount$Outbound` instead. */
-  export type Outbound = LeadCreatedEventDiscount$Outbound;
+export namespace Discount$ {
+  /** @deprecated use `Discount$inboundSchema` instead. */
+  export const inboundSchema = Discount$inboundSchema;
+  /** @deprecated use `Discount$outboundSchema` instead. */
+  export const outboundSchema = Discount$outboundSchema;
+  /** @deprecated use `Discount$Outbound` instead. */
+  export type Outbound = Discount$Outbound;
 }
 
-export function leadCreatedEventDiscountToJSON(
-  leadCreatedEventDiscount: LeadCreatedEventDiscount,
-): string {
-  return JSON.stringify(
-    LeadCreatedEventDiscount$outboundSchema.parse(leadCreatedEventDiscount),
-  );
+export function discountToJSON(discount: Discount): string {
+  return JSON.stringify(Discount$outboundSchema.parse(discount));
 }
 
-export function leadCreatedEventDiscountFromJSON(
+export function discountFromJSON(
   jsonString: string,
-): SafeParseResult<LeadCreatedEventDiscount, SDKValidationError> {
+): SafeParseResult<Discount, SDKValidationError> {
   return safeParse(
     jsonString,
-    (x) => LeadCreatedEventDiscount$inboundSchema.parse(JSON.parse(x)),
-    `Failed to parse 'LeadCreatedEventDiscount' from JSON`,
+    (x) => Discount$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'Discount' from JSON`,
   );
 }
 
 /** @internal */
-export const LeadCreatedEventCustomer$inboundSchema: z.ZodType<
-  LeadCreatedEventCustomer,
+export const Customer$inboundSchema: z.ZodType<
+  Customer,
   z.ZodTypeDef,
   unknown
 > = z.object({
@@ -829,14 +813,12 @@ export const LeadCreatedEventCustomer$inboundSchema: z.ZodType<
   createdAt: z.string(),
   link: z.nullable(z.lazy(() => LeadCreatedEventDataLink$inboundSchema))
     .optional(),
-  partner: z.nullable(z.lazy(() => LeadCreatedEventPartner$inboundSchema))
-    .optional(),
-  discount: z.nullable(z.lazy(() => LeadCreatedEventDiscount$inboundSchema))
-    .optional(),
+  partner: z.nullable(z.lazy(() => Partner$inboundSchema)).optional(),
+  discount: z.nullable(z.lazy(() => Discount$inboundSchema)).optional(),
 });
 
 /** @internal */
-export type LeadCreatedEventCustomer$Outbound = {
+export type Customer$Outbound = {
   id: string;
   externalId: string;
   name: string;
@@ -845,15 +827,15 @@ export type LeadCreatedEventCustomer$Outbound = {
   country?: string | null | undefined;
   createdAt: string;
   link?: LeadCreatedEventDataLink$Outbound | null | undefined;
-  partner?: LeadCreatedEventPartner$Outbound | null | undefined;
-  discount?: LeadCreatedEventDiscount$Outbound | null | undefined;
+  partner?: Partner$Outbound | null | undefined;
+  discount?: Discount$Outbound | null | undefined;
 };
 
 /** @internal */
-export const LeadCreatedEventCustomer$outboundSchema: z.ZodType<
-  LeadCreatedEventCustomer$Outbound,
+export const Customer$outboundSchema: z.ZodType<
+  Customer$Outbound,
   z.ZodTypeDef,
-  LeadCreatedEventCustomer
+  Customer
 > = z.object({
   id: z.string(),
   externalId: z.string(),
@@ -864,40 +846,34 @@ export const LeadCreatedEventCustomer$outboundSchema: z.ZodType<
   createdAt: z.string(),
   link: z.nullable(z.lazy(() => LeadCreatedEventDataLink$outboundSchema))
     .optional(),
-  partner: z.nullable(z.lazy(() => LeadCreatedEventPartner$outboundSchema))
-    .optional(),
-  discount: z.nullable(z.lazy(() => LeadCreatedEventDiscount$outboundSchema))
-    .optional(),
+  partner: z.nullable(z.lazy(() => Partner$outboundSchema)).optional(),
+  discount: z.nullable(z.lazy(() => Discount$outboundSchema)).optional(),
 });
 
 /**
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace LeadCreatedEventCustomer$ {
-  /** @deprecated use `LeadCreatedEventCustomer$inboundSchema` instead. */
-  export const inboundSchema = LeadCreatedEventCustomer$inboundSchema;
-  /** @deprecated use `LeadCreatedEventCustomer$outboundSchema` instead. */
-  export const outboundSchema = LeadCreatedEventCustomer$outboundSchema;
-  /** @deprecated use `LeadCreatedEventCustomer$Outbound` instead. */
-  export type Outbound = LeadCreatedEventCustomer$Outbound;
+export namespace Customer$ {
+  /** @deprecated use `Customer$inboundSchema` instead. */
+  export const inboundSchema = Customer$inboundSchema;
+  /** @deprecated use `Customer$outboundSchema` instead. */
+  export const outboundSchema = Customer$outboundSchema;
+  /** @deprecated use `Customer$Outbound` instead. */
+  export type Outbound = Customer$Outbound;
 }
 
-export function leadCreatedEventCustomerToJSON(
-  leadCreatedEventCustomer: LeadCreatedEventCustomer,
-): string {
-  return JSON.stringify(
-    LeadCreatedEventCustomer$outboundSchema.parse(leadCreatedEventCustomer),
-  );
+export function customerToJSON(customer: Customer): string {
+  return JSON.stringify(Customer$outboundSchema.parse(customer));
 }
 
-export function leadCreatedEventCustomerFromJSON(
+export function customerFromJSON(
   jsonString: string,
-): SafeParseResult<LeadCreatedEventCustomer, SDKValidationError> {
+): SafeParseResult<Customer, SDKValidationError> {
   return safeParse(
     jsonString,
-    (x) => LeadCreatedEventCustomer$inboundSchema.parse(JSON.parse(x)),
-    `Failed to parse 'LeadCreatedEventCustomer' from JSON`,
+    (x) => Customer$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'Customer' from JSON`,
   );
 }
 
@@ -2513,7 +2489,7 @@ export const LeadCreatedEventData$inboundSchema: z.ZodType<
   unknown
 > = z.object({
   eventName: z.string(),
-  customer: z.lazy(() => LeadCreatedEventCustomer$inboundSchema),
+  customer: z.lazy(() => Customer$inboundSchema),
   click: z.lazy(() => LeadCreatedEventClick$inboundSchema),
   link: z.lazy(() => LeadCreatedEventLink$inboundSchema),
 });
@@ -2521,7 +2497,7 @@ export const LeadCreatedEventData$inboundSchema: z.ZodType<
 /** @internal */
 export type LeadCreatedEventData$Outbound = {
   eventName: string;
-  customer: LeadCreatedEventCustomer$Outbound;
+  customer: Customer$Outbound;
   click: LeadCreatedEventClick$Outbound;
   link: LeadCreatedEventLink$Outbound;
 };
@@ -2533,7 +2509,7 @@ export const LeadCreatedEventData$outboundSchema: z.ZodType<
   LeadCreatedEventData
 > = z.object({
   eventName: z.string(),
-  customer: z.lazy(() => LeadCreatedEventCustomer$outboundSchema),
+  customer: z.lazy(() => Customer$outboundSchema),
   click: z.lazy(() => LeadCreatedEventClick$outboundSchema),
   link: z.lazy(() => LeadCreatedEventLink$outboundSchema),
 });

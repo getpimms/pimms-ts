@@ -7,9 +7,9 @@ import { LeadCreatedEventDataLink } from "pimms/models/components";
 
 let value: LeadCreatedEventDataLink = {
   id: "<id>",
-  domain: "big-decryption.org",
+  domain: "querulous-allegation.info",
   key: "<key>",
-  shortLink: "https://cute-shark.com/",
+  shortLink: "https://sunny-chow.net",
   programId: "<id>",
 };
 ```

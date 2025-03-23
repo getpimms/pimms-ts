@@ -15,7 +15,7 @@ import {
 } from "./tagschema.js";
 
 /**
- * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+ * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
  */
 export type Geo = {
   af?: string | undefined;
@@ -340,7 +340,7 @@ export type LinkSchema = {
    */
   image: string | null;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   video: string | null;
   /**
@@ -360,7 +360,7 @@ export type LinkSchema = {
    */
   android: string | null;
   /**
-   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
    */
   geo: Geo | null;
   /**

@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 68d0a527-4644-4531-8364-947c54d97e44
 management:
-  docChecksum: a3e12dc31819aa60dd678f08ea7005a9
+  docChecksum: d6d06b21f8988f35c304107ee44ac775
   docVersion: 0.0.1
   speakeasyVersion: 1.523.0
   generationVersion: 2.559.0
-  releaseVersion: 0.0.6
-  configChecksum: 211b8a5d69b6d10aa9b75dae7ffa1149
+  releaseVersion: 0.0.8
+  configChecksum: f81d536169489c4ec6a3eceeeeaa0a2c
   published: true
 features:
   typescript:
@@ -44,84 +44,38 @@ generatedFiles:
   - RUNTIMES.md
   - USAGE.md
   - docs/lib/utils/retryconfig.md
-  - docs/models/components/accesslevel.md
-  - docs/models/components/analyticsbrowsers.md
-  - docs/models/components/analyticscities.md
-  - docs/models/components/analyticscitiescountry.md
-  - docs/models/components/analyticscontinents.md
-  - docs/models/components/analyticscount.md
-  - docs/models/components/analyticscountries.md
-  - docs/models/components/analyticsdevices.md
-  - docs/models/components/analyticsos.md
-  - docs/models/components/analyticsreferers.md
-  - docs/models/components/analyticsrefererurls.md
-  - docs/models/components/analyticstimeseries.md
-  - docs/models/components/analyticstoplinks.md
-  - docs/models/components/analyticstopurls.md
-  - docs/models/components/analyticstriggers.md
-  - docs/models/components/city.md
   - docs/models/components/click.md
-  - docs/models/components/clickevent.md
-  - docs/models/components/clickeventgeo.md
   - docs/models/components/code.md
   - docs/models/components/color.md
-  - docs/models/components/continent.md
-  - docs/models/components/continentcode.md
-  - docs/models/components/country.md
-  - docs/models/components/countrycode.md
   - docs/models/components/customer.md
   - docs/models/components/data.md
   - docs/models/components/discount.md
-  - docs/models/components/domains.md
-  - docs/models/components/domainschema.md
   - docs/models/components/event.md
-  - docs/models/components/folderschema.md
   - docs/models/components/geo.md
   - docs/models/components/interval.md
   - docs/models/components/leadcreatedevent.md
   - docs/models/components/leadcreatedeventclick.md
-  - docs/models/components/leadcreatedeventcustomer.md
   - docs/models/components/leadcreatedeventdata.md
   - docs/models/components/leadcreatedeventdatalink.md
-  - docs/models/components/leadcreatedeventdiscount.md
   - docs/models/components/leadcreatedeventevent.md
   - docs/models/components/leadcreatedeventgeo.md
-  - docs/models/components/leadcreatedeventinterval.md
   - docs/models/components/leadcreatedeventlink.md
-  - docs/models/components/leadcreatedeventpartner.md
-  - docs/models/components/leadcreatedeventtype.md
-  - docs/models/components/leadevent.md
-  - docs/models/components/leadeventclick.md
-  - docs/models/components/leadeventcustomerlink.md
-  - docs/models/components/leadeventevent.md
-  - docs/models/components/leadeventgeo.md
-  - docs/models/components/leadeventlink.md
   - docs/models/components/link.md
   - docs/models/components/linkclickedevent.md
-  - docs/models/components/linkclickedeventclick.md
   - docs/models/components/linkclickedeventdata.md
   - docs/models/components/linkclickedeventevent.md
   - docs/models/components/linkclickedeventgeo.md
-  - docs/models/components/linkclickedeventlink.md
   - docs/models/components/linkerrorschema.md
   - docs/models/components/linkgeotargeting.md
   - docs/models/components/links.md
   - docs/models/components/linkschema.md
   - docs/models/components/linkwebhookevent.md
-  - docs/models/components/linkwebhookeventevent.md
   - docs/models/components/linkwebhookeventgeo.md
   - docs/models/components/one.md
   - docs/models/components/partner.md
-  - docs/models/components/partneranalyticscount.md
-  - docs/models/components/partneranalyticstimeseries.md
-  - docs/models/components/partneranalyticstoplinks.md
   - docs/models/components/partnercreatedevent.md
   - docs/models/components/partnercreatedeventdata.md
   - docs/models/components/partnercreatedeventevent.md
-  - docs/models/components/paymentprocessor.md
-  - docs/models/components/plan.md
-  - docs/models/components/registereddomain.md
-  - docs/models/components/role.md
   - docs/models/components/sale.md
   - docs/models/components/salecreatedevent.md
   - docs/models/components/salecreatedeventclick.md
@@ -134,29 +88,14 @@ generatedFiles:
   - docs/models/components/salecreatedeventinterval.md
   - docs/models/components/salecreatedeventlink.md
   - docs/models/components/salecreatedeventpartner.md
-  - docs/models/components/salecreatedeventsale.md
   - docs/models/components/salecreatedeventtype.md
-  - docs/models/components/saleevent.md
-  - docs/models/components/saleeventclick.md
-  - docs/models/components/saleeventcustomer.md
-  - docs/models/components/saleeventcustomerlink.md
-  - docs/models/components/saleeventdiscount.md
-  - docs/models/components/saleeventevent.md
-  - docs/models/components/saleeventgeo.md
-  - docs/models/components/saleeventinterval.md
-  - docs/models/components/saleeventlink.md
-  - docs/models/components/saleeventpartner.md
-  - docs/models/components/saleeventtype.md
   - docs/models/components/security.md
   - docs/models/components/status.md
   - docs/models/components/tagschema.md
   - docs/models/components/three.md
-  - docs/models/components/trigger.md
   - docs/models/components/two.md
   - docs/models/components/type.md
-  - docs/models/components/users.md
   - docs/models/components/webhookevent.md
-  - docs/models/components/workspaceschema.md
   - docs/models/errors/badrequest.md
   - docs/models/errors/code.md
   - docs/models/errors/conflict.md
@@ -184,7 +123,6 @@ generatedFiles:
   - docs/models/errors/unprocessableentity.md
   - docs/models/errors/unprocessableentitycode.md
   - docs/models/errors/unprocessableentityerror.md
-  - docs/models/operations/accesslevel.md
   - docs/models/operations/bulkcreatelinkstagids.md
   - docs/models/operations/bulkcreatelinkstagnames.md
   - docs/models/operations/bulkdeletelinksrequest.md
@@ -193,106 +131,33 @@ generatedFiles:
   - docs/models/operations/bulkupdatelinkstagids.md
   - docs/models/operations/bulkupdatelinkstagnames.md
   - docs/models/operations/click.md
-  - docs/models/operations/color.md
-  - docs/models/operations/country.md
-  - docs/models/operations/createcustomerdiscount.md
-  - docs/models/operations/createcustomerinterval.md
-  - docs/models/operations/createcustomerlink.md
-  - docs/models/operations/createcustomerpartner.md
-  - docs/models/operations/createcustomerrequestbody.md
-  - docs/models/operations/createcustomerresponsebody.md
-  - docs/models/operations/createcustomertype.md
-  - docs/models/operations/createdomainrequestbody.md
   - docs/models/operations/createembedtokenrequestbody.md
   - docs/models/operations/createembedtokenresponsebody.md
-  - docs/models/operations/createfolderrequestbody.md
   - docs/models/operations/createlinkrequestbody.md
-  - docs/models/operations/createpartnerlinklinkprops.md
-  - docs/models/operations/createpartnerlinkrequestbody.md
-  - docs/models/operations/createpartnerlinktagids.md
-  - docs/models/operations/createpartnerlinktagnames.md
-  - docs/models/operations/createpartnerrequestbody.md
-  - docs/models/operations/createpartnerresponsebody.md
-  - docs/models/operations/createpartnertagids.md
-  - docs/models/operations/createpartnertagnames.md
-  - docs/models/operations/createtagrequestbody.md
   - docs/models/operations/customer.md
   - docs/models/operations/data.md
-  - docs/models/operations/deletecustomerrequest.md
-  - docs/models/operations/deletecustomerresponsebody.md
-  - docs/models/operations/deletedomainrequest.md
-  - docs/models/operations/deletedomainresponsebody.md
-  - docs/models/operations/deletefolderrequest.md
-  - docs/models/operations/deletefolderresponsebody.md
   - docs/models/operations/deletelinkrequest.md
   - docs/models/operations/deletelinkresponsebody.md
-  - docs/models/operations/deletetagrequest.md
-  - docs/models/operations/deletetagresponsebody.md
-  - docs/models/operations/discount.md
-  - docs/models/operations/event.md
   - docs/models/operations/four.md
-  - docs/models/operations/getcustomerdiscount.md
-  - docs/models/operations/getcustomerinterval.md
-  - docs/models/operations/getcustomerlink.md
-  - docs/models/operations/getcustomerpartner.md
-  - docs/models/operations/getcustomerrequest.md
-  - docs/models/operations/getcustomerresponsebody.md
-  - docs/models/operations/getcustomersinterval.md
-  - docs/models/operations/getcustomersrequest.md
-  - docs/models/operations/getcustomersresponsebody.md
-  - docs/models/operations/getcustomertype.md
   - docs/models/operations/getlinkinforequest.md
   - docs/models/operations/getlinkscountqueryparamtagids.md
   - docs/models/operations/getlinkscountqueryparamtagnames.md
   - docs/models/operations/getlinkscountrequest.md
   - docs/models/operations/getlinksrequest.md
   - docs/models/operations/getlinksresponse.md
-  - docs/models/operations/getmetatagsrequest.md
-  - docs/models/operations/getmetatagsresponsebody.md
   - docs/models/operations/getqrcoderequest.md
-  - docs/models/operations/gettagsqueryparamsortby.md
-  - docs/models/operations/gettagsqueryparamsortorder.md
-  - docs/models/operations/gettagsrequest.md
-  - docs/models/operations/getworkspacerequest.md
   - docs/models/operations/groupby.md
-  - docs/models/operations/ids.md
-  - docs/models/operations/interval.md
   - docs/models/operations/level.md
-  - docs/models/operations/link.md
-  - docs/models/operations/linkprops.md
-  - docs/models/operations/links.md
-  - docs/models/operations/listdomainsrequest.md
-  - docs/models/operations/listdomainsresponse.md
-  - docs/models/operations/listeventsqueryparamtagids.md
-  - docs/models/operations/listeventsrequest.md
-  - docs/models/operations/listeventsresponsebody.md
-  - docs/models/operations/listfoldersrequest.md
   - docs/models/operations/one.md
-  - docs/models/operations/order.md
-  - docs/models/operations/partner.md
   - docs/models/operations/paymentprocessor.md
-  - docs/models/operations/queryparamevent.md
-  - docs/models/operations/queryparamgroupby.md
-  - docs/models/operations/queryparaminterval.md
-  - docs/models/operations/queryparamsortby.md
-  - docs/models/operations/queryparamsortorder.md
   - docs/models/operations/queryparamtagids.md
   - docs/models/operations/queryparamtagnames.md
-  - docs/models/operations/queryparamtrigger.md
   - docs/models/operations/requestbody.md
   - docs/models/operations/responsebody.md
-  - docs/models/operations/retrieveanalyticsqueryparamtagids.md
-  - docs/models/operations/retrieveanalyticsrequest.md
-  - docs/models/operations/retrieveanalyticsresponsebody.md
-  - docs/models/operations/retrievepartneranalyticsqueryparamgroupby.md
-  - docs/models/operations/retrievepartneranalyticsqueryparaminterval.md
-  - docs/models/operations/retrievepartneranalyticsrequest.md
-  - docs/models/operations/retrievepartneranalyticsresponsebody.md
   - docs/models/operations/sale.md
   - docs/models/operations/sort.md
   - docs/models/operations/sortby.md
   - docs/models/operations/sortorder.md
-  - docs/models/operations/status.md
   - docs/models/operations/tagids.md
   - docs/models/operations/tagnames.md
   - docs/models/operations/three.md
@@ -301,72 +166,24 @@ generatedFiles:
   - docs/models/operations/tracksalecustomer.md
   - docs/models/operations/tracksalerequestbody.md
   - docs/models/operations/tracksaleresponsebody.md
-  - docs/models/operations/trigger.md
   - docs/models/operations/two.md
-  - docs/models/operations/type.md
-  - docs/models/operations/updatecustomerdiscount.md
-  - docs/models/operations/updatecustomerinterval.md
-  - docs/models/operations/updatecustomerlink.md
-  - docs/models/operations/updatecustomerpartner.md
-  - docs/models/operations/updatecustomerrequest.md
-  - docs/models/operations/updatecustomerrequestbody.md
-  - docs/models/operations/updatecustomerresponsebody.md
-  - docs/models/operations/updatecustomertype.md
-  - docs/models/operations/updatedomainrequest.md
-  - docs/models/operations/updatedomainrequestbody.md
-  - docs/models/operations/updatefolderaccesslevel.md
-  - docs/models/operations/updatefolderrequest.md
-  - docs/models/operations/updatefolderrequestbody.md
   - docs/models/operations/updatelinkrequest.md
   - docs/models/operations/updatelinkrequestbody.md
   - docs/models/operations/updatelinktagids.md
   - docs/models/operations/updatelinktagnames.md
-  - docs/models/operations/updatetagcolor.md
-  - docs/models/operations/updatetagrequest.md
-  - docs/models/operations/updatetagrequestbody.md
-  - docs/models/operations/updateworkspacerequest.md
-  - docs/models/operations/updateworkspacerequestbody.md
   - docs/models/operations/upsertlinkrequestbody.md
   - docs/models/operations/upsertlinktagids.md
   - docs/models/operations/upsertlinktagnames.md
-  - docs/models/operations/upsertpartnerlinklinkprops.md
-  - docs/models/operations/upsertpartnerlinkrequestbody.md
-  - docs/models/operations/upsertpartnerlinktagids.md
-  - docs/models/operations/upsertpartnerlinktagnames.md
-  - docs/sdks/analytics/README.md
-  - docs/sdks/customers/README.md
-  - docs/sdks/domains/README.md
   - docs/sdks/embedtokens/README.md
-  - docs/sdks/events/README.md
-  - docs/sdks/folders/README.md
   - docs/sdks/links/README.md
-  - docs/sdks/metatags/README.md
-  - docs/sdks/partners/README.md
   - docs/sdks/pimms/README.md
   - docs/sdks/qrcodes/README.md
-  - docs/sdks/tags/README.md
   - docs/sdks/track/README.md
-  - docs/sdks/workspaces/README.md
   - eslint.config.mjs
   - jsr.json
   - package.json
   - src/core.ts
-  - src/funcs/analyticsRetrieve.ts
-  - src/funcs/customersCreate.ts
-  - src/funcs/customersDelete.ts
-  - src/funcs/customersGet.ts
-  - src/funcs/customersList.ts
-  - src/funcs/customersUpdate.ts
-  - src/funcs/domainsCreate.ts
-  - src/funcs/domainsDelete.ts
-  - src/funcs/domainsList.ts
-  - src/funcs/domainsUpdate.ts
   - src/funcs/embedTokensCreate.ts
-  - src/funcs/eventsList.ts
-  - src/funcs/foldersCreate.ts
-  - src/funcs/foldersDelete.ts
-  - src/funcs/foldersList.ts
-  - src/funcs/foldersUpdate.ts
   - src/funcs/linksCount.ts
   - src/funcs/linksCreate.ts
   - src/funcs/linksCreateMany.ts
@@ -377,20 +194,9 @@ generatedFiles:
   - src/funcs/linksUpdate.ts
   - src/funcs/linksUpdateMany.ts
   - src/funcs/linksUpsert.ts
-  - src/funcs/metatagsGet.ts
-  - src/funcs/partnersAnalytics.ts
-  - src/funcs/partnersCreate.ts
-  - src/funcs/partnersCreateLink.ts
-  - src/funcs/partnersUpsertLink.ts
   - src/funcs/qrCodesGet.ts
-  - src/funcs/tagsCreate.ts
-  - src/funcs/tagsDelete.ts
-  - src/funcs/tagsList.ts
-  - src/funcs/tagsUpdate.ts
   - src/funcs/trackLead.ts
   - src/funcs/trackSale.ts
-  - src/funcs/workspacesGet.ts
-  - src/funcs/workspacesUpdate.ts
   - src/hooks/hooks.ts
   - src/hooks/index.ts
   - src/hooks/types.ts
@@ -424,22 +230,7 @@ generatedFiles:
   - src/mcp-server/server.ts
   - src/mcp-server/shared.ts
   - src/mcp-server/tools.ts
-  - src/mcp-server/tools/analyticsRetrieve.ts
-  - src/mcp-server/tools/customersCreate.ts
-  - src/mcp-server/tools/customersDelete.ts
-  - src/mcp-server/tools/customersGet.ts
-  - src/mcp-server/tools/customersList.ts
-  - src/mcp-server/tools/customersUpdate.ts
-  - src/mcp-server/tools/domainsCreate.ts
-  - src/mcp-server/tools/domainsDelete.ts
-  - src/mcp-server/tools/domainsList.ts
-  - src/mcp-server/tools/domainsUpdate.ts
   - src/mcp-server/tools/embedTokensCreate.ts
-  - src/mcp-server/tools/eventsList.ts
-  - src/mcp-server/tools/foldersCreate.ts
-  - src/mcp-server/tools/foldersDelete.ts
-  - src/mcp-server/tools/foldersList.ts
-  - src/mcp-server/tools/foldersUpdate.ts
   - src/mcp-server/tools/linksCount.ts
   - src/mcp-server/tools/linksCreate.ts
   - src/mcp-server/tools/linksCreateMany.ts
@@ -450,56 +241,21 @@ generatedFiles:
   - src/mcp-server/tools/linksUpdate.ts
   - src/mcp-server/tools/linksUpdateMany.ts
   - src/mcp-server/tools/linksUpsert.ts
-  - src/mcp-server/tools/metatagsGet.ts
-  - src/mcp-server/tools/partnersAnalytics.ts
-  - src/mcp-server/tools/partnersCreate.ts
-  - src/mcp-server/tools/partnersCreateLink.ts
-  - src/mcp-server/tools/partnersUpsertLink.ts
   - src/mcp-server/tools/qrCodesGet.ts
-  - src/mcp-server/tools/tagsCreate.ts
-  - src/mcp-server/tools/tagsDelete.ts
-  - src/mcp-server/tools/tagsList.ts
-  - src/mcp-server/tools/tagsUpdate.ts
   - src/mcp-server/tools/trackLead.ts
   - src/mcp-server/tools/trackSale.ts
-  - src/mcp-server/tools/workspacesGet.ts
-  - src/mcp-server/tools/workspacesUpdate.ts
-  - src/models/components/analyticsbrowsers.ts
-  - src/models/components/analyticscities.ts
-  - src/models/components/analyticscontinents.ts
-  - src/models/components/analyticscount.ts
-  - src/models/components/analyticscountries.ts
-  - src/models/components/analyticsdevices.ts
-  - src/models/components/analyticsos.ts
-  - src/models/components/analyticsreferers.ts
-  - src/models/components/analyticsrefererurls.ts
-  - src/models/components/analyticstimeseries.ts
-  - src/models/components/analyticstoplinks.ts
-  - src/models/components/analyticstopurls.ts
-  - src/models/components/analyticstriggers.ts
-  - src/models/components/clickevent.ts
-  - src/models/components/continentcode.ts
-  - src/models/components/countrycode.ts
-  - src/models/components/domainschema.ts
-  - src/models/components/folderschema.ts
   - src/models/components/index.ts
   - src/models/components/leadcreatedevent.ts
-  - src/models/components/leadevent.ts
   - src/models/components/linkclickedevent.ts
   - src/models/components/linkerrorschema.ts
   - src/models/components/linkgeotargeting.ts
   - src/models/components/linkschema.ts
   - src/models/components/linkwebhookevent.ts
-  - src/models/components/partneranalyticscount.ts
-  - src/models/components/partneranalyticstimeseries.ts
-  - src/models/components/partneranalyticstoplinks.ts
   - src/models/components/partnercreatedevent.ts
   - src/models/components/salecreatedevent.ts
-  - src/models/components/saleevent.ts
   - src/models/components/security.ts
   - src/models/components/tagschema.ts
   - src/models/components/webhookevent.ts
-  - src/models/components/workspaceschema.ts
   - src/models/errors/apierror.ts
   - src/models/errors/badrequest.ts
   - src/models/errors/conflict.ts
@@ -516,59 +272,24 @@ generatedFiles:
   - src/models/operations/bulkcreatelinks.ts
   - src/models/operations/bulkdeletelinks.ts
   - src/models/operations/bulkupdatelinks.ts
-  - src/models/operations/createcustomer.ts
-  - src/models/operations/createdomain.ts
   - src/models/operations/createembedtoken.ts
-  - src/models/operations/createfolder.ts
   - src/models/operations/createlink.ts
-  - src/models/operations/createpartner.ts
-  - src/models/operations/createpartnerlink.ts
-  - src/models/operations/createtag.ts
-  - src/models/operations/deletecustomer.ts
-  - src/models/operations/deletedomain.ts
-  - src/models/operations/deletefolder.ts
   - src/models/operations/deletelink.ts
-  - src/models/operations/deletetag.ts
-  - src/models/operations/getcustomer.ts
-  - src/models/operations/getcustomers.ts
   - src/models/operations/getlinkinfo.ts
   - src/models/operations/getlinks.ts
   - src/models/operations/getlinkscount.ts
-  - src/models/operations/getmetatags.ts
   - src/models/operations/getqrcode.ts
-  - src/models/operations/gettags.ts
-  - src/models/operations/getworkspace.ts
   - src/models/operations/index.ts
-  - src/models/operations/listdomains.ts
-  - src/models/operations/listevents.ts
-  - src/models/operations/listfolders.ts
-  - src/models/operations/retrieveanalytics.ts
-  - src/models/operations/retrievepartneranalytics.ts
   - src/models/operations/tracklead.ts
   - src/models/operations/tracksale.ts
-  - src/models/operations/updatecustomer.ts
-  - src/models/operations/updatedomain.ts
-  - src/models/operations/updatefolder.ts
   - src/models/operations/updatelink.ts
-  - src/models/operations/updatetag.ts
-  - src/models/operations/updateworkspace.ts
   - src/models/operations/upsertlink.ts
-  - src/models/operations/upsertpartnerlink.ts
-  - src/sdk/analytics.ts
-  - src/sdk/customers.ts
-  - src/sdk/domains.ts
   - src/sdk/embedtokens.ts
-  - src/sdk/events.ts
-  - src/sdk/folders.ts
   - src/sdk/index.ts
   - src/sdk/links.ts
-  - src/sdk/metatags.ts
-  - src/sdk/partners.ts
   - src/sdk/qrcodes.ts
   - src/sdk/sdk.ts
-  - src/sdk/tags.ts
   - src/sdk/track.ts
-  - src/sdk/workspaces.ts
   - src/types/async.ts
   - src/types/blobs.ts
   - src/types/constdatetime.ts
@@ -857,7 +578,7 @@ examples:
           browser: "Chrome"
           os: "Windows"
           referer: "google.com"
-          refererUrl: "https://dub.co/blog"
+          refererUrl: "https://pimms.io/blog"
       responses:
         "200":
           application/json: [{"city": "West Aubrey", "country": "MR", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}, {"city": "Creminfield", "country": "AZ", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}, {"city": "VonRuedenville", "country": "CF", "clicks": 0, "leads": 0, "sales": 0, "saleAmount": 0}]
@@ -891,14 +612,14 @@ examples:
           browser: "Chrome"
           os: "Windows"
           referer: "google.com"
-          refererUrl: "https://dub.co/blog"
+          refererUrl: "https://pimms.io/blog"
           page: 1
           limit: 100
           sortOrder: "desc"
           sortBy: "timestamp"
       responses:
         "200":
-          application/json: [{"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "remorseful-concentration.biz", "key": "<key>", "url": "https://primary-paintwork.com/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1765310953202", "expiredUrl": "https://black-poetry.name/", "password": "COyVtOrvIw1vLIJ", "title": "<value>", "description": "despite er boom however when uh-huh", "image": "https://picsum.photos/seed/T1tZJLp1EG/3827/3109", "video": "https://loremflickr.com/2420/1632?lock=7470650813503352", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}], "folderId": "<id>", "webhookIds": [], "comments": "tenement commonly softly boo massive sorrowful", "shortLink": "https://dense-custom.info/", "qrCode": "https://alive-lid.biz", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1730723764747", "updatedAt": "1742597392746", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://utilized-quit.net/", "country": "Togo", "city": "Cormiermouth", "region": "<value>", "continent": "North America", "device": "Mobile", "browser": "Chrome", "os": "Chrome OS", "referer": "gummy-cope.net", "refererUrl": "https://prickly-bourgeoisie.info/", "ip": "69bd:53cd:cebc:ac4b:d1e8:50e8:ee59:b0b3"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1741479309204"}, "sale": {"amount": 625809, "invoiceId": null, "paymentProcessor": "stripe"}, "saleAmount": 1401.42, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "unruly-allegation.name", "key": "<key>", "url": "https://fortunate-swim.info/", "continent": "Australia", "country": "Cook Islands", "city": "South Harryburgh", "device": "Mobile", "browser": "Safari", "os": "WebOS", "qr": 1523.03, "ip": "caf5:04dc:da9e:67cc:af3b:8caf:afbe:e39c"}, {"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "right-window.biz", "key": "<key>", "url": "https://physical-experience.org/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1754002306782", "expiredUrl": "https://indelible-birdbath.net", "password": "4yMlkCXkK5ppW3u", "title": "<value>", "description": "terribly gosh facilitate in", "image": "https://loremflickr.com/2596/954?lock=8527955982122580", "video": "https://loremflickr.com/3336/742?lock=2177640289466521", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "red"}, {"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>", "<value>"], "comments": "up so pro pish clear-cut an mid aw disconnection which wetly typeface usable underneath putrefy ah aha", "shortLink": "https://knowledgeable-season.info", "qrCode": "https://nimble-individual.biz/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1741218030470", "updatedAt": "1742603113935", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://perfumed-marketplace.com/", "country": "Burundi", "city": "Stockton", "region": "<value>", "continent": "Asia", "device": "Desktop", "browser": "Chrome", "os": "Symbian", "referer": "well-off-hygienic.org", "refererUrl": "https://ripe-ceramic.org", "ip": "eebc:cce9:cecf:ebeb:dfd9:15f2:a0cc:a3b1"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1725578975290"}, "sale": {"amount": 443316, "invoiceId": null, "paymentProcessor": "paddle"}, "saleAmount": 2634.98, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "next-cricket.biz", "key": "<key>", "url": "https://repentant-rust.name/", "continent": "Australia", "country": "Saint Helena", "city": "Luettgenfort", "device": "Mobile", "browser": "Safari", "os": "Chrome OS", "qr": 4390.32, "ip": "54.229.114.129"}]
+          application/json: [{"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "remorseful-concentration.biz", "key": "<key>", "url": "https://primary-paintwork.com/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1765417579796", "expiredUrl": "https://black-poetry.name/", "password": "COyVtOrvIw1vLIJ", "title": "<value>", "description": "despite er boom however when uh-huh", "image": "https://picsum.photos/seed/T1tZJLp1EG/3827/3109", "video": "https://loremflickr.com/2420/1632?lock=7470650813503352", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "green"}], "folderId": "<id>", "webhookIds": [], "comments": "tenement commonly softly boo massive sorrowful", "shortLink": "https://dense-custom.info/", "qrCode": "https://alive-lid.biz", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1730830391335", "updatedAt": "1742704019334", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://utilized-quit.net/", "country": "Togo", "city": "Cormiermouth", "region": "<value>", "continent": "North America", "device": "Mobile", "browser": "Chrome", "os": "Chrome OS", "referer": "gummy-cope.net", "refererUrl": "https://prickly-bourgeoisie.info/", "ip": "69bd:53cd:cebc:ac4b:d1e8:50e8:ee59:b0b3"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1741585935790"}, "sale": {"amount": 625809, "invoiceId": null, "paymentProcessor": "stripe"}, "saleAmount": 1401.42, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "unruly-allegation.name", "key": "<key>", "url": "https://fortunate-swim.info/", "continent": "Australia", "country": "Cook Islands", "city": "South Harryburgh", "device": "Mobile", "browser": "Safari", "os": "WebOS", "qr": 1523.03, "ip": "caf5:04dc:da9e:67cc:af3b:8caf:afbe:e39c"}, {"event": "sale", "eventId": "<id>", "eventName": "<value>", "link": {"id": "<id>", "domain": "right-window.biz", "key": "<key>", "url": "https://physical-experience.org/", "externalId": "<id>", "tenantId": "<id>", "programId": "<id>", "partnerId": "<id>", "expiresAt": "1754108933368", "expiredUrl": "https://indelible-birdbath.net", "password": "4yMlkCXkK5ppW3u", "title": "<value>", "description": "terribly gosh facilitate in", "image": "https://loremflickr.com/2596/954?lock=8527955982122580", "video": "https://loremflickr.com/3336/742?lock=2177640289466521", "ios": "<value>", "android": "<id>", "geo": {}, "tagId": "<id>", "tags": [{"id": "<id>", "name": "<value>", "color": "red"}, {"id": "<id>", "name": "<value>", "color": "pink"}, {"id": "<id>", "name": "<value>", "color": "pink"}], "folderId": "<id>", "webhookIds": ["<value>", "<value>", "<value>"], "comments": "up so pro pish clear-cut an mid aw disconnection which wetly typeface usable underneath putrefy ah aha", "shortLink": "https://knowledgeable-season.info", "qrCode": "https://nimble-individual.biz/", "utm_source": "<value>", "utm_medium": "<value>", "utm_campaign": "<value>", "utm_term": "<value>", "utm_content": "<value>", "userId": "<id>", "workspaceId": "<id>", "clicks": 0, "lastClicked": "<value>", "leads": 0, "sales": 0, "saleAmount": 0, "createdAt": "1741324657056", "updatedAt": "1742709740520", "projectId": "<id>"}, "click": {"id": "<id>", "timestamp": "<value>", "url": "https://perfumed-marketplace.com/", "country": "Burundi", "city": "Stockton", "region": "<value>", "continent": "Asia", "device": "Desktop", "browser": "Chrome", "os": "Symbian", "referer": "well-off-hygienic.org", "refererUrl": "https://ripe-ceramic.org", "ip": "eebc:cce9:cecf:ebeb:dfd9:15f2:a0cc:a3b1"}, "customer": {"id": "<id>", "externalId": "<id>", "name": "<value>", "createdAt": "1725685601875"}, "sale": {"amount": 443316, "invoiceId": null, "paymentProcessor": "paddle"}, "saleAmount": 2634.98, "invoice_id": "<id>", "payment_processor": "<value>", "click_id": "<id>", "link_id": "<id>", "domain": "next-cricket.biz", "key": "<key>", "url": "https://repentant-rust.name/", "continent": "Australia", "country": "Saint Helena", "city": "Luettgenfort", "device": "Mobile", "browser": "Safari", "os": "Chrome OS", "qr": 4390.32, "ip": "54.229.114.129"}]
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -1122,10 +843,10 @@ examples:
   createDomain:
     speakeasy-default-create-domain:
       requestBody:
-        application/json: {"slug": "acme.com", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub"}
+        application/json: {"slug": "acme.com", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms"}
       responses:
         "201":
-          application/json: {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1726461715491", "updatedAt": "1742621390494", "registeredDomain": {"id": "<id>", "createdAt": "1724281578858", "expiresAt": "1746889970047"}}
+          application/json: {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1726461715491", "updatedAt": "1742621390494", "registeredDomain": {"id": "<id>", "createdAt": "1724281578858", "expiresAt": "1746889970047"}}
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -1153,7 +874,7 @@ examples:
           pageSize: 50
       responses:
         "200":
-          application/json: [{"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1728375396288", "updatedAt": "1742624837170", "registeredDomain": {"id": "<id>", "createdAt": "1716720782368", "expiresAt": "1749896979228"}}, {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1715936518772", "updatedAt": "1742621140669", "registeredDomain": {"id": "<id>", "createdAt": "1731280328730", "expiresAt": "1743206953454"}}, {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1733769039014", "updatedAt": "1742573673728", "registeredDomain": {"id": "<id>", "createdAt": "1713276998371", "expiresAt": "1764348127005"}}]
+          application/json: [{"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1728375396288", "updatedAt": "1742624837170", "registeredDomain": {"id": "<id>", "createdAt": "1716720782368", "expiresAt": "1749896979228"}}, {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1715936518772", "updatedAt": "1742621140669", "registeredDomain": {"id": "<id>", "createdAt": "1731280328730", "expiresAt": "1743206953454"}}, {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1733769039014", "updatedAt": "1742573673728", "registeredDomain": {"id": "<id>", "createdAt": "1713276998371", "expiresAt": "1764348127005"}}]
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":
@@ -1178,10 +899,10 @@ examples:
         path:
           slug: "acme.com"
       requestBody:
-        application/json: {"slug": "acme.com", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub"}
+        application/json: {"slug": "acme.com", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms"}
       responses:
         "200":
-          application/json: {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://dub.co/help/article/what-is-dub", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1738158031311", "updatedAt": "1742617822662", "registeredDomain": {"id": "<id>", "createdAt": "1721984565016", "expiresAt": "1773919432469"}}
+          application/json: {"id": "<id>", "slug": "acme.com", "verified": false, "primary": false, "archived": false, "placeholder": "https://pimms.io/blog/what-is-pimms", "expiredUrl": "https://acme.com/expired", "notFoundUrl": "https://acme.com/not-found", "logo": "<value>", "createdAt": "1738158031311", "updatedAt": "1742617822662", "registeredDomain": {"id": "<id>", "createdAt": "1721984565016", "expiresAt": "1773919432469"}}
         "400":
           application/json: {"error": {"code": "bad_request", "message": "The requested resource was not found."}}
         "401":

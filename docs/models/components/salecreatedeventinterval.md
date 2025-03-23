@@ -5,7 +5,7 @@
 ```typescript
 import { SaleCreatedEventInterval } from "pimms/models/components";
 
-let value: SaleCreatedEventInterval = "year";
+let value: SaleCreatedEventInterval = "month";
 ```
 
 ## Values

@@ -7,7 +7,7 @@ The field to sort the links by. The default is `createdAt`.
 ```typescript
 import { SortBy } from "pimms/models/operations";
 
-let value: SortBy = "clicks";
+let value: SortBy = "createdAt";
 ```
 
 ## Values

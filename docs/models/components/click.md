@@ -8,17 +8,17 @@ import { Click } from "pimms/models/components";
 let value: Click = {
   id: "<id>",
   timestamp: "<value>",
-  url: "https://untimely-sand.biz",
+  url: "https://unhappy-collaboration.name/",
   country: "Belarus",
-  city: "Darionville",
+  city: "Plymouth",
   region: "<value>",
-  continent: "Africa",
+  continent: "North America",
   device: "Mobile",
-  browser: "Chrome",
-  os: "WebOS",
-  referer: "crafty-bin.com",
-  refererUrl: "https://exotic-hepatitis.name",
-  ip: "f521:65af:f683:b1fb:b58c:684a:0b1b:6cfe",
+  browser: "Firefox",
+  os: "Windows Phone",
+  referer: "motionless-institute.net",
+  refererUrl: "https://decent-hose.biz/",
+  ip: "216.197.139.250",
 };
 ```
 

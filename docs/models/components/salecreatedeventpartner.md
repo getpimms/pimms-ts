@@ -8,7 +8,7 @@ import { SaleCreatedEventPartner } from "pimms/models/components";
 let value: SaleCreatedEventPartner = {
   id: "<id>",
   name: "<value>",
-  email: "Patsy_Kiehn0@hotmail.com",
+  email: "Murl.McDermott56@gmail.com",
 };
 ```
 

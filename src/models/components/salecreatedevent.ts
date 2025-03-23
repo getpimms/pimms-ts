@@ -126,7 +126,7 @@ export type SaleCreatedEventClick = {
 };
 
 /**
- * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+ * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
  */
 export type SaleCreatedEventGeo = {
   af?: string | undefined;
@@ -433,7 +433,7 @@ export type SaleCreatedEventLink = {
    */
   image: string | null;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   video: string | null;
   rewrite?: boolean | undefined;
@@ -447,7 +447,7 @@ export type SaleCreatedEventLink = {
    */
   android: string | null;
   /**
-   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
+   * Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`.
    */
   geo: SaleCreatedEventGeo | null;
   publicStats?: boolean | undefined;
@@ -533,7 +533,7 @@ export type SaleCreatedEventLink = {
   projectId: string;
 };
 
-export type SaleCreatedEventSale = {
+export type Sale = {
   amount: number;
   currency: string;
   paymentProcessor: string;
@@ -545,7 +545,7 @@ export type SaleCreatedEventData = {
   customer: SaleCreatedEventCustomer;
   click: SaleCreatedEventClick;
   link: SaleCreatedEventLink;
-  sale: SaleCreatedEventSale;
+  sale: Sale;
 };
 
 /**
@@ -2515,19 +2515,16 @@ export function saleCreatedEventLinkFromJSON(
 }
 
 /** @internal */
-export const SaleCreatedEventSale$inboundSchema: z.ZodType<
-  SaleCreatedEventSale,
-  z.ZodTypeDef,
-  unknown
-> = z.object({
-  amount: z.number(),
-  currency: z.string(),
-  paymentProcessor: z.string(),
-  invoiceId: z.nullable(z.string()),
-});
+export const Sale$inboundSchema: z.ZodType<Sale, z.ZodTypeDef, unknown> = z
+  .object({
+    amount: z.number(),
+    currency: z.string(),
+    paymentProcessor: z.string(),
+    invoiceId: z.nullable(z.string()),
+  });
 
 /** @internal */
-export type SaleCreatedEventSale$Outbound = {
+export type Sale$Outbound = {
   amount: number;
   currency: string;
   paymentProcessor: string;
@@ -2535,45 +2532,38 @@ export type SaleCreatedEventSale$Outbound = {
 };
 
 /** @internal */
-export const SaleCreatedEventSale$outboundSchema: z.ZodType<
-  SaleCreatedEventSale$Outbound,
-  z.ZodTypeDef,
-  SaleCreatedEventSale
-> = z.object({
-  amount: z.number(),
-  currency: z.string(),
-  paymentProcessor: z.string(),
-  invoiceId: z.nullable(z.string()),
-});
+export const Sale$outboundSchema: z.ZodType<Sale$Outbound, z.ZodTypeDef, Sale> =
+  z.object({
+    amount: z.number(),
+    currency: z.string(),
+    paymentProcessor: z.string(),
+    invoiceId: z.nullable(z.string()),
+  });
 
 /**
  * @internal
  * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
  */
-export namespace SaleCreatedEventSale$ {
-  /** @deprecated use `SaleCreatedEventSale$inboundSchema` instead. */
-  export const inboundSchema = SaleCreatedEventSale$inboundSchema;
-  /** @deprecated use `SaleCreatedEventSale$outboundSchema` instead. */
-  export const outboundSchema = SaleCreatedEventSale$outboundSchema;
-  /** @deprecated use `SaleCreatedEventSale$Outbound` instead. */
-  export type Outbound = SaleCreatedEventSale$Outbound;
+export namespace Sale$ {
+  /** @deprecated use `Sale$inboundSchema` instead. */
+  export const inboundSchema = Sale$inboundSchema;
+  /** @deprecated use `Sale$outboundSchema` instead. */
+  export const outboundSchema = Sale$outboundSchema;
+  /** @deprecated use `Sale$Outbound` instead. */
+  export type Outbound = Sale$Outbound;
 }
 
-export function saleCreatedEventSaleToJSON(
-  saleCreatedEventSale: SaleCreatedEventSale,
-): string {
-  return JSON.stringify(
-    SaleCreatedEventSale$outboundSchema.parse(saleCreatedEventSale),
-  );
+export function saleToJSON(sale: Sale): string {
+  return JSON.stringify(Sale$outboundSchema.parse(sale));
 }
 
-export function saleCreatedEventSaleFromJSON(
+export function saleFromJSON(
   jsonString: string,
-): SafeParseResult<SaleCreatedEventSale, SDKValidationError> {
+): SafeParseResult<Sale, SDKValidationError> {
   return safeParse(
     jsonString,
-    (x) => SaleCreatedEventSale$inboundSchema.parse(JSON.parse(x)),
-    `Failed to parse 'SaleCreatedEventSale' from JSON`,
+    (x) => Sale$inboundSchema.parse(JSON.parse(x)),
+    `Failed to parse 'Sale' from JSON`,
   );
 }
 
@@ -2587,7 +2577,7 @@ export const SaleCreatedEventData$inboundSchema: z.ZodType<
   customer: z.lazy(() => SaleCreatedEventCustomer$inboundSchema),
   click: z.lazy(() => SaleCreatedEventClick$inboundSchema),
   link: z.lazy(() => SaleCreatedEventLink$inboundSchema),
-  sale: z.lazy(() => SaleCreatedEventSale$inboundSchema),
+  sale: z.lazy(() => Sale$inboundSchema),
 });
 
 /** @internal */
@@ -2596,7 +2586,7 @@ export type SaleCreatedEventData$Outbound = {
   customer: SaleCreatedEventCustomer$Outbound;
   click: SaleCreatedEventClick$Outbound;
   link: SaleCreatedEventLink$Outbound;
-  sale: SaleCreatedEventSale$Outbound;
+  sale: Sale$Outbound;
 };
 
 /** @internal */
@@ -2609,7 +2599,7 @@ export const SaleCreatedEventData$outboundSchema: z.ZodType<
   customer: z.lazy(() => SaleCreatedEventCustomer$outboundSchema),
   click: z.lazy(() => SaleCreatedEventClick$outboundSchema),
   link: z.lazy(() => SaleCreatedEventLink$outboundSchema),
-  sale: z.lazy(() => SaleCreatedEventSale$outboundSchema),
+  sale: z.lazy(() => Sale$outboundSchema),
 });
 
 /**

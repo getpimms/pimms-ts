@@ -7,9 +7,9 @@ import { SaleCreatedEventDataLink } from "pimms/models/components";
 
 let value: SaleCreatedEventDataLink = {
   id: "<id>",
-  domain: "innocent-nephew.biz",
+  domain: "deep-individual.info",
   key: "<key>",
-  shortLink: "https://impolite-responsibility.info/",
+  shortLink: "https://excited-challenge.biz/",
   programId: "<id>",
 };
 ```

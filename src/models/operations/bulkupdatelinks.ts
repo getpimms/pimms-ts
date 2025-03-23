@@ -89,19 +89,19 @@ export type Data = {
    */
   proxy?: boolean | undefined;
   /**
-   * The custom link preview title (og:title). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview title (og:title). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   title?: string | null | undefined;
   /**
-   * The custom link preview description (og:description). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview description (og:description). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   description?: string | null | undefined;
   /**
-   * The custom link preview image (og:image). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview image (og:image). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   image?: string | null | undefined;
   /**
-   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true. Learn more: https://d.to/og
+   * The custom link preview video (og:video). Will be used for Custom Social Media Cards if `proxy` is true.
    */
   video?: string | null | undefined;
   /**
@@ -121,7 +121,7 @@ export type Data = {
    */
   geo?: components.LinkGeoTargeting | null | undefined;
   /**
-   * Allow search engines to index your short link. Defaults to `false` if not provided. Learn more: https://d.to/noindex
+   * Allow search engines to index your short link. Defaults to `false` if not provided.
    */
   doIndex?: boolean | undefined;
   /**

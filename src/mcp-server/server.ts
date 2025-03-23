@@ -13,22 +13,7 @@ import {
 } from "./resources.js";
 import { MCPScope, mcpScopes } from "./scopes.js";
 import { createRegisterTool } from "./tools.js";
-import { tool$analyticsRetrieve } from "./tools/analyticsRetrieve.js";
-import { tool$customersCreate } from "./tools/customersCreate.js";
-import { tool$customersDelete } from "./tools/customersDelete.js";
-import { tool$customersGet } from "./tools/customersGet.js";
-import { tool$customersList } from "./tools/customersList.js";
-import { tool$customersUpdate } from "./tools/customersUpdate.js";
-import { tool$domainsCreate } from "./tools/domainsCreate.js";
-import { tool$domainsDelete } from "./tools/domainsDelete.js";
-import { tool$domainsList } from "./tools/domainsList.js";
-import { tool$domainsUpdate } from "./tools/domainsUpdate.js";
 import { tool$embedTokensCreate } from "./tools/embedTokensCreate.js";
-import { tool$eventsList } from "./tools/eventsList.js";
-import { tool$foldersCreate } from "./tools/foldersCreate.js";
-import { tool$foldersDelete } from "./tools/foldersDelete.js";
-import { tool$foldersList } from "./tools/foldersList.js";
-import { tool$foldersUpdate } from "./tools/foldersUpdate.js";
 import { tool$linksCount } from "./tools/linksCount.js";
 import { tool$linksCreate } from "./tools/linksCreate.js";
 import { tool$linksCreateMany } from "./tools/linksCreateMany.js";
@@ -39,20 +24,9 @@ import { tool$linksList } from "./tools/linksList.js";
 import { tool$linksUpdate } from "./tools/linksUpdate.js";
 import { tool$linksUpdateMany } from "./tools/linksUpdateMany.js";
 import { tool$linksUpsert } from "./tools/linksUpsert.js";
-import { tool$metatagsGet } from "./tools/metatagsGet.js";
-import { tool$partnersAnalytics } from "./tools/partnersAnalytics.js";
-import { tool$partnersCreate } from "./tools/partnersCreate.js";
-import { tool$partnersCreateLink } from "./tools/partnersCreateLink.js";
-import { tool$partnersUpsertLink } from "./tools/partnersUpsertLink.js";
 import { tool$qrCodesGet } from "./tools/qrCodesGet.js";
-import { tool$tagsCreate } from "./tools/tagsCreate.js";
-import { tool$tagsDelete } from "./tools/tagsDelete.js";
-import { tool$tagsList } from "./tools/tagsList.js";
-import { tool$tagsUpdate } from "./tools/tagsUpdate.js";
 import { tool$trackLead } from "./tools/trackLead.js";
 import { tool$trackSale } from "./tools/trackSale.js";
-import { tool$workspacesGet } from "./tools/workspacesGet.js";
-import { tool$workspacesUpdate } from "./tools/workspacesUpdate.js";
 
 export function createMCPServer(deps: {
   logger: ConsoleLogger;
@@ -64,7 +38,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Pimms",
-    version: "0.0.6",
+    version: "0.0.8",
   });
 
   const client = new PimmsCore({
@@ -104,36 +78,10 @@ export function createMCPServer(deps: {
   tool(tool$linksUpdateMany);
   tool(tool$linksDeleteMany);
   tool(tool$linksUpsert);
-  tool(tool$analyticsRetrieve);
-  tool(tool$eventsList);
-  tool(tool$tagsCreate);
-  tool(tool$tagsList);
-  tool(tool$tagsUpdate);
-  tool(tool$tagsDelete);
-  tool(tool$foldersCreate);
-  tool(tool$foldersList);
-  tool(tool$foldersUpdate);
-  tool(tool$foldersDelete);
-  tool(tool$domainsCreate);
-  tool(tool$domainsList);
-  tool(tool$domainsUpdate);
-  tool(tool$domainsDelete);
   tool(tool$trackLead);
   tool(tool$trackSale);
-  tool(tool$customersList);
-  tool(tool$customersCreate);
-  tool(tool$customersGet);
-  tool(tool$customersUpdate);
-  tool(tool$customersDelete);
-  tool(tool$partnersCreate);
-  tool(tool$partnersCreateLink);
-  tool(tool$partnersUpsertLink);
-  tool(tool$partnersAnalytics);
-  tool(tool$workspacesGet);
-  tool(tool$workspacesUpdate);
   tool(tool$embedTokensCreate);
   tool(tool$qrCodesGet);
-  tool(tool$metatagsGet);
 
   return server;
 }
