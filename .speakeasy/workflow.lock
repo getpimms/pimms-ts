@@ -1,20 +1,21 @@
-speakeasyVersion: 1.523.0
+speakeasyVersion: 1.526.0
 sources:
     Dub.co API:
         sourceNamespace: dub-co-api
-        sourceRevisionDigest: sha256:5028642f6ca9813f9e63ef34c2514723512b25da4a82afce2058aa892fc8f9c8
-        sourceBlobDigest: sha256:fd207c0b24b0b8e08d2e1465a8981ef4f303515861e4382840344283a1490c12
+        sourceRevisionDigest: sha256:b1aca5b04b38e971f0db2d7b04fc7c86847525bbd3b07bebf4f8f500f979a456
+        sourceBlobDigest: sha256:a323bc2c1150d579f074e5d5fca1b4e4e1a370242fd044d3028620e794084c33
         tags:
             - latest
+            - speakeasy-sdk-regen-1742864989
             - 0.0.1
 targets:
     pimms:
         source: Dub.co API
         sourceNamespace: dub-co-api
-        sourceRevisionDigest: sha256:5028642f6ca9813f9e63ef34c2514723512b25da4a82afce2058aa892fc8f9c8
-        sourceBlobDigest: sha256:fd207c0b24b0b8e08d2e1465a8981ef4f303515861e4382840344283a1490c12
+        sourceRevisionDigest: sha256:b1aca5b04b38e971f0db2d7b04fc7c86847525bbd3b07bebf4f8f500f979a456
+        sourceBlobDigest: sha256:a323bc2c1150d579f074e5d5fca1b4e4e1a370242fd044d3028620e794084c33
         codeSamplesNamespace: dub-co-api-typescript-code-samples
-        codeSamplesRevisionDigest: sha256:5c8b919614c06ba79d7cfb09fd9557ab88e08dd43e59c6527ed50e80feb5ce31
+        codeSamplesRevisionDigest: sha256:7a3c0a99a3e9964aa448d63d77fd02eb8b56155f101265f30f1cba8652f8ebf1
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
