@@ -5,4 +5,5 @@
 export * from "./createlink.js";
 export * from "./getqrcode.js";
 export * from "./tracklead.js";
+export * from "./tracksale.js";
 export * from "./upsertlink.js";

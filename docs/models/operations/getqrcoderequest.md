@@ -6,7 +6,7 @@
 import { GetQRCodeRequest } from "pimms/models/operations";
 
 let value: GetQRCodeRequest = {
-  url: "https://first-glider.info",
+  url: "https://measly-experience.info/",
 };
 ```
 

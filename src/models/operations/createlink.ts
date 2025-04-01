@@ -85,6 +85,14 @@ export type CreateLinkRequestBody = {
    */
   video?: string | null | undefined;
   /**
+   * The iOS destination URL for the short link for iOS device targeting.
+   */
+  ios?: string | null | undefined;
+  /**
+   * The Android destination URL for the short link for Android device targeting.
+   */
+  android?: string | null | undefined;
+  /**
    * Allow search engine indexing of the deep link. Defaults to false for privacy.
    */
   doIndex?: boolean | undefined;
@@ -198,6 +206,14 @@ export type CreateLinkLink = {
    * Optional video URL used in rich media previews via Open Graph.
    */
   video: string | null;
+  /**
+   * The iOS destination URL for the short link for iOS device targeting.
+   */
+  ios: string | null;
+  /**
+   * The Android destination URL for the short link for Android device targeting.
+   */
+  android: string | null;
   /**
    * Associated tags for organizing links by campaigns, audiences, or other criteria.
    */
@@ -375,6 +391,8 @@ export const CreateLinkRequestBody$inboundSchema: z.ZodType<
   description: z.nullable(z.string()).optional(),
   image: z.nullable(z.string()).optional(),
   video: z.nullable(z.string()).optional(),
+  ios: z.nullable(z.string()).optional(),
+  android: z.nullable(z.string()).optional(),
   doIndex: z.boolean().optional(),
   utm_source: z.nullable(z.string()).optional(),
   utm_medium: z.nullable(z.string()).optional(),
@@ -411,6 +429,8 @@ export type CreateLinkRequestBody$Outbound = {
   description?: string | null | undefined;
   image?: string | null | undefined;
   video?: string | null | undefined;
+  ios?: string | null | undefined;
+  android?: string | null | undefined;
   doIndex?: boolean | undefined;
   utm_source?: string | null | undefined;
   utm_medium?: string | null | undefined;
@@ -443,6 +463,8 @@ export const CreateLinkRequestBody$outboundSchema: z.ZodType<
   description: z.nullable(z.string()).optional(),
   image: z.nullable(z.string()).optional(),
   video: z.nullable(z.string()).optional(),
+  ios: z.nullable(z.string()).optional(),
+  android: z.nullable(z.string()).optional(),
   doIndex: z.boolean().optional(),
   utmSource: z.nullable(z.string()).optional(),
   utmMedium: z.nullable(z.string()).optional(),
@@ -579,6 +601,8 @@ export const CreateLinkLink$inboundSchema: z.ZodType<
   description: z.nullable(z.string()),
   image: z.nullable(z.string()),
   video: z.nullable(z.string()),
+  ios: z.nullable(z.string()),
+  android: z.nullable(z.string()),
   tags: z.nullable(z.array(z.lazy(() => Tag$inboundSchema))),
   webhookIds: z.array(z.string()),
   comments: z.nullable(z.string()),
@@ -619,6 +643,8 @@ export type CreateLinkLink$Outbound = {
   description: string | null;
   image: string | null;
   video: string | null;
+  ios: string | null;
+  android: string | null;
   tags: Array<Tag$Outbound> | null;
   webhookIds: Array<string>;
   comments: string | null;
@@ -655,6 +681,8 @@ export const CreateLinkLink$outboundSchema: z.ZodType<
   description: z.nullable(z.string()),
   image: z.nullable(z.string()),
   video: z.nullable(z.string()),
+  ios: z.nullable(z.string()),
+  android: z.nullable(z.string()),
   tags: z.nullable(z.array(z.lazy(() => Tag$outboundSchema))),
   webhookIds: z.array(z.string()),
   comments: z.nullable(z.string()),

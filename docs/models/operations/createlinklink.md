@@ -12,12 +12,14 @@ let value: CreateLinkLink = {
   domain: "perky-making.info",
   key: "<key>",
   url: "https://jealous-tapioca.org",
-  expiresAt: "1754861304999",
+  expiresAt: "1755636292895",
   title: "<value>",
   description:
     "triumphantly close phew typewriter gadzooks yet athwart skateboard newsstand",
   image: "https://loremflickr.com/2957/157?lock=1082634376581685",
   video: "https://loremflickr.com/1185/475?lock=3731349335459307",
+  ios: "<value>",
+  android: "<id>",
   tags: [
     {
       id: "<id>",
@@ -40,8 +42,8 @@ let value: CreateLinkLink = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1712011361003",
-  updatedAt: "1742688502950",
+  createdAt: "1712786348899",
+  updatedAt: "1743463490846",
 };
 ```
 
@@ -60,6 +62,8 @@ let value: CreateLinkLink = {
 | `description`                                                                                               | *string*                                                                                                    | :heavy_check_mark:                                                                                          | OG description for enhanced social previews, either automatically fetched or manually customized.           |
 | `image`                                                                                                     | *string*                                                                                                    | :heavy_check_mark:                                                                                          | URL to the OG image displayed in social previews, improving shareability.                                   |
 | `video`                                                                                                     | *string*                                                                                                    | :heavy_check_mark:                                                                                          | Optional video URL used in rich media previews via Open Graph.                                              |
+| `ios`                                                                                                       | *string*                                                                                                    | :heavy_check_mark:                                                                                          | The iOS destination URL for the short link for iOS device targeting.                                        |
+| `android`                                                                                                   | *string*                                                                                                    | :heavy_check_mark:                                                                                          | The Android destination URL for the short link for Android device targeting.                                |
 | `tags`                                                                                                      | [operations.Tag](../../models/operations/tag.md)[]                                                          | :heavy_check_mark:                                                                                          | Associated tags for organizing links by campaigns, audiences, or other criteria.                            |
 | `webhookIds`                                                                                                | *string*[]                                                                                                  | :heavy_check_mark:                                                                                          | Webhooks triggered on each click event for real-time tracking and integration purposes.                     |
 | `comments`                                                                                                  | *string*                                                                                                    | :heavy_check_mark:                                                                                          | Internal team notes describing the context, strategy, or use of the link.                                   |

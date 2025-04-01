@@ -3,6 +3,7 @@
  */
 
 import { trackLead } from "../funcs/trackLead.js";
+import { trackSale } from "../funcs/trackSale.js";
 import { ClientSDK, RequestOptions } from "../lib/sdks.js";
 import * as operations from "../models/operations/index.js";
 import { unwrapAsync } from "../types/fp.js";
@@ -19,6 +20,23 @@ export class Track extends ClientSDK {
     options?: RequestOptions,
   ): Promise<operations.TrackLeadResponseBody> {
     return unwrapAsync(trackLead(
+      this,
+      request,
+      options,
+    ));
+  }
+
+  /**
+   * Track a sale
+   *
+   * @remarks
+   * Track a sale for a short link.
+   */
+  async sale(
+    request?: operations.TrackSaleRequestBody | undefined,
+    options?: RequestOptions,
+  ): Promise<operations.TrackSaleResponseBody> {
+    return unwrapAsync(trackSale(
       this,
       request,
       options,

@@ -12,11 +12,13 @@ let value: UpsertLinkLink = {
   domain: "muted-technician.org",
   key: "<key>",
   url: "https://radiant-dividend.com/",
-  expiresAt: "1766685322128",
+  expiresAt: "1767460310027",
   title: "<value>",
   description: "sympathetically disappointment nor until twist",
   image: "https://picsum.photos/seed/yAXie/3061/2994",
   video: "https://picsum.videos/seed/MhA3uYSkX/402/66",
+  ios: "<value>",
+  android: "<id>",
   tags: [
     {
       id: "<id>",
@@ -39,8 +41,8 @@ let value: UpsertLinkLink = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1731377082809",
-  updatedAt: "1742725054559",
+  createdAt: "1732152070705",
+  updatedAt: "1743500042455",
 };
 ```
 
@@ -59,6 +61,8 @@ let value: UpsertLinkLink = {
 | `description`                                                                                               | *string*                                                                                                    | :heavy_check_mark:                                                                                          | OG description for enhanced social previews, either automatically fetched or manually customized.           |
 | `image`                                                                                                     | *string*                                                                                                    | :heavy_check_mark:                                                                                          | URL to the OG image displayed in social previews, improving shareability.                                   |
 | `video`                                                                                                     | *string*                                                                                                    | :heavy_check_mark:                                                                                          | Optional video URL used in rich media previews via Open Graph.                                              |
+| `ios`                                                                                                       | *string*                                                                                                    | :heavy_check_mark:                                                                                          | The iOS destination URL for the short link for iOS device targeting.                                        |
+| `android`                                                                                                   | *string*                                                                                                    | :heavy_check_mark:                                                                                          | The Android destination URL for the short link for Android device targeting.                                |
 | `tags`                                                                                                      | [operations.UpsertLinkTag](../../models/operations/upsertlinktag.md)[]                                      | :heavy_check_mark:                                                                                          | Associated tags for organizing links by campaigns, audiences, or other criteria.                            |
 | `webhookIds`                                                                                                | *string*[]                                                                                                  | :heavy_check_mark:                                                                                          | Webhooks triggered on each click event for real-time tracking and integration purposes.                     |
 | `comments`                                                                                                  | *string*                                                                                                    | :heavy_check_mark:                                                                                          | Internal team notes describing the context, strategy, or use of the link.                                   |

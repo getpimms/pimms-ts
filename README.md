@@ -274,6 +274,7 @@ run();
 ### [track](docs/sdks/track/README.md)
 
 * [lead](docs/sdks/track/README.md#lead) - Track a lead
+* [sale](docs/sdks/track/README.md#sale) - Track a sale
 
 </details>
 <!-- End Available Resources and Operations [operations] -->
@@ -297,6 +298,7 @@ To read more about standalone functions, check [FUNCTIONS.md](./FUNCTIONS.md).
 - [`linksUpsert`](docs/sdks/links/README.md#upsert) - Upsert a link
 - [`qrCodesGet`](docs/sdks/qrcodes/README.md#get) - Retrieve a QR code
 - [`trackLead`](docs/sdks/track/README.md#lead) - Track a lead
+- [`trackSale`](docs/sdks/track/README.md#sale) - Track a sale
 
 </details>
 <!-- End Standalone functions [standalone-funcs] -->

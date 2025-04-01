@@ -17,6 +17,7 @@ import { tool$linksCreate } from "./tools/linksCreate.js";
 import { tool$linksUpsert } from "./tools/linksUpsert.js";
 import { tool$qrCodesGet } from "./tools/qrCodesGet.js";
 import { tool$trackLead } from "./tools/trackLead.js";
+import { tool$trackSale } from "./tools/trackSale.js";
 
 export function createMCPServer(deps: {
   logger: ConsoleLogger;
@@ -28,7 +29,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Pimms",
-    version: "0.3.0",
+    version: "0.3.1",
   });
 
   const client = new PimmsCore({
@@ -61,6 +62,7 @@ export function createMCPServer(deps: {
   tool(tool$linksCreate);
   tool(tool$linksUpsert);
   tool(tool$trackLead);
+  tool(tool$trackSale);
   tool(tool$qrCodesGet);
 
   return server;
