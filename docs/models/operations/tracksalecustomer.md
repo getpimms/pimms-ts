@@ -8,8 +8,8 @@ import { TrackSaleCustomer } from "pimms/models/operations";
 let value: TrackSaleCustomer = {
   id: "<id>",
   name: "<value>",
-  email: "Garland.Ferry44@yahoo.com",
-  avatar: "https://picsum.photos/seed/DRWKHYZs4i/3356/951",
+  email: "Kelton_Mann@gmail.com",
+  avatar: "https://loremflickr.com/3874/1373?lock=6243082390749533",
   externalId: "<id>",
 };
 ```

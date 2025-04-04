@@ -261,6 +261,14 @@ run();
 <details open>
 <summary>Available methods</summary>
 
+### [analytics](docs/sdks/analytics/README.md)
+
+* [retrieve](docs/sdks/analytics/README.md#retrieve) - Retrieve analytics for a link, a domain, or the authenticated workspace.
+
+### [embedTokens](docs/sdks/embedtokens/README.md)
+
+* [referrals](docs/sdks/embedtokens/README.md#referrals) - Create a new referrals embed token
+
 ### [links](docs/sdks/links/README.md)
 
 * [create](docs/sdks/links/README.md#create) - Create a new link
@@ -294,6 +302,8 @@ To read more about standalone functions, check [FUNCTIONS.md](./FUNCTIONS.md).
 
 <summary>Available standalone functions</summary>
 
+- [`analyticsRetrieve`](docs/sdks/analytics/README.md#retrieve) - Retrieve analytics for a link, a domain, or the authenticated workspace.
+- [`embedTokensReferrals`](docs/sdks/embedtokens/README.md#referrals) - Create a new referrals embed token
 - [`linksCreate`](docs/sdks/links/README.md#create) - Create a new link
 - [`linksUpsert`](docs/sdks/links/README.md#upsert) - Upsert a link
 - [`qrCodesGet`](docs/sdks/qrcodes/README.md#get) - Retrieve a QR code

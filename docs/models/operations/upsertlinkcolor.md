@@ -7,7 +7,7 @@ The color of the tag.
 ```typescript
 import { UpsertLinkColor } from "pimms/models/operations";
 
-let value: UpsertLinkColor = "purple";
+let value: UpsertLinkColor = "pink";
 ```
 
 ## Values

@@ -6,8 +6,8 @@
 import { TrackSaleRequestBody } from "pimms/models/operations";
 
 let value: TrackSaleRequestBody = {
-  amount: 881721,
-  paymentProcessor: "stripe",
+  amount: 444461,
+  paymentProcessor: "paddle",
 };
 ```
 

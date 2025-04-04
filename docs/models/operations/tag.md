@@ -8,7 +8,7 @@ import { Tag } from "pimms/models/operations";
 let value: Tag = {
   id: "<id>",
   name: "<value>",
-  color: "pink",
+  color: "yellow",
 };
 ```
 

@@ -13,6 +13,8 @@ import {
 } from "./resources.js";
 import { MCPScope, mcpScopes } from "./scopes.js";
 import { createRegisterTool } from "./tools.js";
+import { tool$analyticsRetrieve } from "./tools/analyticsRetrieve.js";
+import { tool$embedTokensReferrals } from "./tools/embedTokensReferrals.js";
 import { tool$linksCreate } from "./tools/linksCreate.js";
 import { tool$linksUpsert } from "./tools/linksUpsert.js";
 import { tool$qrCodesGet } from "./tools/qrCodesGet.js";
@@ -29,7 +31,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Pimms",
-    version: "0.3.1",
+    version: "0.4.0",
   });
 
   const client = new PimmsCore({
@@ -61,8 +63,10 @@ export function createMCPServer(deps: {
 
   tool(tool$linksCreate);
   tool(tool$linksUpsert);
+  tool(tool$analyticsRetrieve);
   tool(tool$trackLead);
   tool(tool$trackSale);
+  tool(tool$embedTokensReferrals);
   tool(tool$qrCodesGet);
 
   return server;

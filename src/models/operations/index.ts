@@ -3,7 +3,9 @@
  */
 
 export * from "./createlink.js";
+export * from "./createreferralsembedtoken.js";
 export * from "./getqrcode.js";
+export * from "./retrieveanalytics.js";
 export * from "./tracklead.js";
 export * from "./tracksale.js";
 export * from "./upsertlink.js";
