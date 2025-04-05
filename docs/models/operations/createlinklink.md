@@ -12,7 +12,7 @@ let value: CreateLinkLink = {
   domain: "kooky-pulse.net",
   key: "<key>",
   url: "https://metallic-priesthood.org",
-  expiresAt: "1770402321266",
+  expiresAt: "1770411920554",
   title: "<value>",
   description: "these snuggle phooey when rudely briefly",
   image: "https://picsum.photos/seed/38r64myJ/2130/3840",
@@ -41,8 +41,8 @@ let value: CreateLinkLink = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1737732610264",
-  updatedAt: "1743756835419",
+  createdAt: "1737742209567",
+  updatedAt: "1743766434722",
 };
 ```
 

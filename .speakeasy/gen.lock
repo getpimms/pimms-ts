@@ -5,8 +5,10 @@ management:
   docVersion: 0.0.1
   speakeasyVersion: 1.529.1
   generationVersion: 2.566.5
-  releaseVersion: 0.4.0
-  configChecksum: 3597f667d7c8c54893f2f78fe302f0f8
+  releaseVersion: 0.4.1
+  configChecksum: 6540f12915b78d96f61f98f164f3b7a2
+  repoURL: https://github.com/getpimms/pimms-ts.git
+  installationURL: https://github.com/getpimms/pimms-ts
   published: true
 features:
   typescript:
