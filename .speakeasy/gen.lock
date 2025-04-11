@@ -3,10 +3,12 @@ id: 68d0a527-4644-4531-8364-947c54d97e44
 management:
   docChecksum: 1b82071fa06081a806cba77d15db7dd2
   docVersion: 0.0.1
-  speakeasyVersion: 1.529.1
-  generationVersion: 2.566.5
-  releaseVersion: 0.4.0
-  configChecksum: 3597f667d7c8c54893f2f78fe302f0f8
+  speakeasyVersion: 1.531.2
+  generationVersion: 2.570.0
+  releaseVersion: 0.4.1
+  configChecksum: 69132a57c8bbdf30633b520c815b7cb3
+  repoURL: https://github.com/getpimms/pimms-ts.git
+  installationURL: https://github.com/getpimms/pimms-ts
   published: true
 features:
   typescript:
@@ -24,7 +26,7 @@ features:
     globalSecurityCallbacks: 0.1.0
     globalSecurityFlattening: 0.1.0
     globalServerURLs: 2.82.4
-    mcpServer: 0.9.0
+    mcpServer: 0.9.1
     nameOverrides: 2.81.2
     nullables: 0.1.1
     responseFormat: 0.2.3
