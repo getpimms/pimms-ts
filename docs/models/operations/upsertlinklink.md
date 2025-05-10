@@ -12,7 +12,7 @@ let value: UpsertLinkLink = {
   domain: "prickly-wafer.com",
   key: "<key>",
   url: "https://humiliating-recovery.info/",
-  expiresAt: "1770197992816",
+  expiresAt: "1773231739117",
   title: "<value>",
   description: "ride amidst sunbeam generously foolishly",
   image: "https://picsum.photos/seed/1WFzt5cEqg/2780/88",
@@ -41,8 +41,8 @@ let value: UpsertLinkLink = {
   userId: "<id>",
   workspaceId: "<id>",
   lastClicked: "<value>",
-  createdAt: "1739690731704",
-  updatedAt: "1743781692932",
+  createdAt: "1742724478031",
+  updatedAt: "1746815439259",
 };
 ```
 
