@@ -25,11 +25,21 @@ async function run() {
     programId: "<id>",
     partner: {
       name: "<value>",
-      email: "Florencio98@hotmail.com",
+      email: "Letha_Wuckert2@yahoo.com",
       linkProps: {
         externalId: "123456",
         tagIds: [
           "clux0rgak00011...",
+        ],
+        testVariants: [
+          {
+            url: "https://example.com/variant-1",
+            percentage: 50,
+          },
+          {
+            url: "https://example.com/variant-2",
+            percentage: 50,
+          },
         ],
       },
     },
@@ -61,11 +71,21 @@ async function run() {
     programId: "<id>",
     partner: {
       name: "<value>",
-      email: "Florencio98@hotmail.com",
+      email: "Letha_Wuckert2@yahoo.com",
       linkProps: {
         externalId: "123456",
         tagIds: [
           "clux0rgak00011...",
+        ],
+        testVariants: [
+          {
+            url: "https://example.com/variant-1",
+            percentage: 50,
+          },
+          {
+            url: "https://example.com/variant-2",
+            percentage: 50,
+          },
         ],
       },
     },

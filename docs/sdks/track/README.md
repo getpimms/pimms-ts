@@ -110,8 +110,8 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.track.sale({
-    amount: 996500,
-    paymentProcessor: "paddle",
+    amount: 594903,
+    paymentProcessor: "polar",
   });
 
   // Handle the result
@@ -137,8 +137,8 @@ const pimms = new PimmsCore({
 
 async function run() {
   const res = await trackSale(pimms, {
-    amount: 996500,
-    paymentProcessor: "paddle",
+    amount: 594903,
+    paymentProcessor: "polar",
   });
 
   if (!res.ok) {
