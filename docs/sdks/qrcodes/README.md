@@ -22,7 +22,7 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.qrCodes.get({
-    url: "https://normal-making.name",
+    url: "https://needy-newsstand.biz/",
   });
 
   // Handle the result
@@ -48,7 +48,7 @@ const pimms = new PimmsCore({
 
 async function run() {
   const res = await qrCodesGet(pimms, {
-    url: "https://normal-making.name",
+    url: "https://needy-newsstand.biz/",
   });
 
   if (!res.ok) {
