@@ -128,6 +128,10 @@ export type RetrieveAnalyticsRequest = {
    */
   partnerId?: string | undefined;
   /**
+   * The ID of the customer to retrieve analytics for.
+   */
+  customerId?: string | undefined;
+  /**
    * The interval to retrieve analytics for. If undefined, defaults to 24h.
    */
   interval?: Interval | undefined;
@@ -388,6 +392,7 @@ export const RetrieveAnalyticsRequest$inboundSchema: z.ZodType<
   tenantId: z.string().optional(),
   programId: z.string().optional(),
   partnerId: z.string().optional(),
+  customerId: z.string().optional(),
   interval: Interval$inboundSchema.optional(),
   start: z.string().optional(),
   end: z.string().optional(),
@@ -434,6 +439,7 @@ export type RetrieveAnalyticsRequest$Outbound = {
   tenantId?: string | undefined;
   programId?: string | undefined;
   partnerId?: string | undefined;
+  customerId?: string | undefined;
   interval?: string | undefined;
   start?: string | undefined;
   end?: string | undefined;
@@ -476,6 +482,7 @@ export const RetrieveAnalyticsRequest$outboundSchema: z.ZodType<
   tenantId: z.string().optional(),
   programId: z.string().optional(),
   partnerId: z.string().optional(),
+  customerId: z.string().optional(),
   interval: Interval$outboundSchema.optional(),
   start: z.string().optional(),
   end: z.string().optional(),
