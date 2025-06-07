@@ -27,7 +27,6 @@ async function run() {
     eventName: "Sign up",
   });
 
-  // Handle the result
   console.log(result);
 }
 
@@ -53,15 +52,12 @@ async function run() {
     clickId: "<id>",
     eventName: "Sign up",
   });
-
-  if (!res.ok) {
-    throw res.error;
+  if (res.ok) {
+    const { value: result } = res;
+    console.log(result);
+  } else {
+    console.log("trackLead failed:", res.error);
   }
-
-  const { value: result } = res;
-
-  // Handle the result
-  console.log(result);
 }
 
 run();
@@ -110,11 +106,10 @@ const pimms = new Pimms({
 
 async function run() {
   const result = await pimms.track.sale({
-    amount: 996500,
-    paymentProcessor: "paddle",
+    amount: 594903,
+    paymentProcessor: "polar",
   });
 
-  // Handle the result
   console.log(result);
 }
 
@@ -137,18 +132,15 @@ const pimms = new PimmsCore({
 
 async function run() {
   const res = await trackSale(pimms, {
-    amount: 996500,
-    paymentProcessor: "paddle",
+    amount: 594903,
+    paymentProcessor: "polar",
   });
-
-  if (!res.ok) {
-    throw res.error;
+  if (res.ok) {
+    const { value: result } = res;
+    console.log(result);
+  } else {
+    console.log("trackSale failed:", res.error);
   }
-
-  const { value: result } = res;
-
-  // Handle the result
-  console.log(result);
 }
 
 run();
