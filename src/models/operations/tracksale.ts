@@ -14,7 +14,9 @@ import { SDKValidationError } from "../errors/sdkvalidationerror.js";
 export const PaymentProcessor = {
   Stripe: "stripe",
   Shopify: "shopify",
+  Polar: "polar",
   Paddle: "paddle",
+  Custom: "custom",
 } as const;
 /**
  * The payment processor via which the sale was made.

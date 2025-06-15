@@ -25,17 +25,26 @@ async function run() {
     programId: "<id>",
     partner: {
       name: "<value>",
-      email: "Florencio98@hotmail.com",
+      email: "Letha_Wuckert2@yahoo.com",
       linkProps: {
         externalId: "123456",
         tagIds: [
           "clux0rgak00011...",
         ],
+        testVariants: [
+          {
+            url: "https://example.com/variant-1",
+            percentage: 50,
+          },
+          {
+            url: "https://example.com/variant-2",
+            percentage: 50,
+          },
+        ],
       },
     },
   });
 
-  // Handle the result
   console.log(result);
 }
 
@@ -61,24 +70,31 @@ async function run() {
     programId: "<id>",
     partner: {
       name: "<value>",
-      email: "Florencio98@hotmail.com",
+      email: "Letha_Wuckert2@yahoo.com",
       linkProps: {
         externalId: "123456",
         tagIds: [
           "clux0rgak00011...",
         ],
+        testVariants: [
+          {
+            url: "https://example.com/variant-1",
+            percentage: 50,
+          },
+          {
+            url: "https://example.com/variant-2",
+            percentage: 50,
+          },
+        ],
       },
     },
   });
-
-  if (!res.ok) {
-    throw res.error;
+  if (res.ok) {
+    const { value: result } = res;
+    console.log(result);
+  } else {
+    console.log("embedTokensReferrals failed:", res.error);
   }
-
-  const { value: result } = res;
-
-  // Handle the result
-  console.log(result);
 }
 
 run();
